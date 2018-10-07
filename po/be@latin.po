@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: file-roller\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-14 04:04+0200\n"
+"POT-Creation-Date: 2018-10-07 20:42+0200\n"
 "PO-Revision-Date: 2009-02-14 04:08+0200\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian Latin <i18n@mova.org>\n"
@@ -15,190 +15,390 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: ../copy-n-paste/eggdesktopfile.c:165
-#, c-format
-msgid "File is not a valid .desktop file"
-msgstr "Heta nia słušny fajł \".desktop\""
+#: data/org.gnome.FileRoller.appdata.xml.in:9
+msgid "File Roller"
+msgstr "File Roller"
 
-#: ../copy-n-paste/eggdesktopfile.c:188
-#, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr "Niepaznanaja versija fajłu \".desktop\": \"%s\""
+#: data/org.gnome.FileRoller.appdata.xml.in:10
+msgid "Open, modify and create compressed archive files"
+msgstr ""
 
-#: ../copy-n-paste/eggdesktopfile.c:958
-#, c-format
-msgid "Starting %s"
-msgstr "Uklučeńnie %s"
+#: data/org.gnome.FileRoller.appdata.xml.in:12
+msgid ""
+"Archive Manager (also known as File Roller) is the default GNOME application "
+"for opening, creating, and modifying archive and compressed archive files."
+msgstr ""
 
-#: ../copy-n-paste/eggdesktopfile.c:1100
-#, c-format
-msgid "Application does not accept documents on command line"
-msgstr "Aplikacyja nie pryjmaje dakumentaŭ z zahadnaha radka"
+#: data/org.gnome.FileRoller.appdata.xml.in:16
+msgid ""
+"Archive Manager supports a wide range of different archive files, including:"
+msgstr ""
 
-#: ../copy-n-paste/eggdesktopfile.c:1168
-#, c-format
-msgid "Unrecognized launch option: %d"
-msgstr "Niepaznanaja opcyja ŭklučeńnia: %d"
+#: data/org.gnome.FileRoller.appdata.xml.in:20
+msgid "gzip archives (.tar.gz, .tgz)"
+msgstr ""
 
-#: ../copy-n-paste/eggdesktopfile.c:1373
-#, c-format
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr "Nielha pieradavać adrasy dakumentaŭ fajłam \".desktop\" z zapisam \"Type=Link\""
+#: data/org.gnome.FileRoller.appdata.xml.in:21
+msgid "bzip archives (.tar.bz, .tbz)"
+msgstr ""
 
-#: ../copy-n-paste/eggdesktopfile.c:1392
-#, c-format
-msgid "Not a launchable item"
-msgstr "Element, jaki niama jak ŭklučyć"
+#: data/org.gnome.FileRoller.appdata.xml.in:22
+#, fuzzy
+msgid "zip archives (.zip)"
+msgstr "Zip (.zip)"
 
-#: ../copy-n-paste/eggsmclient.c:224
-msgid "Disable connection to session manager"
-msgstr "Nie spałučaj z kiraŭnikom sesijaŭ"
+#: data/org.gnome.FileRoller.appdata.xml.in:23
+msgid "xz archives (.tar.xz)"
+msgstr ""
 
-#: ../copy-n-paste/eggsmclient.c:227
-msgid "Specify file containing saved configuration"
-msgstr "Vyznačy fajł, jaki źmiaščaje zapisanyja nałady"
+#: data/org.gnome.FileRoller.desktop.in.in:3 src/fr-application.c:454
+#: src/fr-window.c:2017 src/fr-window.c:5546
+msgid "Archive Manager"
+msgstr "Archivaryjus"
 
-#: ../copy-n-paste/eggsmclient.c:227
-msgid "FILE"
-msgstr "FAJŁ"
+#: data/org.gnome.FileRoller.desktop.in.in:4
+msgid "Create and modify an archive"
+msgstr "Stvaraj i madyfikuj archivy"
 
-#: ../copy-n-paste/eggsmclient.c:230
-msgid "Specify session management ID"
-msgstr "Vyznačy ID sesii"
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.FileRoller.desktop.in.in:6
+msgid "zip;tar;extract;unpack;"
+msgstr ""
 
-#: ../copy-n-paste/eggsmclient.c:230
-msgid "ID"
-msgstr "ID"
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: data/org.gnome.FileRoller.desktop.in.in:13
+#, fuzzy
+msgid "file-roller"
+msgstr "File Roller"
 
-#: ../copy-n-paste/eggsmclient.c:244
-msgid "Session management options:"
-msgstr "Opcyi kiravańnia sesijami:"
+#: data/org.gnome.FileRoller.gschema.xml:58
+msgid "How to sort files"
+msgstr ""
 
-#: ../copy-n-paste/eggsmclient.c:245
-msgid "Show session management options"
-msgstr "Pakažy opcyi kiravańnia sesijami"
+#: data/org.gnome.FileRoller.gschema.xml:59
+msgid ""
+"What criteria must be used to arrange files. Possible values: name, size, "
+"type, time, path."
+msgstr ""
 
-#: ../data/ui/add-options.ui.h:1
+#: data/org.gnome.FileRoller.gschema.xml:63
+msgid "Sort type"
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:64
+msgid ""
+"Whether to sort in ascending or descending direction. Possible values: "
+"ascending, descending."
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:68
+msgid "List Mode"
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:69
+msgid ""
+"Use “all-files” to view all the files in the archive in a single list, use "
+"“as-folder” to navigate the archive as a folder."
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:73
+msgid "Display type"
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:74
+msgid "Display the type column in the main window."
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:78
+msgid "Display size"
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:79
+msgid "Display the size column in the main window."
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:83
+msgid "Display time"
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:84
+msgid "Display the time column in the main window."
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:88
+msgid "Display path"
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:89
+msgid "Display the path column in the main window."
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:93
+msgid "Name column width"
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:94
+msgid "The default width of the name column in the file list."
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:110
+#, fuzzy
+msgid "View the sidebar"
+msgstr "Pakažy panel statusu"
+
+#: data/org.gnome.FileRoller.gschema.xml:111
+msgid "Whether to display the sidebar."
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:130
+#, fuzzy
+msgid "Editors"
+msgstr "_Redahuj"
+
+#: data/org.gnome.FileRoller.gschema.xml:131
+msgid ""
+"List of applications entered in the “Open File” dialog and not associated "
+"with the file type."
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:135
+#, fuzzy
+msgid "Compression level"
+msgstr "Uzrovień kampresii:"
+
+#: data/org.gnome.FileRoller.gschema.xml:136
+msgid ""
+"Compression level used when adding files to an archive. Possible values: "
+"very-fast, fast, normal, maximum."
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:140
+#: data/org.gnome.FileRoller.gschema.xml:172
+msgid "Encrypt the archive header"
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:141
+#: data/org.gnome.FileRoller.gschema.xml:173
+msgid ""
+"Whether to encrypt the archive header. If the header is encrypted the "
+"password will be required to list the archive content as well."
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:155
+#, fuzzy
+msgid "Do not overwrite newer files"
+msgstr "Nie raspakoŭvaj _starych fajłaŭ"
+
+#: data/org.gnome.FileRoller.gschema.xml:159
+#, fuzzy
+msgid "Recreate the folders stored in the archive"
+msgstr "Aktualizavać fajły z archiva \"%s\"?"
+
+#: data/org.gnome.FileRoller.gschema.xml:177
+msgid "Default volume size"
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:178
+msgid "The default size for volumes."
+msgstr ""
+
+#: nautilus/nautilus-fileroller.c:261
+msgid "Extract Here"
+msgstr "Raspakuj tut"
+
+#. Translators: the current position is the current folder
+#: nautilus/nautilus-fileroller.c:263
+#, fuzzy
+msgid "Extract the selected archive to the current position"
+msgstr "Raspakuj abrany archiŭ u dziejnym pałažeńni"
+
+#: nautilus/nautilus-fileroller.c:280
+#, fuzzy
+msgid "Extract To…"
+msgstr "Raspakuj u..."
+
+#: nautilus/nautilus-fileroller.c:281
+msgid "Extract the selected archive"
+msgstr "Raspakuj abrany archiŭ"
+
+#: src/dlg-add.c:96
+msgid "Could not add the files to the archive"
+msgstr "Niemahčyma dadać fajły da archivu"
+
+#: src/dlg-add.c:97
+#, fuzzy, c-format
+msgid "You don’t have the right permissions to read files from folder “%s”"
+msgstr "Tabie nie staje pravoŭ, kab čytać fajły z katalohu \"%s\""
+
+#: src/dlg-add.c:164
+#, fuzzy
+msgctxt "Window title"
+msgid "Add Files"
+msgstr "Dadaj fajły"
+
+#: src/dlg-add.c:177
+#, fuzzy
+msgid "_Options"
+msgstr "_Adčytaj opcyi"
+
+#. load options
+#: src/dlg-add.c:186
+#, fuzzy
+msgctxt "Action"
 msgid "Load Options"
 msgstr "Adčytaj opcyi"
 
-#: ../data/ui/batch-add-files.ui.h:1 ../src/fr-stock.c:42
-msgid "C_reate"
-msgstr "_Stvary"
+#. save options
+#: src/dlg-add.c:193
+#, fuzzy
+msgctxt "Action"
+msgid "Save Options"
+msgstr "Zapišy opcyi"
 
-#: ../data/ui/batch-add-files.ui.h:2
-msgid "Create Archive"
-msgstr "Stvary archiŭ"
+#. clear options
+#: src/dlg-add.c:200
+#, fuzzy
+msgid "Reset Options"
+msgstr "_Skiń opcyi"
 
-#: ../data/ui/batch-add-files.ui.h:3 ../src/fr-window.c:4617
-msgid "Location"
-msgstr "Pałažeńnie"
+#: src/dlg-add.c:746
+#, fuzzy
+msgctxt "Window title"
+msgid "Load Options"
+msgstr "Adčytaj opcyi"
 
-#. MB means megabytes
-#: ../data/ui/batch-add-files.ui.h:5 ../data/ui/new.ui.h:3
-msgid "MB"
-msgstr "MB"
+#: src/dlg-add.c:755
+msgid "_Apply"
+msgstr ""
 
-#: ../data/ui/batch-add-files.ui.h:6 ../data/ui/new.ui.h:4
-msgid "Split in _volumes of"
-msgstr "Padziali na _kavałki"
-
-#: ../data/ui/batch-add-files.ui.h:7
-msgid "_Archive:"
-msgstr "_Archiŭ:"
-
-#: ../data/ui/batch-add-files.ui.h:8 ../data/ui/new.ui.h:5
-#: ../data/ui/password.ui.h:3
-msgid "_Encrypt the file list too"
-msgstr "_Taksama zašyfruj śpis fajłaŭ"
-
-#: ../data/ui/batch-add-files.ui.h:9 ../src/fr-window.c:5749
-msgid "_Location:"
-msgstr "_Pałažeńnie:"
-
-#: ../data/ui/batch-add-files.ui.h:10 ../data/ui/new.ui.h:6
-msgid "_Other Options"
-msgstr "_Inšyja opcyi"
-
-#: ../data/ui/batch-add-files.ui.h:11 ../data/ui/batch-password.ui.h:2
-#: ../data/ui/new.ui.h:7 ../data/ui/password.ui.h:4
-msgid "_Password:"
-msgstr "_Parol:"
-
-#: ../data/ui/batch-password.ui.h:1
-msgid "<span weight=\"bold\" size=\"larger\">Password required</span>"
-msgstr "<span weight=\"bold\" size=\"larger\">Treba ŭvieści parol</span>"
-
-#: ../data/ui/delete.ui.h:1
-msgid "Delete"
+#: src/dlg-add.c:756 src/dlg-delete.c:136
+#, fuzzy
+msgid "_Delete"
 msgstr "Vydal"
 
-#: ../data/ui/delete.ui.h:2 ../src/dlg-extract.c:365
-msgid "_All files"
-msgstr "_Usie fajły"
+#: src/dlg-add.c:838
+#, fuzzy
+msgctxt "Window title"
+msgid "Save Options"
+msgstr "Zapišy opcyi"
 
-#: ../data/ui/delete.ui.h:3 ../src/dlg-extract.c:351
-msgid "_Files:"
-msgstr "_Fajły:"
+#: src/dlg-add.c:839
+#, fuzzy
+msgid "_Options Name:"
+msgstr "Nazva opcyjaŭ:"
 
-#: ../data/ui/delete.ui.h:4 ../src/dlg-extract.c:372
-msgid "_Selected files"
-msgstr "_Abranyja fajły"
-
-#: ../data/ui/delete.ui.h:5 ../src/dlg-extract.c:362
-msgid "example: *.txt; *.doc"
-msgstr "prykład: *.txt; *.doc"
-
-#: ../data/ui/new.ui.h:1
-msgid "Archive _type:"
-msgstr "_Typ archivu:"
-
-#: ../data/ui/open-with.ui.h:1
-msgid "A_vailable application:"
-msgstr "_Najaŭnaja aplikacyja:"
-
-#: ../data/ui/open-with.ui.h:2
-msgid "Open Files"
-msgstr "Adčyni fajły"
-
-#: ../data/ui/open-with.ui.h:3
-msgid "R_ecent applications:"
-msgstr "_Niadaŭnija aplikacyi:"
-
-#: ../data/ui/open-with.ui.h:4
-msgid "_Application:"
-msgstr "_Aplikacyja:"
-
-#: ../data/ui/password.ui.h:1
-msgid ""
-"<i><b>Note:</b> the password will be used to encrypt files you add to the "
-"current archive, and to decrypt files you extract from the current archive. "
-"When the archive is closed the password will be deleted.</i>"
+#: src/dlg-ask-password.c:125
+msgid "_OK"
 msgstr ""
-"<i><b>Uvaha:</b> parol budzie vykarystany dla šyfravańnia fajłaŭ, kali "
-"dadaješ ich da archivu, i dla rasšyfravańnia, kali raspakoŭvaješ z archivu. "
-"Paśla začynieńnia archivu parol vydalajecca.</i>"
 
-#: ../data/ui/password.ui.h:2
-msgid "Password"
+#. Translators: %s is a filename
+#: src/dlg-ask-password.c:148
+#, c-format
+msgid "Password required for “%s”"
+msgstr ""
+
+#: src/dlg-ask-password.c:157
+#, fuzzy
+msgid "Wrong password."
 msgstr "Parol"
 
-#: ../data/ui/update.ui.h:1
-msgid "S_elect the files you want to update:"
-msgstr "_Abiary fajły, jakija chočaš aktualizavać:"
+#: src/dlg-batch-add.c:88 src/fr-application.c:226 src/fr-application.c:262
+#: src/fr-application.c:582
+#, fuzzy
+msgid "Compress"
+msgstr "Uzrovień kampresii:"
 
-#. secondary text
-#: ../data/ui/update.ui.h:2 ../src/dlg-update.c:182
+#: src/dlg-extract.c:95 src/fr-window.c:6915
+#, fuzzy, c-format
+msgid ""
+"Destination folder “%s” does not exist.\n"
+"\n"
+"Do you want to create it?"
+msgstr ""
+"Metavaha katalohu \"%s\" nie isnuje.\n"
+"\n"
+"Chočaš stvaryć jaho?"
+
+#: src/dlg-extract.c:103 src/fr-window.c:6923
+msgid "Create _Folder"
+msgstr "Stvary _kataloh"
+
+#: src/dlg-extract.c:122 src/dlg-extract.c:139 src/dlg-extract.c:166
+#: src/fr-window.c:4420 src/fr-window.c:6839 src/fr-window.c:6844
+#: src/fr-window.c:6944 src/fr-window.c:6963 src/fr-window.c:6968
+msgid "Extraction not performed"
+msgstr "Raspakoŭvańnie nia ździejśnienaje"
+
+#: src/dlg-extract.c:123 src/fr-window.c:6940
+#, c-format
+msgid "Could not create the destination folder: %s."
+msgstr "Niemahčyma stvaryć metavy kataloh: %s."
+
+#: src/dlg-extract.c:167 src/fr-window.c:4647 src/fr-window.c:4749
+#, fuzzy, c-format
+msgid ""
+"You don’t have the right permissions to extract archives in the folder “%s”"
+msgstr "Tabie nie staje pravoŭ, kab raspakoŭvać archivy ŭ katalohu \"%s\""
+
+#: src/dlg-extract.c:279
+#, fuzzy
+msgctxt "Window title"
+msgid "Extract"
+msgstr "Raspakuj"
+
+#: src/dlg-package-installer.c:114 src/dlg-package-installer.c:227
+msgid "There was an internal error trying to search for applications:"
+msgstr ""
+
+#: src/dlg-package-installer.c:296 src/dlg-package-installer.c:305
+#: src/dlg-package-installer.c:332 src/fr-archive.c:748 src/fr-window.c:4087
+#: src/fr-window.c:7646 src/fr-window.c:8003 src/fr-window.c:9518
+msgid "Archive type not supported."
+msgstr "Niepadtrymany typ archivu."
+
+#: src/dlg-package-installer.c:315
 #, c-format
 msgid ""
-"The file has been modified with an external application. If you don't update "
-"the version in the archive, all of your changes will be lost."
+"There is no command installed for %s files.\n"
+"Do you want to search for a command to open this file?"
+msgstr ""
+
+#: src/dlg-package-installer.c:319
+#, fuzzy
+msgid "Could not open this file type"
+msgstr "Niemahčyma źmianić nazvu dla fajłu"
+
+#: src/dlg-package-installer.c:322
+msgid "_Search Command"
+msgstr ""
+
+#: src/dlg-password.c:109
+#, fuzzy, c-format
+msgid "Enter a password for “%s”"
+msgstr "Uviadzi parol dla archivu '%s'."
+
+#: src/dlg-prop.c:107
+#, c-format
+msgid "%s Properties"
+msgstr "Ułaścivaści %s"
+
+#: src/dlg-update.c:162
+#, fuzzy, c-format
+msgid "Update the file “%s” in the archive “%s”?"
+msgstr "Aktualizavać fajł \"%s\" z archiva \"%s\"?"
+
+#. secondary text
+#: src/dlg-update.c:174 src/dlg-update.c:200
+#, fuzzy, c-format
+msgid ""
+"The file has been modified with an external application. If you don’t update "
+"the file in the archive, all of your changes will be lost."
 msgid_plural ""
-"There are %d files that have been modified with an external application. If "
-"you don't update the files in the archive, all of your changes will be lost."
+"%d files have been modified with an external application. If you don’t "
+"update the files in the archive, all of your changes will be lost."
 msgstr[0] ""
 "%0dFajł byŭ zmadyfikavany aplikacyjaj zvonku. Kali ty nie aktualizuješ "
 "versiju fajłu z archiva, tady ŭsie tvaje źmieny buduć stračanyja."
@@ -209,536 +409,393 @@ msgstr[2] ""
 "%d fajłaŭ byli zmadyfikavanyja aplikacyjaj zvonku. Kali ty nie aktualizuješ "
 "versii fajłaŭ z archiva, tady ŭsie tvaje źmieny buduć stračanyja."
 
-#: ../data/ui/update.ui.h:3
+#: src/dlg-update.c:190
+#, fuzzy, c-format
+msgid "Update the files in the archive “%s”?"
+msgstr "Aktualizavać fajły z archiva \"%s\"?"
+
+#: src/dlg-update.c:319 src/dlg-update.c:332
 msgid "_Update"
 msgstr "_Aktualizuj"
 
-#: ../data/file-roller.desktop.in.in.h:1 ../src/fr-window.c:1958
-#: ../src/fr-window.c:5327
-msgid "Archive Manager"
-msgstr "Archivaryjus"
+#: src/dlg-update.c:323
+#, fuzzy
+msgid "Update Files"
+msgstr "Adčyni fajły"
 
-#: ../data/file-roller.desktop.in.in.h:2
-msgid "Create and modify an archive"
-msgstr "Stvaraj i madyfikuj archivy"
-
-#: ../nautilus/nautilus-fileroller.c:309
-msgid "Extract Here"
-msgstr "Raspakuj tut"
-
-#: ../nautilus/nautilus-fileroller.c:310
-msgid "Extract the selected archive in the current position"
-msgstr "Raspakuj abrany archiŭ u dziejnym pałažeńni"
-
-#: ../nautilus/nautilus-fileroller.c:327
-msgid "Extract To..."
-msgstr "Raspakuj u..."
-
-#: ../nautilus/nautilus-fileroller.c:328
-msgid "Extract the selected archive"
-msgstr "Raspakuj abrany archiŭ"
-
-#: ../nautilus/nautilus-fileroller.c:347
-msgid "Create Archive..."
-msgstr "Stvary archiŭ..."
-
-#: ../nautilus/nautilus-fileroller.c:348
-msgid "Create an archive with the selected objects"
-msgstr "Stvary archiŭ z abranych abjektaŭ"
-
-#: ../src/actions.c:158 ../src/actions.c:196 ../src/actions.c:231
-#: ../src/dlg-batch-add.c:169 ../src/dlg-batch-add.c:184
-#: ../src/dlg-batch-add.c:213 ../src/dlg-batch-add.c:257
-#: ../src/dlg-batch-add.c:303 ../src/fr-window.c:2897
-msgid "Could not create the archive"
-msgstr "Niemahčyma stvaryć archiŭ"
-
-#: ../src/actions.c:159 ../src/dlg-batch-add.c:170 ../src/dlg-batch-add.c:304
-msgid "You have to specify an archive name."
-msgstr "Ty musiš vyznačyć nazvu archiva."
-
-#: ../src/actions.c:197
-msgid "You don't have permission to create an archive in this folder"
-msgstr "Tabie nie staje pravoŭ, kab stvaryć archiŭ u hetym katalohu"
-
-#: ../src/actions.c:232 ../src/fr-archive.c:1142 ../src/fr-window.c:5961
-#: ../src/fr-window.c:6139
-msgid "Archive type not supported."
-msgstr "Niepadtrymany typ archivu."
-
-#: ../src/actions.c:246
-msgid "Could not delete the old archive."
-msgstr "Niemahčyma vydalić stary archiŭ."
-
-#: ../src/actions.c:377 ../src/fr-window.c:5807
-msgid "Open"
-msgstr "Adčyni"
-
-#: ../src/actions.c:388 ../src/dlg-new.c:248 ../src/fr-window.c:5158
-msgid "All archives"
-msgstr "Usie archivy"
-
-#: ../src/actions.c:395 ../src/dlg-new.c:255
-msgid "All files"
-msgstr "Usie fajły"
-
-#: ../src/actions.c:774 ../src/fr-window.c:6916
-msgid "Last Output"
-msgstr "Apošniaje vyjście"
-
-#: ../src/actions.c:838
-msgid ""
-"File Roller is free software; you can redistribute it and/or modify it under "
-"the terms of the GNU General Public License as published by the Free "
-"Software Foundation; either version 2 of the License, or (at your option) "
-"any later version."
-msgstr ""
-"File Roller - heta volnaje prahramnaje zabieśpiačeńnie; ty možaš "
-"raspaŭsiudžvać jaho i/ci źmianiać zhodna z umovami Ahulnaj Publičnaj "
-"Licenzii GNU (GPL), apublikavanaj Fondam Volnaha Prahramnaha Zabieśpiačeńnia "
-"(Free Software Foundation); versii 2 albo (pa tvaim vybary) luboj paźniejšaj."
-
-#: ../src/actions.c:842
-msgid ""
-"File Roller is distributed in the hope that it will be useful, but WITHOUT "
-"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
-"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
-"more details."
-msgstr ""
-"File Roller raspaŭsiudžvajecca z nadziejaj, što hetaja prahrama budzie "
-"karysnaj, ale my ANIČOHA NIE HARANTUJEM, navat HANDLOVAJ PRYDATNAŚCI ci "
-"PRYDATNAŚCI CHOĆ BY DLA JAKICH METAŬ. Hladzi Ahulnuju Publičnuju Licenziju "
-"GNU (GPL) dla padrabiaznaściaŭ."
-
-#: ../src/actions.c:846
-msgid ""
-"You should have received a copy of the GNU General Public License along with "
-"File Roller; if not, write to the Free Software Foundation, Inc., 51 "
-"Franklin St, Fifth Floor, Boston, MA  02110-1301 USA"
-msgstr ""
-"Ty pavinny byŭ atrymać kopiju Ahulnaj Publičnaj Licenzii GNU (GPL) razam z "
-"File Rolleram; kali nie, napišy pra heta (pa-anhielsku) na adras: Free "
-"Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-"
-"1307  USA"
-
-#: ../src/actions.c:856
-msgid "Copyright © 2001-2007 Free Software Foundation, Inc."
+#: src/fr-application-menu.c:130
+#, fuzzy
+msgid "Copyright © 2001–2014 Free Software Foundation, Inc."
 msgstr "Copyright © 2001-2007 Free Software Foundation, Inc."
 
-#: ../src/actions.c:857
+#: src/fr-application-menu.c:131
 msgid "An archive manager for GNOME."
 msgstr "Archivaryjus dla GNOME."
 
-#: ../src/actions.c:860
+#: src/fr-application-menu.c:134
 msgid "translator-credits"
 msgstr "Ihar Hračyška <iharh@gnome.org>"
 
-#: ../src/dlg-add-files.c:94 ../src/dlg-add-folder.c:128
-msgid "Could not add the files to the archive"
-msgstr "Niemahčyma dadać fajły da archivu"
+#: src/fr-application.c:61
+msgid "Add files to the specified archive and quit the program"
+msgstr "Dadaj fajły da vyznačanaha archivu i vyjdzi z prahramy"
 
-#: ../src/dlg-add-files.c:95 ../src/dlg-add-folder.c:129
-#, c-format
-msgid "You don't have the right permissions to read files from folder \"%s\""
-msgstr "Tabie nie staje pravoŭ, kab čytać fajły z katalohu \"%s\""
+#: src/fr-application.c:62
+msgid "ARCHIVE"
+msgstr "ARCHIŬ"
 
-#: ../src/dlg-add-files.c:142 ../src/ui.h:48
-msgid "Add Files"
-msgstr "Dadaj fajły"
+#: src/fr-application.c:65
+msgid "Add files asking the name of the archive and quit the program"
+msgstr "Dadaj fajły, spytaŭšy ab naźvie archivu, i vyjdzi z prahramy"
 
-#: ../src/dlg-add-files.c:156 ../src/dlg-add-folder.c:228
-msgid "Add only if _newer"
-msgstr "_Dadavaj tolki naviejšyja"
+#: src/fr-application.c:69
+msgid "Extract archives to the specified folder and quit the program"
+msgstr "Raspakuj archivy ŭ vyznačany kataloh i vyjdzi z prahramy"
 
-#: ../src/dlg-add-folder.c:214
-msgid "Add a Folder"
-msgstr "Dadaj kataloh"
+#: src/fr-application.c:70 src/fr-application.c:82
+msgid "FOLDER"
+msgstr "KATALOH"
 
-#: ../src/dlg-add-folder.c:229
-msgid "_Include subfolders"
-msgstr "_Uklučna z padkatalohami"
+#: src/fr-application.c:73
+msgid "Extract archives asking the destination folder and quit the program"
+msgstr "Raspakuj archivy, spytaŭšy ab metavym katalohu, i vyjdzi z prahramy"
 
-#: ../src/dlg-add-folder.c:230
-msgid "Exclude folders that are symbolic lin_ks"
-msgstr "Vyklučajučy katalohi, što źjaŭlajucca _symbaličnymi spasyłkami"
-
-#: ../src/dlg-add-folder.c:233 ../src/dlg-add-folder.c:239
-#: ../src/dlg-add-folder.c:245
-msgid "example: *.o; *.bak"
-msgstr "prykład: *.o; *.bak"
-
-#: ../src/dlg-add-folder.c:234
-msgid "Include _files:"
-msgstr "_Z fajłami:"
-
-#: ../src/dlg-add-folder.c:240
-msgid "E_xclude files:"
-msgstr "_Biaz fajłaŭ:"
-
-#: ../src/dlg-add-folder.c:246
-msgid "_Exclude folders:"
-msgstr "B_iaz katalohaŭ:"
-
-#: ../src/dlg-add-folder.c:250
-msgid "_Load Options"
-msgstr "_Adčytaj opcyi"
-
-#: ../src/dlg-add-folder.c:251
-msgid "Sa_ve Options"
-msgstr "_Zapišy opcyi"
-
-#: ../src/dlg-add-folder.c:252
-msgid "_Reset Options"
-msgstr "_Skiń opcyi"
-
-#: ../src/dlg-add-folder.c:880
-msgid "Save Options"
-msgstr "Zapišy opcyi"
-
-#: ../src/dlg-add-folder.c:881
-msgid "Options Name:"
-msgstr "Nazva opcyjaŭ:"
-
-#: ../src/dlg-ask-password.c:123
-#, c-format
-msgid "Enter the password for the archive '%s'."
-msgstr "Uviadzi parol dla archivu '%s'."
-
-#: ../src/dlg-batch-add.c:185 ../src/fr-window.c:7196
-#, c-format
+#: src/fr-application.c:77
+#, fuzzy
 msgid ""
-"The name \"%s\" is not valid because it cannot contain the characters: %s\n"
-"\n"
-"%s"
+"Extract the contents of the archives in the archive folder and quit the "
+"program"
+msgstr "Raspakuj archivy ŭ vyznačany kataloh i vyjdzi z prahramy"
+
+#: src/fr-application.c:81
+#, fuzzy
+msgid "Default folder to use for the “--add” and “--extract” commands"
+msgstr "Zmoŭčany kataloh dla zahadaŭ '--add' i '--extract'"
+
+#: src/fr-application.c:85
+msgid "Create destination folder without asking confirmation"
+msgstr "Stvaraj metavy kataloh biez paćvierdžańnia"
+
+#: src/fr-application.c:89
+msgid "Use the notification system to notify the operation completion"
 msgstr ""
-"Nazva \"%s\" niapravilnaja, bo nia moža ŭtrymlivać znakaŭ: %s\n"
-"\n"
-"%s"
 
-#: ../src/dlg-batch-add.c:188 ../src/fr-window.c:7188 ../src/fr-window.c:7192
-#: ../src/fr-window.c:7196 ../src/fr-window.c:7232 ../src/fr-window.c:7234
-msgid "Please use a different name."
-msgstr "Vyznač inšuju nazvu."
-
-#: ../src/dlg-batch-add.c:214
-msgid ""
-"You don't have the right permissions to create an archive in the destination "
-"folder."
-msgstr "Tabie nie staje pravoŭ, kab stvaryć archiŭ u metavym katalohu."
-
-#: ../src/dlg-batch-add.c:230 ../src/dlg-extract.c:102 ../src/fr-window.c:6491
-#, c-format
-msgid ""
-"Destination folder \"%s\" does not exist.\n"
-"\n"
-"Do you want to create it?"
+#: src/fr-application.c:92
+msgid "Start as a service"
 msgstr ""
-"Metavaha katalohu \"%s\" nie isnuje.\n"
-"\n"
-"Chočaš stvaryć jaho?"
 
-#: ../src/dlg-batch-add.c:239 ../src/dlg-extract.c:111 ../src/fr-window.c:6500
-msgid "Create _Folder"
-msgstr "Stvary _kataloh"
+#: src/fr-application.c:95
+msgid "Show version"
+msgstr ""
 
-#: ../src/dlg-batch-add.c:258 ../src/dlg-extract.c:128 ../src/fr-window.c:6520
-#, c-format
-msgid "Could not create the destination folder: %s."
-msgstr "Niemahčyma stvaryć metavy kataloh: %s."
+#: src/fr-application.c:298 src/fr-application.c:324 src/fr-application.c:605
+#, fuzzy
+msgctxt "Window title"
+msgid "Extract archive"
+msgstr "Raspakuj archiŭ"
 
-#: ../src/dlg-batch-add.c:275
-msgid "Archive not created"
-msgstr "Archiŭ nia stvorany"
+#: src/fr-application.c:485
+#, fuzzy
+msgid "— Create and modify an archive"
+msgstr "- Stvaraj i madyfikuj archivy"
 
-#: ../src/dlg-batch-add.c:322
-msgid "The archive is already present.  Do you want to overwrite it?"
-msgstr "Archiŭ užo isnuje. Chočaš nadpisać jaho?"
-
-#: ../src/dlg-batch-add.c:325
-msgid "_Overwrite"
-msgstr "_Nadpišy"
-
-#: ../src/dlg-extract.c:133 ../src/dlg-extract.c:151 ../src/dlg-extract.c:178
-#: ../src/fr-window.c:4085 ../src/fr-window.c:6519 ../src/fr-window.c:6536
-msgid "Extraction not performed"
-msgstr "Raspakoŭvańnie nia ździejśnienaje"
-
-#: ../src/dlg-extract.c:179 ../src/fr-window.c:4247 ../src/fr-window.c:4327
-#, c-format
-msgid ""
-"You don't have the right permissions to extract archives in the folder \"%s\""
-msgstr "Tabie nie staje pravoŭ, kab raspakoŭvać archivy ŭ katalohu \"%s\""
-
-#: ../src/dlg-extract.c:334 ../src/dlg-extract.c:432 ../src/ui.h:123
-msgid "Extract"
-msgstr "Raspakuj"
-
-#: ../src/dlg-extract.c:383
-msgid "Actions"
-msgstr "Dziejańni"
-
-#: ../src/dlg-extract.c:399
-msgid "Re-crea_te folders"
-msgstr "Stvary _nanoŭ katalohi"
-
-#: ../src/dlg-extract.c:403
-msgid "Over_write existing files"
-msgstr "N_adpišy najaŭnyja fajły"
-
-#: ../src/dlg-extract.c:407
-msgid "Do not e_xtract older files"
-msgstr "Nie raspakoŭvaj _starych fajłaŭ"
-
-#: ../src/dlg-new.c:274
-msgid "Automatic"
-msgstr "Aŭtamatyčny"
-
-#: ../src/dlg-new.c:341
-msgid "New"
-msgstr "Novy"
-
-#: ../src/dlg-new.c:354
-msgid "Save"
-msgstr "Zapišy"
-
-#: ../src/dlg-prop.c:106
-msgid "Location:"
-msgstr "Pałažeńnie:"
-
-#: ../src/dlg-prop.c:118
-msgid "Name:"
-msgstr "Nazva:"
-
-#: ../src/dlg-prop.c:124
-#, c-format
-msgid "%s Properties"
-msgstr "Ułaścivaści %s"
-
-#: ../src/dlg-prop.c:133
-msgid "Modified on:"
-msgstr "Madyfikavany:"
-
-#: ../src/dlg-prop.c:143
-msgid "Archive size:"
-msgstr "Pamier archivu:"
-
-#: ../src/dlg-prop.c:154
-msgid "Content size:"
-msgstr "Pamier źmieściva:"
-
-#: ../src/dlg-prop.c:174
-msgid "Compression ratio:"
-msgstr "Uzrovień kampresii:"
-
-#: ../src/dlg-prop.c:189
-msgid "Number of files:"
-msgstr "Kolkaść fajłaŭ:"
-
-#: ../src/dlg-update.c:159
-#, c-format
-msgid "Update the file \"%s\" in the archive \"%s\"?"
-msgstr "Aktualizavać fajł \"%s\" z archiva \"%s\"?"
-
-#: ../src/dlg-update.c:173
-#, c-format
-msgid "Update the files in the archive \"%s\"?"
-msgstr "Aktualizavać fajły z archiva \"%s\"?"
-
-#: ../src/fr-archive.c:1225
-#, c-format
-msgid "The file doesn't exist"
-msgstr "Fajłu nie isnuje"
-
-#: ../src/fr-archive.c:2403
-msgid "You don't have the right permissions."
+#: src/fr-archive.c:1849
+#, fuzzy
+msgid "You don’t have the right permissions."
 msgstr "Tabie nie staje pravoŭ."
 
-#: ../src/fr-archive.c:2403
+#: src/fr-archive.c:1849
 msgid "This archive type cannot be modified"
 msgstr "Niemahčyma zmadyfikavać archivaŭ hetaha typu."
 
-#: ../src/fr-archive.c:2415
-msgid "You can't add an archive to itself."
+#: src/fr-archive.c:1863 src/fr-new-archive-dialog.c:480
+#, fuzzy
+msgid "You can’t add an archive to itself."
 msgstr "Nielha dadać archiŭ da samoha archivu."
 
-#: ../src/fr-command-rar.c:422 ../src/fr-command-tar.c:295
-#: ../src/fr-command-7z.c:289
-msgid "Adding file: "
-msgstr "Dadajecca fajł: "
+#. Translators: %s is a filename.
+#: src/fr-command-7z.c:297 src/fr-command-rar.c:483 src/fr-command-tar.c:307
+#, c-format
+msgid "Adding “%s”"
+msgstr ""
 
-#: ../src/fr-command-rar.c:500 ../src/fr-command-tar.c:359
-msgid "Removing file: "
-msgstr "Vydalajecca fajł: "
-
-#: ../src/fr-command-rar.c:549 ../src/fr-command-tar.c:412
-#: ../src/fr-command-7z.c:396
-msgid "Extracting file: "
+#. Translators: %s is a filename.
+#: src/fr-command-7z.c:449 src/fr-command-rar.c:615 src/fr-command-tar.c:428
+#, fuzzy, c-format
+msgid "Extracting “%s”"
 msgstr "Raspakoŭvajecca fajł: "
 
-#: ../src/fr-command-rar.c:669
+#. Translators: %s is a filename.
+#: src/fr-command-rar.c:564 src/fr-command-tar.c:373
+#, c-format
+msgid "Removing “%s”"
+msgstr ""
+
+#: src/fr-command-rar.c:746
 #, c-format
 msgid "Could not find the volume: %s"
 msgstr "Niemahčyma adšukać kavałak: %s"
 
-#: ../src/fr-command-tar.c:368 ../src/fr-window.c:2290
+#: src/fr-command-tar.c:383
 msgid "Deleting files from archive"
 msgstr "Vydaleńnie fajłaŭ z archivu"
 
-#: ../src/fr-command-tar.c:471
+#: src/fr-command-tar.c:488
 msgid "Recompressing archive"
 msgstr "Paŭtornaja kampresija archivu"
 
-#: ../src/fr-command-tar.c:644
+#: src/fr-command-tar.c:767
 msgid "Decompressing archive"
 msgstr "Dekampresija archivu"
 
-#: ../src/fr-stock.c:43 ../src/fr-stock.c:44
-msgid "_Add"
-msgstr "_Dadaj"
+#: src/fr-command.c:597
+#, fuzzy, c-format
+msgid "Archive not found"
+msgstr "Archiŭ nia stvorany"
 
-#: ../src/fr-stock.c:45
-msgid "_Extract"
-msgstr "_Raspakuj"
+#: src/fr-file-selector-dialog.c:773 src/fr-file-selector-dialog.c:818
+#, fuzzy
+msgid "Could not load the location"
+msgstr "Niemahčyma vykanać aperacyju"
 
-#: ../src/fr-window.c:1495
-#, c-format
-msgid "%d object (%s)"
-msgid_plural "%d objects (%s)"
-msgstr[0] "%d abjekt (%s)"
-msgstr[1] "%d abjekty (%s)"
-msgstr[2] "%d abjektaŭ (%s)"
+#: src/fr-new-archive-dialog.c:354 src/fr-new-archive-dialog.c:373
+#: src/fr-new-archive-dialog.c:389 src/fr-new-archive-dialog.c:438
+#: src/fr-new-archive-dialog.c:456 src/fr-new-archive-dialog.c:478
+#: src/fr-window.c:3032
+msgid "Could not create the archive"
+msgstr "Niemahčyma stvaryć archiŭ"
 
-#: ../src/fr-window.c:1500
-#, c-format
-msgid "%d object selected (%s)"
-msgid_plural "%d objects selected (%s)"
-msgstr[0] "%d abrany abjekt (%s)"
-msgstr[1] "%d abranyja abjekty (%s)"
-msgstr[2] "%d abranych abjektaŭ (%s)"
+#: src/fr-new-archive-dialog.c:356 src/fr-new-archive-dialog.c:375
+msgid "You have to specify an archive name."
+msgstr "Ty musiš vyznačyć nazvu archiva."
 
-#: ../src/fr-window.c:1568
+#: src/fr-new-archive-dialog.c:440
+#, fuzzy
+msgid "You don’t have permission to create an archive in this folder"
+msgstr "Tabie nie staje pravoŭ, kab stvaryć archiŭ u hetym katalohu"
+
+#. Translators: the name references to a filename.  This message can appear when renaming a file.
+#: src/fr-new-archive-dialog.c:458 src/fr-window.c:8317
+msgid "New name is the same as old one, please type other name."
+msgstr ""
+
+#: src/fr-new-archive-dialog.c:501
+#, fuzzy, c-format
+msgid "A file named “%s” already exists.  Do you want to replace it?"
+msgstr "Archiŭ užo isnuje. Chočaš nadpisać jaho?"
+
+#: src/fr-new-archive-dialog.c:502
+#, fuzzy, c-format
+msgid ""
+"The file already exists in “%s”.  Replacing it will overwrite its contents."
+msgstr "Archiŭ užo isnuje. Chočaš nadpisać jaho?"
+
+#: src/fr-new-archive-dialog.c:508 src/fr-window.c:6764
+msgid "_Replace"
+msgstr ""
+
+#: src/fr-new-archive-dialog.c:523
+msgid "Could not delete the old archive."
+msgstr "Niemahčyma vydalić stary archiŭ."
+
+#: src/fr-window-actions-callbacks.c:289
+#, fuzzy
+msgctxt "Window title"
+msgid "Open"
+msgstr "Adčyni"
+
+#: src/fr-window-actions-callbacks.c:302
+msgid "All archives"
+msgstr "Usie archivy"
+
+#: src/fr-window-actions-callbacks.c:309
+msgid "All files"
+msgstr "Usie fajły"
+
+#: src/fr-window.c:1221
+#, fuzzy
+msgid "Operation completed"
+msgstr "Raspakoŭvańnie paśpiachova skončana"
+
+#: src/fr-window.c:1634
 msgid "Folder"
 msgstr "Kataloh"
 
-#: ../src/fr-window.c:1966
+#: src/fr-window.c:2024
 msgid "[read only]"
 msgstr "[tolki čytać]"
 
-#: ../src/fr-window.c:2217
-#, c-format
-msgid "Could not display the folder \"%s\""
+#: src/fr-window.c:2165
+#, fuzzy, c-format
+msgid "Could not display the folder “%s”"
 msgstr "Niemahčyma pakazać katalohu \"%s\""
 
-#: ../src/fr-window.c:2281 ../src/fr-window.c:2311
-msgid "Creating archive"
-msgstr "Stvareńnie archivu"
+#. Translators: %s is a filename
+#: src/fr-window.c:2338 src/fr-window.c:2376
+#, c-format
+msgid "Creating “%s”"
+msgstr ""
 
-#: ../src/fr-window.c:2284
-msgid "Loading archive"
-msgstr "Čytańnie archivu"
+#. Translators: %s is a filename
+#: src/fr-window.c:2342
+#, c-format
+msgid "Loading “%s”"
+msgstr ""
 
-#: ../src/fr-window.c:2287
-msgid "Reading archive"
-msgstr "Čytańnie archivu"
+#. Translators: %s is a filename
+#: src/fr-window.c:2346
+#, c-format
+msgid "Reading “%s”"
+msgstr ""
 
-#: ../src/fr-window.c:2293
-msgid "Testing archive"
-msgstr "Testavańnie archivu"
+#. Translators: %s is a filename
+#: src/fr-window.c:2350
+#, fuzzy, c-format
+msgid "Deleting the files from “%s”"
+msgstr "Vydaleńnie fajłaŭ z archivu"
 
-#: ../src/fr-window.c:2296
+#. Translators: %s is a filename
+#: src/fr-window.c:2354
+#, c-format
+msgid "Testing “%s”"
+msgstr ""
+
+#: src/fr-window.c:2357
 msgid "Getting the file list"
 msgstr "Atrymańnie śpisu fajłaŭ"
 
-#: ../src/fr-window.c:2299 ../src/fr-window.c:2308
-msgid "Copying the file list"
+#. Translators: %s is a filename
+#: src/fr-window.c:2361
+#, fuzzy, c-format
+msgid "Copying the files to add to “%s”"
 msgstr "Kapijavańnie śpisu fajłaŭ"
 
-#: ../src/fr-window.c:2302
-msgid "Adding files to archive"
+#. Translators: %s is a filename
+#: src/fr-window.c:2365
+#, fuzzy, c-format
+msgid "Adding the files to “%s”"
 msgstr "Dadańnie fajłaŭ da archivu"
 
-#: ../src/fr-window.c:2305
-msgid "Extracting files from archive"
+#. Translators: %s is a filename
+#: src/fr-window.c:2369
+#, fuzzy, c-format
+msgid "Extracting the files from “%s”"
 msgstr "Raspakoŭvańnie fajłaŭ z archivu"
 
-#: ../src/fr-window.c:2314
-msgid "Saving archive"
-msgstr "Zapis archivu"
+#: src/fr-window.c:2372
+msgid "Copying the extracted files to the destination"
+msgstr ""
 
-#: ../src/fr-window.c:2470
-msgid "_Open the Archive"
-msgstr "_Adčyni archiŭ"
+#. Translators: %s is a filename
+#: src/fr-window.c:2381
+#, fuzzy, c-format
+msgid "Saving “%s”"
+msgstr "Uklučeńnie %s"
 
-#: ../src/fr-window.c:2471
-msgid "_Open the Destination"
-msgstr "_Adčyni metavy kataloh"
+#. Translators: %s is a filename
+#: src/fr-window.c:2388
+#, fuzzy, c-format
+msgid "Renaming the files in “%s”"
+msgstr "Atrymańnie śpisu fajłaŭ"
 
-#: ../src/fr-window.c:2517
-msgid "Archive:"
-msgstr "Archiŭ:"
+#. Translators: %s is a filename
+#: src/fr-window.c:2392
+#, fuzzy, c-format
+msgid "Updating the files in “%s”"
+msgstr "Atrymańnie śpisu fajłaŭ"
 
-#: ../src/fr-window.c:2677
+#: src/fr-window.c:2681
+#, c-format
+msgid "%d file remaining"
+msgid_plural "%'d files remaining"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: src/fr-window.c:2685 src/fr-window.c:3309
+msgid "Please wait…"
+msgstr ""
+
+#: src/fr-window.c:2803
 msgid "Extraction completed successfully"
 msgstr "Raspakoŭvańnie paśpiachova skončana"
 
-#: ../src/fr-window.c:2700
-msgid "Archive created successfully"
+#: src/fr-window.c:2806
+#, fuzzy
+msgid "_Show the Files"
+msgstr "_Abranyja fajły"
+
+#. Translators: %s is a filename
+#: src/fr-window.c:2823 src/fr-window.c:6266
+#, fuzzy, c-format
+msgid "“%s” created successfully"
 msgstr "Archiŭ paśpiachova stvorany"
 
-#: ../src/fr-window.c:2748
-msgid "wait please..."
-msgstr "kali łaska, pačakaj..."
+#: src/fr-window.c:2830
+msgid "_Open the Archive"
+msgstr "_Adčyni archiŭ"
 
-#: ../src/fr-window.c:2902
-msgid "An error occurred while extracting files."
-msgstr "Pry raspakoŭvańni fajłaŭ ŭźnikła pamyłka."
-
-#: ../src/fr-window.c:2908
-#, c-format
-msgid "Could not open \"%s\""
-msgstr "Niemahčyma adčynić \"%s\""
-
-#: ../src/fr-window.c:2913
-msgid "An error occurred while loading the archive."
-msgstr "Pry adčytańni archivu ŭźnikła pamyłka."
-
-#: ../src/fr-window.c:2917
-msgid "An error occurred while deleting files from the archive."
-msgstr "Pry vydaleńni fajłaŭ z archivu ŭźnikła pamyłka."
-
-#: ../src/fr-window.c:2923
-msgid "An error occurred while adding files to the archive."
-msgstr "Pry dadańni fajłaŭ da archivu ŭźnikła pamyłka."
-
-#: ../src/fr-window.c:2927
-msgid "An error occurred while testing archive."
-msgstr "Pry testavańni archivu ŭźnikła pamyłka."
-
-#: ../src/fr-window.c:2931
-msgid "An error occurred while saving the archive."
-msgstr "Pry zapisie archivu ŭźnikła pamyłka."
-
-#: ../src/fr-window.c:2935
-msgid "An error occurred."
-msgstr "Uźnikła pamyłka."
-
-#: ../src/fr-window.c:2941
-msgid "Command not found."
-msgstr "Zahad nia znojdzieny."
-
-#: ../src/fr-window.c:2944
+#: src/fr-window.c:2918 src/fr-window.c:3088
 msgid "Command exited abnormally."
 msgstr "Zahad vykanaŭsia nienarmalnym čynam."
 
-#: ../src/fr-window.c:3140
+#: src/fr-window.c:3037
+msgid "An error occurred while extracting files."
+msgstr "Pry raspakoŭvańni fajłaŭ ŭźnikła pamyłka."
+
+#: src/fr-window.c:3043
+#, fuzzy, c-format
+msgid "Could not open “%s”"
+msgstr "Niemahčyma adčynić \"%s\""
+
+#: src/fr-window.c:3048
+msgid "An error occurred while loading the archive."
+msgstr "Pry adčytańni archivu ŭźnikła pamyłka."
+
+#: src/fr-window.c:3052
+msgid "An error occurred while deleting files from the archive."
+msgstr "Pry vydaleńni fajłaŭ z archivu ŭźnikła pamyłka."
+
+#: src/fr-window.c:3058
+msgid "An error occurred while adding files to the archive."
+msgstr "Pry dadańni fajłaŭ da archivu ŭźnikła pamyłka."
+
+#: src/fr-window.c:3062
+msgid "An error occurred while testing archive."
+msgstr "Pry testavańni archivu ŭźnikła pamyłka."
+
+#: src/fr-window.c:3067
+msgid "An error occurred while saving the archive."
+msgstr "Pry zapisie archivu ŭźnikła pamyłka."
+
+#: src/fr-window.c:3071
+#, fuzzy
+msgid "An error occurred while renaming the files."
+msgstr "Pry raspakoŭvańni fajłaŭ ŭźnikła pamyłka."
+
+#: src/fr-window.c:3075
+#, fuzzy
+msgid "An error occurred while updating the files."
+msgstr "Pry raspakoŭvańni fajłaŭ ŭźnikła pamyłka."
+
+#: src/fr-window.c:3079
+msgid "An error occurred."
+msgstr "Uźnikła pamyłka."
+
+#: src/fr-window.c:3085
+msgid "Command not found."
+msgstr "Zahad nia znojdzieny."
+
+#: src/fr-window.c:3241
 msgid "Test Result"
 msgstr "Vynik testavańnia"
 
-#: ../src/fr-window.c:3944 ../src/fr-window.c:7772 ../src/fr-window.c:7799
+#: src/fr-window.c:4212 src/fr-window.c:9001 src/fr-window.c:9035
+#: src/fr-window.c:9315
 msgid "Could not perform the operation"
 msgstr "Niemahčyma vykanać aperacyju"
 
-#: ../src/fr-window.c:3970
+#: src/fr-window.c:4237
 msgid ""
 "Do you want to add this file to the current archive or open it as a new "
 "archive?"
@@ -746,68 +803,149 @@ msgstr ""
 "Chočaš dadać hety fajł da dziejnaha archivu albo adčynić jaho jak novy "
 "archiŭ?"
 
-#: ../src/fr-window.c:4000
+#: src/fr-window.c:4266
 msgid "Do you want to create a new archive with these files?"
 msgstr "Chočaš stvaryć novy archiŭ z hetymi fajłami?"
 
-#: ../src/fr-window.c:4003
+#: src/fr-window.c:4269
 msgid "Create _Archive"
 msgstr "Stvary _archiŭ"
 
-#: ../src/fr-window.c:4576 ../src/fr-window.c:5656
+#: src/fr-window.c:4298 src/fr-window.c:7454
+#, fuzzy
+msgid "New Archive"
+msgstr "Archiŭ:"
+
+#: src/fr-window.c:5016
 msgid "Folders"
 msgstr "Katalohi"
 
-#: ../src/fr-window.c:4614
+#: src/fr-window.c:5054 src/ui/file-selector.ui:221
+#, fuzzy
+msgctxt "File"
 msgid "Size"
 msgstr "Pamier"
 
-#: ../src/fr-window.c:4615
+#: src/fr-window.c:5055
+#, fuzzy
+msgctxt "File"
 msgid "Type"
 msgstr "Typ"
 
-#: ../src/fr-window.c:4616
-msgid "Date Modified"
-msgstr "Data madyfikacyi"
+#: src/fr-window.c:5056 src/ui/file-selector.ui:237
+#, fuzzy
+msgctxt "File"
+msgid "Modified"
+msgstr "Madyfikavany:"
 
-#: ../src/fr-window.c:4626
+#: src/fr-window.c:5057
+#, fuzzy
+msgctxt "File"
+msgid "Location"
+msgstr "Pałažeńnie"
+
+#: src/fr-window.c:5066 src/ui/file-selector.ui:190
+#, fuzzy
+msgctxt "File"
 msgid "Name"
 msgstr "Nazva"
 
-#: ../src/fr-window.c:5576
-msgid "Find:"
-msgstr "Šukaj:"
+#: src/fr-window.c:5820 src/ui/extract-dialog-options.ui:20
+#, fuzzy
+msgctxt "Action"
+msgid "Extract"
+msgstr "Raspakuj"
 
-#: ../src/fr-window.c:5664
-msgid "Close the folders pane"
-msgstr "Začyni panel katalohaŭ"
+#: src/fr-window.c:5824
+#, fuzzy
+msgctxt "Action"
+msgid "Add Files"
+msgstr "Dadaj fajły"
 
-#: ../src/fr-window.c:5804 ../src/fr-window.c:5807 ../src/ui.h:141
-#: ../src/ui.h:145
-msgid "Open archive"
-msgstr "Adčyni archiŭ"
+#: src/fr-window.c:5829 src/fr-window.c:5859
+#, fuzzy
+msgid "Find files by name"
+msgstr "Uparadkuj śpis fajłaŭ pa nazvach"
 
-#: ../src/fr-window.c:5805
-msgid "Open a recently used archive"
-msgstr "Adčyni niadaŭna zadziejničany archiŭ"
+#: src/fr-window.c:5876
+msgid "Go to the previous visited location"
+msgstr "Viarnisia da papiaredniaha naviedanaha pałažeńnia"
 
-#: ../src/fr-window.c:6132
+#: src/fr-window.c:5881
+msgid "Go to the next visited location"
+msgstr "Viarnisia da nastupnaha naviedanaha pałažeńnia"
+
+#: src/fr-window.c:5891
+msgid "Go to the home location"
+msgstr "Pierajdzi dadomu"
+
+#. Translators: after the colon there is a folder name.
+#: src/fr-window.c:5900 src/ui/file-selector.ui:98
+#: src/ui/new-archive-dialog.ui:93
+msgid "_Location:"
+msgstr "_Pałažeńnie:"
+
+#: src/fr-window.c:6280 src/ui/menus.ui:7 src/ui/menus.ui:47 src/ui/menus.ui:83
+#, fuzzy
+msgctxt "Action"
+msgid "Open"
+msgstr "Adčyni"
+
+#: src/fr-window.c:6752
 #, c-format
-msgid "Could not save the archive \"%s\""
+msgid "Replace file “%s”?"
+msgstr ""
+
+#: src/fr-window.c:6755
+#, c-format
+msgid "Another file with the same name already exists in “%s”."
+msgstr ""
+
+#: src/fr-window.c:6761
+msgid "Replace _All"
+msgstr ""
+
+#: src/fr-window.c:6762
+msgid "Skip _All _Existing"
+msgstr ""
+
+#: src/fr-window.c:6763
+msgid "_Skip"
+msgstr ""
+
+#: src/fr-window.c:7638 src/fr-window.c:7995
+#, fuzzy, c-format
+msgid "Could not save the archive “%s”"
 msgstr "Niemahčyma zapisać archiŭ \"%s\""
 
-#: ../src/fr-window.c:7188
-msgid "The new name is void."
-msgstr "Novaja nazva pustaja."
+#: src/fr-window.c:7765
+msgid "Save"
+msgstr "Zapišy"
 
-#: ../src/fr-window.c:7192
-msgid "The new name is equal to the old one."
-msgstr "Novaja nazva nia roźnicca sa staroj."
+#: src/fr-window.c:8089
+msgid "Last Output"
+msgstr "Apošniaje vyjście"
 
-#: ../src/fr-window.c:7232
-#, c-format
+#. Translators: the name references to a filename.  This message can appear when renaming a file.
+#: src/fr-window.c:8312
+msgid "New name is void, please type a name."
+msgstr ""
+
+#. Translators: the %s references to a filename.  This message can appear when renaming a file.
+#: src/fr-window.c:8322
+#, fuzzy, c-format
 msgid ""
-"A folder named \"%s\" already exists.\n"
+"Name “%s” is not valid because it contains at least one of the following "
+"characters: %s, please type other name."
+msgstr ""
+"Nazva \"%s\" niapravilnaja, bo nia moža ŭtrymlivać znakaŭ: %s\n"
+"\n"
+"%s"
+
+#: src/fr-window.c:8358
+#, fuzzy, c-format
+msgid ""
+"A folder named “%s” already exists.\n"
 "\n"
 "%s"
 msgstr ""
@@ -815,10 +953,14 @@ msgstr ""
 "\n"
 "%s"
 
-#: ../src/fr-window.c:7234
-#, c-format
+#: src/fr-window.c:8358 src/fr-window.c:8360
+msgid "Please use a different name."
+msgstr "Vyznač inšuju nazvu."
+
+#: src/fr-window.c:8360
+#, fuzzy, c-format
 msgid ""
-"A file named \"%s\" already exists.\n"
+"A file named “%s” already exists.\n"
 "\n"
 "%s"
 msgstr ""
@@ -826,464 +968,834 @@ msgstr ""
 "\n"
 "%s"
 
-#: ../src/fr-window.c:7301
+#: src/fr-window.c:8430
 msgid "Rename"
 msgstr "Źmiani nazvu"
 
-#: ../src/fr-window.c:7302
-msgid "New folder name"
+#: src/fr-window.c:8431
+#, fuzzy
+msgid "_New folder name:"
 msgstr "Novaja nazva katalohu"
 
-#: ../src/fr-window.c:7302
-msgid "New file name"
+#: src/fr-window.c:8431
+#, fuzzy
+msgid "_New file name:"
 msgstr "Novaja nazva fajłu"
 
-#: ../src/fr-window.c:7306
+#: src/fr-window.c:8435
 msgid "_Rename"
 msgstr "Ź_miani nazvu"
 
-#: ../src/fr-window.c:7323 ../src/fr-window.c:7342
+#: src/fr-window.c:8452 src/fr-window.c:8470
 msgid "Could not rename the folder"
 msgstr "Niemahčyma źmianić nazvu dla katalohu"
 
-#: ../src/fr-window.c:7323 ../src/fr-window.c:7342
+#: src/fr-window.c:8452 src/fr-window.c:8470
 msgid "Could not rename the file"
 msgstr "Niemahčyma źmianić nazvu dla fajłu"
 
-#: ../src/fr-window.c:7733
+#. Translators: %s are archive filenames
+#: src/fr-window.c:8908
+#, c-format
+msgid "Moving the files from “%s” to “%s”"
+msgstr ""
+
+#. Translators: %s are archive filenames
+#: src/fr-window.c:8911
+#, c-format
+msgid "Copying the files from “%s” to “%s”"
+msgstr ""
+
+#: src/fr-window.c:8962
 msgid "Paste Selection"
 msgstr "Uklej abranaje"
 
-#: ../src/fr-window.c:7734
-msgid "Destination folder"
+#: src/fr-window.c:8963
+#, fuzzy
+msgid "_Destination folder:"
 msgstr "Metavy kataloh"
 
-#: ../src/fr-window.c:8321
-msgid "Add files to an archive"
-msgstr "Dadaj fajły da archivu"
-
-#: ../src/fr-window.c:8365
-msgid "Extract archive"
-msgstr "Raspakuj archiŭ"
+#: src/fr-window.c:8967 src/ui/app-menubar.ui:61
+msgid "_Paste"
+msgstr ""
 
 #. This is the time format used in the "Date Modified" column and
 #. * in the Properties dialog.  See the man page of strftime for an
 #. * explanation of the values.
-#: ../src/glib-utils.c:536
+#: src/glib-utils.c:787
 msgid "%d %B %Y, %H:%M"
 msgstr "%d %B %Y, %H:%M"
 
-#. Expander
-#: ../src/gtk-utils.c:439
-msgid "Command _Line Output"
+#: src/gtk-utils.c:235
+#, fuzzy
+msgid "C_ommand Line Output:"
 msgstr "Vyjście _zahadnaha radka"
 
-#: ../src/gtk-utils.c:784
+#: src/gtk-utils.c:510
 msgid "Could not display help"
 msgstr "Niemahčyma pakazać dapamohu"
 
-#: ../src/main.c:81
-msgid "7-Zip (.7z)"
-msgstr "7-Zip (.7z)"
-
-#: ../src/main.c:82
-msgid "Tar compressed with 7z (.tar.7z)"
-msgstr "Tar, skampresavany ŭ 7z (.tar.bz)"
-
-#: ../src/main.c:83
-msgid "Ace (.ace)"
-msgstr "Ace (.ace)"
-
-#: ../src/main.c:85
-msgid "Ar (.ar)"
-msgstr "Ar (.ar)"
-
-#: ../src/main.c:86
-msgid "Arj (.arj)"
-msgstr "Arj (.arj)"
-
-#: ../src/main.c:88
-msgid "Tar compressed with bzip2 (.tar.bz2)"
-msgstr "Tar, skampresavany ŭ bzip2 (.tar.bz2)"
-
-#: ../src/main.c:90
-msgid "Tar compressed with bzip (.tar.bz)"
-msgstr "Tar, skampresavany ŭ bzip (.tar.bz)"
-
-#: ../src/main.c:91
-msgid "Cabinet (.cab)"
-msgstr "Cabinet (.cab)"
-
-#: ../src/main.c:92
-msgid "Rar Archived Comic Book (.cbr)"
-msgstr "Komiksy, skampresavanyja ŭ Rar (.cbr)"
-
-#: ../src/main.c:93
-msgid "Zip Archived Comic Book (.cbz)"
-msgstr "Komiksy, skampresavanyja ŭ Zip (.cbz)"
-
-#: ../src/main.c:96
-msgid "Tar compressed with gzip (.tar.gz)"
-msgstr "Tar, skampresavany ŭ gzip (.tar.gz)"
-
-#: ../src/main.c:99
-msgid "Ear (.ear)"
-msgstr "Ear (.ear)"
-
-#: ../src/main.c:100
-msgid "Self-extracting zip (.exe)"
-msgstr "Samaraspakoŭny zip (.exe)"
-
-#: ../src/main.c:102
-msgid "Jar (.jar)"
-msgstr "Jar (.jar)"
-
-#: ../src/main.c:103
-msgid "Lha (.lzh)"
-msgstr "Lha (.lzh)"
-
-#: ../src/main.c:105
-msgid "Tar compressed with lzma (.tar.lzma)"
-msgstr "Tar, skampresavany ŭ lzma (.tar.lzma)"
-
-#: ../src/main.c:107
-msgid "Tar compressed with lzop (.tar.lzo)"
-msgstr "Tar, skampresavany ŭ lzop (.tar.lzo)"
-
-#: ../src/main.c:108
-msgid "Rar (.rar)"
-msgstr "Rar (.rar)"
-
-#: ../src/main.c:111
-msgid "Tar uncompressed (.tar)"
-msgstr "Nieskampresavany tar (.tar)"
-
-#: ../src/main.c:112
-msgid "Tar compressed with compress (.tar.Z)"
-msgstr "Tar, skampresavany ŭ compress (.tar.Z)"
-
-#: ../src/main.c:114
-msgid "War (.war)"
-msgstr "War (.war)"
-
-#: ../src/main.c:115
-msgid "Zoo (.zoo)"
-msgstr "Zoo (.zoo)"
-
-#: ../src/main.c:116
-msgid "Zip (.zip)"
-msgstr "Zip (.zip)"
-
-#: ../src/main.c:175
-msgid "Add files to the specified archive and quit the program"
-msgstr "Dadaj fajły da vyznačanaha archivu i vyjdzi z prahramy"
-
-#: ../src/main.c:176
-msgid "ARCHIVE"
-msgstr "ARCHIŬ"
-
-#: ../src/main.c:179
-msgid "Add files asking the name of the archive and quit the program"
-msgstr "Dadaj fajły, spytaŭšy ab naźvie archivu, i vyjdzi z prahramy"
-
-#: ../src/main.c:183
-msgid "Extract archives to the specified folder and quit the program"
-msgstr "Raspakuj archivy ŭ vyznačany kataloh i vyjdzi z prahramy"
-
-#: ../src/main.c:184 ../src/main.c:196
-msgid "FOLDER"
-msgstr "KATALOH"
-
-#: ../src/main.c:187
-msgid "Extract archives asking the destination folder and quit the program"
-msgstr "Raspakuj archivy, spytaŭšy ab metavym katalohu, i vyjdzi z prahramy"
-
-#: ../src/main.c:191
-msgid ""
-"Extract archives using the archive name as destination folder and quit the "
-"program"
+#: src/gtk-utils.c:605
+msgid "Change password visibility"
 msgstr ""
-"Raspakuj archivy, pryniaŭšy nazvu archivu za metavy kataloh, i vyjdzi z "
-"prahramy"
 
-#: ../src/main.c:195
-msgid "Default folder to use for the '--add' and '--extract' commands"
-msgstr "Zmoŭčany kataloh dla zahadaŭ '--add' i '--extract'"
+#: src/gtk-utils.h:29
+msgid "_Add"
+msgstr "_Dadaj"
 
-#: ../src/main.c:199
-msgid "Create destination folder without asking confirmation"
-msgstr "Stvaraj metavy kataloh biez paćvierdžańnia"
+#: src/gtk-utils.h:30
+msgid "_Cancel"
+msgstr ""
 
-#: ../src/main.c:281
-msgid "- Create and modify an archive"
-msgstr "- Stvaraj i madyfikuj archivy"
+#: src/gtk-utils.h:31 src/ui/app-menubar.ui:41
+msgid "_Close"
+msgstr ""
 
-#: ../src/main.c:297
-msgid "File Roller"
-msgstr "File Roller"
+#: src/gtk-utils.h:32
+msgid "C_reate"
+msgstr "_Stvary"
 
-#: ../src/ui.h:32
-msgid "_Archive"
+#: src/gtk-utils.h:33
+msgid "_Extract"
+msgstr "_Raspakuj"
+
+#: src/gtk-utils.h:34
+#, fuzzy
+msgid "_Open"
+msgstr "Adčyni"
+
+#: src/gtk-utils.h:35
+#, fuzzy
+msgid "_Save"
+msgstr "Zapišy"
+
+#: src/ui/add-dialog-options.ui:19
+#, fuzzy
+msgid "Add"
+msgstr "_Dadaj"
+
+#: src/ui/add-dialog-options.ui:42
+msgid "Include _files:"
+msgstr "_Z fajłami:"
+
+#: src/ui/add-dialog-options.ui:58
+msgid "E_xclude files:"
+msgstr "_Biaz fajłaŭ:"
+
+#: src/ui/add-dialog-options.ui:74
+msgid "_Exclude folders:"
+msgstr "B_iaz katalohaŭ:"
+
+#: src/ui/add-dialog-options.ui:89 src/ui/add-dialog-options.ui:104
+#: src/ui/add-dialog-options.ui:118 src/ui/extract-dialog-options.ui:104
+msgid "example: *.o; *.bak"
+msgstr "prykład: *.o; *.bak"
+
+#: src/ui/add-dialog-options.ui:153 src/ui/extract-dialog-options.ui:144
+msgid "Actions"
+msgstr "Dziejańni"
+
+#: src/ui/add-dialog-options.ui:173
+msgid "Add only if _newer"
+msgstr "_Dadavaj tolki naviejšyja"
+
+#: src/ui/add-dialog-options.ui:190
+#, fuzzy
+msgid "_Follow symbolic links"
+msgstr "Symbaličnaja spasyłka"
+
+#: src/ui/app-menu.ui:6 src/ui/app-menubar.ui:8
+#, fuzzy
+msgid "_New Archive…"
 msgstr "_Archiŭ"
 
-#: ../src/ui.h:33
-msgid "_Edit"
-msgstr "_Redahuj"
+#: src/ui/app-menu.ui:11 src/ui/app-menubar.ui:13
+#, fuzzy
+msgid "_Open…"
+msgstr "Adčyni"
 
-#: ../src/ui.h:34
-msgid "_View"
-msgstr "_Vyhlad"
-
-#: ../src/ui.h:35
-msgid "_Help"
-msgstr "_Dapamoha"
-
-#: ../src/ui.h:36
-msgid "_Arrange Files"
-msgstr "_Uparadkuj fajły"
-
-#: ../src/ui.h:37
-msgid "Open _Recent"
-msgstr "Adčyni _raniejšy"
-
-#: ../src/ui.h:41
-msgid "Information about the program"
-msgstr "Źviestki ab prahramie"
-
-#: ../src/ui.h:44
-msgid "_Add Files..."
-msgstr "_Dadaj fajły..."
-
-#: ../src/ui.h:45 ../src/ui.h:49
-msgid "Add files to the archive"
-msgstr "Dadaj fajły da archivu"
-
-#: ../src/ui.h:52
-msgid "Add a _Folder..."
-msgstr "Dadaj _kataloh..."
-
-#: ../src/ui.h:53 ../src/ui.h:57
-msgid "Add a folder to the archive"
-msgstr "Dadaj kataloh da archivu"
-
-#: ../src/ui.h:56
-msgid "Add Folder"
-msgstr "Dadaj kataloh"
-
-#: ../src/ui.h:61
-msgid "Close the current archive"
-msgstr "Začyni dziejny archiŭ"
-
-#: ../src/ui.h:64
-msgid "Contents"
-msgstr "Źmieściva"
-
-#: ../src/ui.h:65
-msgid "Display the File Roller Manual"
-msgstr "Pakažy dapamožnik File Roller"
-
-#: ../src/ui.h:70 ../src/ui.h:91
-msgid "Copy the selection"
-msgstr "Skapijuj abranaje"
-
-#: ../src/ui.h:74 ../src/ui.h:95
-msgid "Cut the selection"
-msgstr "Vytni abranaje"
-
-#: ../src/ui.h:78 ../src/ui.h:99
-msgid "Paste the clipboard"
-msgstr "Uklej źmieściva z buferu"
-
-#: ../src/ui.h:81 ../src/ui.h:102
-msgid "_Rename..."
-msgstr "Ź_miani nazvu..."
-
-#: ../src/ui.h:82 ../src/ui.h:103
-msgid "Rename the selection"
-msgstr "Źmiani nazvu dla abranaha"
-
-#: ../src/ui.h:86 ../src/ui.h:107
-msgid "Delete the selection from the archive"
-msgstr "Vydal abranaje z archivu"
-
-#: ../src/ui.h:111
-msgid "Dese_lect All"
-msgstr "_Zdymi abranaść z usich fajłaŭ"
-
-#: ../src/ui.h:112
-msgid "Deselect all files"
-msgstr "Zdymi abranaść z usich fajłaŭ"
-
-#: ../src/ui.h:115 ../src/ui.h:119
-msgid "_Extract..."
-msgstr "_Raspakuj..."
-
-#: ../src/ui.h:116 ../src/ui.h:120 ../src/ui.h:124
-msgid "Extract files from the archive"
-msgstr "Raspakuj fajły z archivu"
-
-#: ../src/ui.h:132
-msgid "_Last Output"
-msgstr "_Apošniaje vyjście"
-
-#: ../src/ui.h:133
-msgid "View the output produced by the last executed command"
-msgstr "Pakažy vyjście apošniaha vykananaha zahadu"
-
-#: ../src/ui.h:137
-msgid "Create a new archive"
-msgstr "Stvary novy archiŭ"
-
-#: ../src/ui.h:148
-msgid "_Open With..."
-msgstr "_Adčyni ŭ..."
-
-#: ../src/ui.h:149
-msgid "Open selected files with an application"
-msgstr "Adčyni abranyja fajły ŭ aplikacyi"
-
-#: ../src/ui.h:152
-msgid "Pass_word..."
-msgstr "_Parol..."
-
-#: ../src/ui.h:153
-msgid "Specify a password for this archive"
-msgstr "Vyznač parol dla hetaha archivu"
-
-#: ../src/ui.h:157
-msgid "Show archive properties"
-msgstr "Pakažy ŭłaścivaści archivu"
-
-#: ../src/ui.h:161
-msgid "Reload current archive"
-msgstr "Pieračytaj dziejny archiŭ"
-
-#: ../src/ui.h:165
-msgid "Save the current archive with a different name"
-msgstr "Zapišy dziejny archiŭ ź inšaj nazvaj"
-
-#: ../src/ui.h:169
-msgid "Select all files"
-msgstr "Abiary ŭsie fajły"
-
-#: ../src/ui.h:173
-msgid "Stop current operation"
-msgstr "Spyni dziejnuju aperacyju"
-
-#: ../src/ui.h:176
-msgid "_Test Integrity"
-msgstr "_Testuj cełasnaść"
-
-#: ../src/ui.h:177
-msgid "Test whether the archive contains errors"
-msgstr "Testuj archiŭ na pamyłki"
-
-#: ../src/ui.h:181 ../src/ui.h:185
-msgid "Open the selected file"
-msgstr "Adčyni abrany fajł"
-
-#: ../src/ui.h:189 ../src/ui.h:193
-msgid "Open the selected folder"
-msgstr "Adčyni abrany kataloh"
-
-#: ../src/ui.h:198
-msgid "Go to the previous visited location"
-msgstr "Viarnisia da papiaredniaha naviedanaha pałažeńnia"
-
-#: ../src/ui.h:202
-msgid "Go to the next visited location"
-msgstr "Viarnisia da nastupnaha naviedanaha pałažeńnia"
-
-#: ../src/ui.h:206
-msgid "Go up one level"
-msgstr "Padymisia na vyšejšy ŭzrovień"
-
-#: ../src/ui.h:210
-msgid "Go to the home location"
-msgstr "Pierajdzi dadomu"
-
-#: ../src/ui.h:218
-msgid "_Toolbar"
-msgstr "_Panel pryładaŭ"
-
-#: ../src/ui.h:219
-msgid "View the main toolbar"
-msgstr "Pakažy hałoŭnuju panel pryładaŭ"
-
-#: ../src/ui.h:223
-msgid "Stat_usbar"
-msgstr "Panel _statusu"
-
-#: ../src/ui.h:224
-msgid "View the statusbar"
-msgstr "Pakažy panel statusu"
-
-#: ../src/ui.h:228
-msgid "_Reversed Order"
-msgstr "U _advarotnym paradku"
-
-#: ../src/ui.h:229
-msgid "Reverse the list order"
-msgstr "Źmiani paradak śpisu na advarotny"
-
-#: ../src/ui.h:233
-msgid "_Folders"
-msgstr "_Katalohi"
-
-#: ../src/ui.h:234
-msgid "View the folders pane"
-msgstr "Pakažy panel katalohaŭ"
-
-#: ../src/ui.h:243
+#: src/ui/app-menu.ui:17 src/ui/app-menubar.ui:116
 msgid "View All _Files"
 msgstr "Pakažy ŭsie _fajły"
 
-#: ../src/ui.h:246
+#: src/ui/app-menu.ui:22 src/ui/app-menubar.ui:122
 msgid "View as a F_older"
 msgstr "Pakažy jak _kataloh"
 
-#: ../src/ui.h:254
-msgid "by _Name"
-msgstr "pa _nazvach"
+#: src/ui/app-menu.ui:30 src/ui/app-menubar.ui:110
+msgid "Sidebar"
+msgstr ""
 
-#: ../src/ui.h:255
-msgid "Sort file list by name"
-msgstr "Uparadkuj śpis fajłaŭ pa nazvach"
+#: src/ui/app-menu.ui:36 src/ui/app-menubar.ui:130
+msgid "_Help"
+msgstr "_Dapamoha"
 
-#: ../src/ui.h:257
-msgid "by _Size"
-msgstr "pa _pamierach"
+#: src/ui/app-menu.ui:41 src/ui/app-menubar.ui:138
+msgid "_About"
+msgstr ""
 
-#: ../src/ui.h:258
-msgid "Sort file list by file size"
-msgstr "Uparadkuj śpis fajłaŭ pa pamierach fajłaŭ"
+#: src/ui/app-menu.ui:45
+msgid "_Quit"
+msgstr ""
 
-#: ../src/ui.h:260
-msgid "by T_ype"
-msgstr "pa _typach"
+#: src/ui/app-menubar.ui:4
+#, fuzzy
+msgid "_File"
+msgstr "_Fajły:"
 
-#: ../src/ui.h:261
-msgid "Sort file list by type"
-msgstr "Uparadkuj śpis fajłaŭ pa typach"
+#: src/ui/app-menubar.ui:18
+#, fuzzy
+msgid "_Extract Files…"
+msgstr "Raspakoŭvajecca fajł: "
 
-#: ../src/ui.h:263
-msgid "by _Date modified"
-msgstr "pa _dacie madyfikacyi"
+#: src/ui/app-menubar.ui:25
+msgid "Save _As…"
+msgstr ""
 
-#: ../src/ui.h:264
-msgid "Sort file list by modification time"
-msgstr "Uparadkuj śpis fajłaŭ pa dacie madyfikacyi"
+#: src/ui/app-menubar.ui:30 src/ui/gears-menu.ui:15
+msgid "_Test Integrity"
+msgstr "_Testuj cełasnaść"
 
-#: ../src/ui.h:266
-msgid "by _Location"
-msgstr "pa _pałažeńni"
+#: src/ui/app-menubar.ui:34 src/ui/gears-menu.ui:21
+#, fuzzy
+msgid "Properties"
+msgstr "Ułaścivaści %s"
 
-#: ../src/ui.h:267
-msgid "Sort file list by location"
-msgstr "Uparadkuj śpis fajłaŭ pa pałažeńni"
+#: src/ui/app-menubar.ui:47
+msgid "_Edit"
+msgstr "_Redahuj"
 
-#~ msgid "The archive already exists.  Do you want to overwrite it?"
+#: src/ui/app-menubar.ui:51
+msgid "Cu_t"
+msgstr ""
+
+#: src/ui/app-menubar.ui:56
+msgid "_Copy"
+msgstr ""
+
+#: src/ui/app-menubar.ui:68
+#, fuzzy
+msgid "_Add Files…"
+msgstr "Dadaj fajły"
+
+#: src/ui/app-menubar.ui:72 src/ui/menus.ui:35 src/ui/menus.ui:71
+#: src/ui/menus.ui:107
+#, fuzzy
+msgid "_Rename…"
+msgstr "Ź_miani nazvu"
+
+#: src/ui/app-menubar.ui:77
+#, fuzzy
+msgid "_Delete Files…"
+msgstr "_Abranyja fajły"
+
+#: src/ui/app-menubar.ui:84 src/ui/file-selector.ui:11
+msgid "_Select All"
+msgstr "_Abiary ŭsio"
+
+#: src/ui/app-menubar.ui:89
+#, fuzzy
+msgid "D_eselect All"
+msgstr "_Zdymi abranaść z usich fajłaŭ"
+
+#: src/ui/app-menubar.ui:94
+#, fuzzy
+msgid "_Find"
+msgstr "Šukaj:"
+
+#: src/ui/app-menubar.ui:101
+#, fuzzy
+msgid "Set Pass_word…"
+msgstr "Parol"
+
+#: src/ui/app-menubar.ui:106
+msgid "_View"
+msgstr "_Vyhlad"
+
+#: src/ui/app-menubar.ui:133
+msgid "Contents"
+msgstr "Źmieściva"
+
+#: src/ui/ask-password.ui:53 src/ui/new-archive-dialog.ui:160
+msgid "_Password:"
+msgstr "_Parol:"
+
+#: src/ui/delete.ui:13 src/ui/extract-dialog-options.ui:41
+msgid "_All files"
+msgstr "_Usie fajły"
+
+#: src/ui/delete.ui:31 src/ui/extract-dialog-options.ui:59
+msgid "_Selected files"
+msgstr "_Abranyja fajły"
+
+#: src/ui/delete.ui:54 src/ui/extract-dialog-options.ui:83
+msgid "_Files:"
+msgstr "_Fajły:"
+
+#: src/ui/delete.ui:74
+msgid "example: *.txt; *.doc"
+msgstr "prykład: *.txt; *.doc"
+
+#: src/ui/extract-dialog-options.ui:165
+msgid "_Keep directory structure"
+msgstr ""
+
+#: src/ui/extract-dialog-options.ui:182
+#, fuzzy
+msgid "Do not _overwrite newer files"
+msgstr "Nie raspakoŭvaj _starych fajłaŭ"
+
+#: src/ui/file-selector.ui:19
+msgid "Dese_lect All"
+msgstr "_Zdymi abranaść z usich fajłaŭ"
+
+#: src/ui/file-selector.ui:33
+#, fuzzy
+msgid "Show Hidden Files"
+msgstr "Dadaj fajły"
+
+#: src/ui/file-selector.ui:127 src/ui/file-selector.ui:128
+msgid "Go up one level"
+msgstr "Padymisia na vyšejšy ŭzrovień"
+
+#: src/ui/gears-menu.ui:7
+msgid "Save As…"
+msgstr ""
+
+#: src/ui/gears-menu.ui:11
+#, fuzzy
+msgid "Pass_word…"
+msgstr "Parol"
+
+#: src/ui/menus.ui:11
+#, fuzzy
+msgid "_Open With…"
+msgstr "_Adčyni ŭ..."
+
+#: src/ui/menus.ui:17 src/ui/menus.ui:53 src/ui/menus.ui:89
+#, fuzzy
+msgid "_Extract…"
+msgstr "_Raspakuj"
+
+#: src/ui/menus.ui:23 src/ui/menus.ui:59 src/ui/menus.ui:95
+msgid "Cut"
+msgstr ""
+
+#: src/ui/menus.ui:27 src/ui/menus.ui:63 src/ui/menus.ui:99
+msgid "Copy"
+msgstr ""
+
+#: src/ui/menus.ui:31 src/ui/menus.ui:67 src/ui/menus.ui:103
+msgid "Paste"
+msgstr ""
+
+#: src/ui/menus.ui:39 src/ui/menus.ui:75 src/ui/menus.ui:111
+msgid "Delete"
+msgstr "Vydal"
+
+#: src/ui/new-archive-dialog.ui:27
+#, fuzzy
+msgid "_Filename:"
+msgstr "_Fajły:"
+
+#: src/ui/new-archive-dialog.ui:110
+msgid "Location"
+msgstr "Pałažeńnie"
+
+#: src/ui/new-archive-dialog.ui:193
+msgid "_Encrypt the file list too"
+msgstr "_Taksama zašyfruj śpis fajłaŭ"
+
+#. this is part of a sentence, for example "split into volumes of 10.0 MB", where MB stands for megabyte.
+#: src/ui/new-archive-dialog.ui:215
+#, fuzzy
+msgid "Split into _volumes of"
+msgstr "Padziali na _kavałki"
+
+#: src/ui/new-archive-dialog.ui:236
+msgid "10,0"
+msgstr ""
+
+#. MB means megabytes
+#: src/ui/new-archive-dialog.ui:253
+msgid "MB"
+msgstr "MB"
+
+#: src/ui/new-archive-dialog.ui:276
+msgid "_Other Options"
+msgstr "_Inšyja opcyi"
+
+#: src/ui/password.ui:51
+#, fuzzy
+msgid "_Encrypt the file list"
+msgstr "_Taksama zašyfruj śpis fajłaŭ"
+
+#: src/ui/properties.ui:15
+#, fuzzy
+msgctxt "File"
+msgid "Name:"
+msgstr "Nazva:"
+
+#. after the colon there is a folder name.
+#: src/ui/properties.ui:45
+msgid "Location:"
+msgstr "Pałažeńnie:"
+
+#. after the colon there is a file type.
+#: src/ui/properties.ui:74
+#, fuzzy
+msgid "Type:"
+msgstr "Typ"
+
+#: src/ui/properties.ui:103
+#, fuzzy
+msgid "Last modified:"
+msgstr "Data madyfikacyi"
+
+#: src/ui/properties.ui:131
+msgid "Archive size:"
+msgstr "Pamier archivu:"
+
+#: src/ui/properties.ui:159
+msgid "Content size:"
+msgstr "Pamier źmieściva:"
+
+#: src/ui/properties.ui:186
+msgid "Compression ratio:"
+msgstr "Uzrovień kampresii:"
+
+#: src/ui/properties.ui:213
+msgid "Number of files:"
+msgstr "Kolkaść fajłaŭ:"
+
+#: src/ui/update.ui:48
+msgid "S_elect the files you want to update:"
+msgstr "_Abiary fajły, jakija chočaš aktualizavać:"
+
+#~ msgid "File is not a valid .desktop file"
+#~ msgstr "Heta nia słušny fajł \".desktop\""
+
+#~ msgid "Unrecognized desktop file Version '%s'"
+#~ msgstr "Niepaznanaja versija fajłu \".desktop\": \"%s\""
+
+#~ msgid "Application does not accept documents on command line"
+#~ msgstr "Aplikacyja nie pryjmaje dakumentaŭ z zahadnaha radka"
+
+#~ msgid "Unrecognized launch option: %d"
+#~ msgstr "Niepaznanaja opcyja ŭklučeńnia: %d"
+
+#~ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+#~ msgstr ""
+#~ "Nielha pieradavać adrasy dakumentaŭ fajłam \".desktop\" z zapisam "
+#~ "\"Type=Link\""
+
+#~ msgid "Not a launchable item"
+#~ msgstr "Element, jaki niama jak ŭklučyć"
+
+#~ msgid "Disable connection to session manager"
+#~ msgstr "Nie spałučaj z kiraŭnikom sesijaŭ"
+
+#~ msgid "Specify file containing saved configuration"
+#~ msgstr "Vyznačy fajł, jaki źmiaščaje zapisanyja nałady"
+
+#~ msgid "FILE"
+#~ msgstr "FAJŁ"
+
+#~ msgid "Specify session management ID"
+#~ msgstr "Vyznačy ID sesii"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Session management options:"
+#~ msgstr "Opcyi kiravańnia sesijami:"
+
+#~ msgid "Show session management options"
+#~ msgstr "Pakažy opcyi kiravańnia sesijami"
+
+#~ msgid "Create Archive"
+#~ msgstr "Stvary archiŭ"
+
+#~ msgid "_Archive:"
+#~ msgstr "_Archiŭ:"
+
+#~ msgid "<span weight=\"bold\" size=\"larger\">Password required</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Treba ŭvieści parol</span>"
+
+#~ msgid "Archive _type:"
+#~ msgstr "_Typ archivu:"
+
+#~ msgid "A_vailable application:"
+#~ msgstr "_Najaŭnaja aplikacyja:"
+
+#~ msgid "R_ecent applications:"
+#~ msgstr "_Niadaŭnija aplikacyi:"
+
+#~ msgid "_Application:"
+#~ msgstr "_Aplikacyja:"
+
+#~ msgid ""
+#~ "<i><b>Note:</b> the password will be used to encrypt files you add to the "
+#~ "current archive, and to decrypt files you extract from the current "
+#~ "archive. When the archive is closed the password will be deleted.</i>"
+#~ msgstr ""
+#~ "<i><b>Uvaha:</b> parol budzie vykarystany dla šyfravańnia fajłaŭ, kali "
+#~ "dadaješ ich da archivu, i dla rasšyfravańnia, kali raspakoŭvaješ z "
+#~ "archivu. Paśla začynieńnia archivu parol vydalajecca.</i>"
+
+#~ msgid "Create Archive..."
+#~ msgstr "Stvary archiŭ..."
+
+#~ msgid "Create an archive with the selected objects"
+#~ msgstr "Stvary archiŭ z abranych abjektaŭ"
+
+#~ msgid ""
+#~ "File Roller is free software; you can redistribute it and/or modify it "
+#~ "under the terms of the GNU General Public License as published by the "
+#~ "Free Software Foundation; either version 2 of the License, or (at your "
+#~ "option) any later version."
+#~ msgstr ""
+#~ "File Roller - heta volnaje prahramnaje zabieśpiačeńnie; ty možaš "
+#~ "raspaŭsiudžvać jaho i/ci źmianiać zhodna z umovami Ahulnaj Publičnaj "
+#~ "Licenzii GNU (GPL), apublikavanaj Fondam Volnaha Prahramnaha "
+#~ "Zabieśpiačeńnia (Free Software Foundation); versii 2 albo (pa tvaim "
+#~ "vybary) luboj paźniejšaj."
+
+#~ msgid ""
+#~ "File Roller is distributed in the hope that it will be useful, but "
+#~ "WITHOUT ANY WARRANTY; without even the implied warranty of "
+#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
+#~ "Public License for more details."
+#~ msgstr ""
+#~ "File Roller raspaŭsiudžvajecca z nadziejaj, što hetaja prahrama budzie "
+#~ "karysnaj, ale my ANIČOHA NIE HARANTUJEM, navat HANDLOVAJ PRYDATNAŚCI ci "
+#~ "PRYDATNAŚCI CHOĆ BY DLA JAKICH METAŬ. Hladzi Ahulnuju Publičnuju "
+#~ "Licenziju GNU (GPL) dla padrabiaznaściaŭ."
+
+#~ msgid ""
+#~ "You should have received a copy of the GNU General Public License along "
+#~ "with File Roller; if not, write to the Free Software Foundation, Inc., 51 "
+#~ "Franklin St, Fifth Floor, Boston, MA  02110-1301 USA"
+#~ msgstr ""
+#~ "Ty pavinny byŭ atrymać kopiju Ahulnaj Publičnaj Licenzii GNU (GPL) razam "
+#~ "z File Rolleram; kali nie, napišy pra heta (pa-anhielsku) na adras: Free "
+#~ "Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  "
+#~ "02111-1307  USA"
+
+#~ msgid "Add a Folder"
+#~ msgstr "Dadaj kataloh"
+
+#~ msgid "_Include subfolders"
+#~ msgstr "_Uklučna z padkatalohami"
+
+#~ msgid "Exclude folders that are symbolic lin_ks"
+#~ msgstr "Vyklučajučy katalohi, što źjaŭlajucca _symbaličnymi spasyłkami"
+
+#~ msgid "Sa_ve Options"
+#~ msgstr "_Zapišy opcyi"
+
+#~ msgid ""
+#~ "You don't have the right permissions to create an archive in the "
+#~ "destination folder."
+#~ msgstr "Tabie nie staje pravoŭ, kab stvaryć archiŭ u metavym katalohu."
+
+#~ msgid "The archive is already present.  Do you want to overwrite it?"
 #~ msgstr "Archiŭ užo isnuje. Chočaš nadpisać jaho?"
+
+#~ msgid "_Overwrite"
+#~ msgstr "_Nadpišy"
+
+#~ msgid "Re-crea_te folders"
+#~ msgstr "Stvary _nanoŭ katalohi"
+
+#~ msgid "Over_write existing files"
+#~ msgstr "N_adpišy najaŭnyja fajły"
+
+#~ msgid "Automatic"
+#~ msgstr "Aŭtamatyčny"
+
+#~ msgid "New"
+#~ msgstr "Novy"
+
+#~ msgid "The file doesn't exist"
+#~ msgstr "Fajłu nie isnuje"
+
+#~ msgid "Adding file: "
+#~ msgstr "Dadajecca fajł: "
+
+#~ msgid "Removing file: "
+#~ msgstr "Vydalajecca fajł: "
+
+#~ msgid "%d object (%s)"
+#~ msgid_plural "%d objects (%s)"
+#~ msgstr[0] "%d abjekt (%s)"
+#~ msgstr[1] "%d abjekty (%s)"
+#~ msgstr[2] "%d abjektaŭ (%s)"
+
+#~ msgid "%d object selected (%s)"
+#~ msgid_plural "%d objects selected (%s)"
+#~ msgstr[0] "%d abrany abjekt (%s)"
+#~ msgstr[1] "%d abranyja abjekty (%s)"
+#~ msgstr[2] "%d abranych abjektaŭ (%s)"
+
+#~ msgid "Creating archive"
+#~ msgstr "Stvareńnie archivu"
+
+#~ msgid "Loading archive"
+#~ msgstr "Čytańnie archivu"
+
+#~ msgid "Reading archive"
+#~ msgstr "Čytańnie archivu"
+
+#~ msgid "Testing archive"
+#~ msgstr "Testavańnie archivu"
+
+#~ msgid "Saving archive"
+#~ msgstr "Zapis archivu"
+
+#~ msgid "_Open the Destination"
+#~ msgstr "_Adčyni metavy kataloh"
+
+#~ msgid "wait please..."
+#~ msgstr "kali łaska, pačakaj..."
+
+#~ msgid "Close the folders pane"
+#~ msgstr "Začyni panel katalohaŭ"
+
+#~ msgid "Open archive"
+#~ msgstr "Adčyni archiŭ"
+
+#~ msgid "Open a recently used archive"
+#~ msgstr "Adčyni niadaŭna zadziejničany archiŭ"
+
+#~ msgid "The new name is void."
+#~ msgstr "Novaja nazva pustaja."
+
+#~ msgid "The new name is equal to the old one."
+#~ msgstr "Novaja nazva nia roźnicca sa staroj."
+
+#~ msgid "Add files to an archive"
+#~ msgstr "Dadaj fajły da archivu"
+
+#~ msgid "7-Zip (.7z)"
+#~ msgstr "7-Zip (.7z)"
+
+#~ msgid "Tar compressed with 7z (.tar.7z)"
+#~ msgstr "Tar, skampresavany ŭ 7z (.tar.bz)"
+
+#~ msgid "Ace (.ace)"
+#~ msgstr "Ace (.ace)"
+
+#~ msgid "Ar (.ar)"
+#~ msgstr "Ar (.ar)"
+
+#~ msgid "Arj (.arj)"
+#~ msgstr "Arj (.arj)"
+
+#~ msgid "Tar compressed with bzip2 (.tar.bz2)"
+#~ msgstr "Tar, skampresavany ŭ bzip2 (.tar.bz2)"
+
+#~ msgid "Tar compressed with bzip (.tar.bz)"
+#~ msgstr "Tar, skampresavany ŭ bzip (.tar.bz)"
+
+#~ msgid "Cabinet (.cab)"
+#~ msgstr "Cabinet (.cab)"
+
+#~ msgid "Rar Archived Comic Book (.cbr)"
+#~ msgstr "Komiksy, skampresavanyja ŭ Rar (.cbr)"
+
+#~ msgid "Zip Archived Comic Book (.cbz)"
+#~ msgstr "Komiksy, skampresavanyja ŭ Zip (.cbz)"
+
+#~ msgid "Tar compressed with gzip (.tar.gz)"
+#~ msgstr "Tar, skampresavany ŭ gzip (.tar.gz)"
+
+#~ msgid "Ear (.ear)"
+#~ msgstr "Ear (.ear)"
+
+#~ msgid "Self-extracting zip (.exe)"
+#~ msgstr "Samaraspakoŭny zip (.exe)"
+
+#~ msgid "Jar (.jar)"
+#~ msgstr "Jar (.jar)"
+
+#~ msgid "Lha (.lzh)"
+#~ msgstr "Lha (.lzh)"
+
+#~ msgid "Tar compressed with lzma (.tar.lzma)"
+#~ msgstr "Tar, skampresavany ŭ lzma (.tar.lzma)"
+
+#~ msgid "Tar compressed with lzop (.tar.lzo)"
+#~ msgstr "Tar, skampresavany ŭ lzop (.tar.lzo)"
+
+#~ msgid "Rar (.rar)"
+#~ msgstr "Rar (.rar)"
+
+#~ msgid "Tar uncompressed (.tar)"
+#~ msgstr "Nieskampresavany tar (.tar)"
+
+#~ msgid "Tar compressed with compress (.tar.Z)"
+#~ msgstr "Tar, skampresavany ŭ compress (.tar.Z)"
+
+#~ msgid "War (.war)"
+#~ msgstr "War (.war)"
+
+#~ msgid "Zoo (.zoo)"
+#~ msgstr "Zoo (.zoo)"
+
+#~ msgid ""
+#~ "Extract archives using the archive name as destination folder and quit "
+#~ "the program"
+#~ msgstr ""
+#~ "Raspakuj archivy, pryniaŭšy nazvu archivu za metavy kataloh, i vyjdzi z "
+#~ "prahramy"
+
+#~ msgid "_Arrange Files"
+#~ msgstr "_Uparadkuj fajły"
+
+#~ msgid "Open _Recent"
+#~ msgstr "Adčyni _raniejšy"
+
+#~ msgid "Information about the program"
+#~ msgstr "Źviestki ab prahramie"
+
+#~ msgid "_Add Files..."
+#~ msgstr "_Dadaj fajły..."
+
+#~ msgid "Add files to the archive"
+#~ msgstr "Dadaj fajły da archivu"
+
+#~ msgid "Add a _Folder..."
+#~ msgstr "Dadaj _kataloh..."
+
+#~ msgid "Add a folder to the archive"
+#~ msgstr "Dadaj kataloh da archivu"
+
+#~ msgid "Add Folder"
+#~ msgstr "Dadaj kataloh"
+
+#~ msgid "Close the current archive"
+#~ msgstr "Začyni dziejny archiŭ"
+
+#~ msgid "Display the File Roller Manual"
+#~ msgstr "Pakažy dapamožnik File Roller"
+
+#~ msgid "Copy the selection"
+#~ msgstr "Skapijuj abranaje"
+
+#~ msgid "Cut the selection"
+#~ msgstr "Vytni abranaje"
+
+#~ msgid "Paste the clipboard"
+#~ msgstr "Uklej źmieściva z buferu"
+
+#~ msgid "_Rename..."
+#~ msgstr "Ź_miani nazvu..."
+
+#~ msgid "Rename the selection"
+#~ msgstr "Źmiani nazvu dla abranaha"
+
+#~ msgid "Delete the selection from the archive"
+#~ msgstr "Vydal abranaje z archivu"
+
+#~ msgid "Deselect all files"
+#~ msgstr "Zdymi abranaść z usich fajłaŭ"
+
+#~ msgid "_Extract..."
+#~ msgstr "_Raspakuj..."
+
+#~ msgid "Extract files from the archive"
+#~ msgstr "Raspakuj fajły z archivu"
+
+#~ msgid "_Last Output"
+#~ msgstr "_Apošniaje vyjście"
+
+#~ msgid "View the output produced by the last executed command"
+#~ msgstr "Pakažy vyjście apošniaha vykananaha zahadu"
+
+#~ msgid "Create a new archive"
+#~ msgstr "Stvary novy archiŭ"
+
+#~ msgid "Open selected files with an application"
+#~ msgstr "Adčyni abranyja fajły ŭ aplikacyi"
+
+#~ msgid "Pass_word..."
+#~ msgstr "_Parol..."
+
+#~ msgid "Specify a password for this archive"
+#~ msgstr "Vyznač parol dla hetaha archivu"
+
+#~ msgid "Show archive properties"
+#~ msgstr "Pakažy ŭłaścivaści archivu"
+
+#~ msgid "Reload current archive"
+#~ msgstr "Pieračytaj dziejny archiŭ"
+
+#~ msgid "Save the current archive with a different name"
+#~ msgstr "Zapišy dziejny archiŭ ź inšaj nazvaj"
+
+#~ msgid "Select all files"
+#~ msgstr "Abiary ŭsie fajły"
+
+#~ msgid "Stop current operation"
+#~ msgstr "Spyni dziejnuju aperacyju"
+
+#~ msgid "Test whether the archive contains errors"
+#~ msgstr "Testuj archiŭ na pamyłki"
+
+#~ msgid "Open the selected file"
+#~ msgstr "Adčyni abrany fajł"
+
+#~ msgid "Open the selected folder"
+#~ msgstr "Adčyni abrany kataloh"
+
+#~ msgid "_Toolbar"
+#~ msgstr "_Panel pryładaŭ"
+
+#~ msgid "View the main toolbar"
+#~ msgstr "Pakažy hałoŭnuju panel pryładaŭ"
+
+#~ msgid "Stat_usbar"
+#~ msgstr "Panel _statusu"
+
+#~ msgid "_Reversed Order"
+#~ msgstr "U _advarotnym paradku"
+
+#~ msgid "Reverse the list order"
+#~ msgstr "Źmiani paradak śpisu na advarotny"
+
+#~ msgid "_Folders"
+#~ msgstr "_Katalohi"
+
+#~ msgid "View the folders pane"
+#~ msgstr "Pakažy panel katalohaŭ"
+
+#~ msgid "by _Name"
+#~ msgstr "pa _nazvach"
+
+#~ msgid "by _Size"
+#~ msgstr "pa _pamierach"
+
+#~ msgid "Sort file list by file size"
+#~ msgstr "Uparadkuj śpis fajłaŭ pa pamierach fajłaŭ"
+
+#~ msgid "by T_ype"
+#~ msgstr "pa _typach"
+
+#~ msgid "Sort file list by type"
+#~ msgstr "Uparadkuj śpis fajłaŭ pa typach"
+
+#~ msgid "by _Date modified"
+#~ msgstr "pa _dacie madyfikacyi"
+
+#~ msgid "Sort file list by modification time"
+#~ msgstr "Uparadkuj śpis fajłaŭ pa dacie madyfikacyi"
+
+#~ msgid "by _Location"
+#~ msgstr "pa _pałažeńni"
+
+#~ msgid "Sort file list by location"
+#~ msgstr "Uparadkuj śpis fajłaŭ pa pałažeńni"
 
 #~ msgid "Overwrite"
 #~ msgstr "Nadpišy"
@@ -1300,14 +1812,8 @@ msgstr "Uparadkuj śpis fajłaŭ pa pałažeńni"
 #~ msgid "Unknown type"
 #~ msgstr "Nieviadomy typ"
 
-#~ msgid "Symbolic link"
-#~ msgstr "Symbaličnaja spasyłka"
-
 #~ msgid "_View File"
 #~ msgstr "_Pakažy fajł"
-
-#~ msgid "_Select All"
-#~ msgstr "_Abiary ŭsio"
 
 #~ msgid "View the selected file"
 #~ msgstr "Pakažy abrany fajł"

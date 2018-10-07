@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: file-roller.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-31 14:02-0600\n"
+"POT-Creation-Date: 2018-10-07 20:42+0200\n"
 "PO-Revision-Date: 2013-08-31 14:45-0600\n"
 "Last-Translator: Seán de Búrca <leftmostcat@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
@@ -20,413 +20,375 @@ msgstr ""
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4;\n"
 
-#: ../copy-n-paste/eggdesktopfile.c:165
-#, c-format
-msgid "File is not a valid .desktop file"
+#: data/org.gnome.FileRoller.appdata.xml.in:9
+msgid "File Roller"
+msgstr "File Roller"
+
+#: data/org.gnome.FileRoller.appdata.xml.in:10
+msgid "Open, modify and create compressed archive files"
 msgstr ""
 
-#: ../copy-n-paste/eggdesktopfile.c:190
-#, c-format
-msgid "Unrecognized desktop file Version '%s'"
+#: data/org.gnome.FileRoller.appdata.xml.in:12
+msgid ""
+"Archive Manager (also known as File Roller) is the default GNOME application "
+"for opening, creating, and modifying archive and compressed archive files."
 msgstr ""
 
-#: ../copy-n-paste/eggdesktopfile.c:970
-#, c-format
-msgid "Starting %s"
-msgstr "%s á thosú"
-
-#: ../copy-n-paste/eggdesktopfile.c:1112
-#, c-format
-msgid "Application does not accept documents on command line"
+#: data/org.gnome.FileRoller.appdata.xml.in:16
+msgid ""
+"Archive Manager supports a wide range of different archive files, including:"
 msgstr ""
 
-#: ../copy-n-paste/eggdesktopfile.c:1180
-#, c-format
-msgid "Unrecognized launch option: %d"
+#: data/org.gnome.FileRoller.appdata.xml.in:20
+msgid "gzip archives (.tar.gz, .tgz)"
 msgstr ""
 
-#: ../copy-n-paste/eggdesktopfile.c:1385
-#, c-format
-msgid "Can't pass documents to this desktop element"
+#: data/org.gnome.FileRoller.appdata.xml.in:21
+msgid "bzip archives (.tar.bz, .tbz)"
 msgstr ""
 
-#: ../copy-n-paste/eggdesktopfile.c:1406
-#, c-format
-msgid "Not a launchable item"
+#: data/org.gnome.FileRoller.appdata.xml.in:22
+msgid "zip archives (.zip)"
 msgstr ""
 
-#: ../copy-n-paste/eggsmclient.c:226
-msgid "Disable connection to session manager"
+#: data/org.gnome.FileRoller.appdata.xml.in:23
+msgid "xz archives (.tar.xz)"
 msgstr ""
 
-#: ../copy-n-paste/eggsmclient.c:229
-msgid "Specify file containing saved configuration"
-msgstr ""
-
-#: ../copy-n-paste/eggsmclient.c:229
-msgid "FILE"
-msgstr "COMHAD"
-
-#: ../copy-n-paste/eggsmclient.c:232
-msgid "Specify session management ID"
-msgstr ""
-
-#: ../copy-n-paste/eggsmclient.c:232
-msgid "ID"
-msgstr "CA"
-
-#: ../copy-n-paste/eggsmclient.c:253
-msgid "Session management options:"
-msgstr ""
-
-#: ../copy-n-paste/eggsmclient.c:254
-msgid "Show session management options"
-msgstr ""
-
-#: ../data/file-roller.desktop.in.in.h:1 ../src/fr-window.c:2052
-#: ../src/fr-window.c:5428
+#: data/org.gnome.FileRoller.desktop.in.in:3 src/fr-application.c:454
+#: src/fr-window.c:2017 src/fr-window.c:5546
 msgid "Archive Manager"
 msgstr "Bainisteoir Cartlann"
 
-#: ../data/file-roller.desktop.in.in.h:2
+#: data/org.gnome.FileRoller.desktop.in.in:4
 msgid "Create and modify an archive"
 msgstr "Cruthaigh agus athraigh cartlann"
 
-#: ../data/file-roller.desktop.in.in.h:3
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.FileRoller.desktop.in.in:6
 msgid "zip;tar;extract;unpack;"
 msgstr ""
 
-#: ../data/org.gnome.FileRoller.gschema.xml.in.h:1
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: data/org.gnome.FileRoller.desktop.in.in:13
+#, fuzzy
+msgid "file-roller"
+msgstr "File Roller"
+
+#: data/org.gnome.FileRoller.gschema.xml:58
 msgid "How to sort files"
 msgstr ""
 
-#: ../data/org.gnome.FileRoller.gschema.xml.in.h:2
+#: data/org.gnome.FileRoller.gschema.xml:59
 msgid ""
 "What criteria must be used to arrange files. Possible values: name, size, "
 "type, time, path."
 msgstr ""
 
-#: ../data/org.gnome.FileRoller.gschema.xml.in.h:3
+#: data/org.gnome.FileRoller.gschema.xml:63
 msgid "Sort type"
 msgstr ""
 
-#: ../data/org.gnome.FileRoller.gschema.xml.in.h:4
+#: data/org.gnome.FileRoller.gschema.xml:64
 msgid ""
 "Whether to sort in ascending or descending direction. Possible values: "
 "ascending, descending."
 msgstr ""
 
-#: ../data/org.gnome.FileRoller.gschema.xml.in.h:5 ../src/ui/app-menu.ui.h:2
+#: data/org.gnome.FileRoller.gschema.xml:68
 msgid "List Mode"
 msgstr "Mód Liostála"
 
-#: ../data/org.gnome.FileRoller.gschema.xml.in.h:6
+#: data/org.gnome.FileRoller.gschema.xml:69
 msgid ""
-"Use 'all-files' to view all the files in the archive in a single list, use "
-"'as-folder' to navigate the archive as a folder."
+"Use “all-files” to view all the files in the archive in a single list, use "
+"“as-folder” to navigate the archive as a folder."
 msgstr ""
 
-#: ../data/org.gnome.FileRoller.gschema.xml.in.h:7
+#: data/org.gnome.FileRoller.gschema.xml:73
 msgid "Display type"
 msgstr ""
 
-#: ../data/org.gnome.FileRoller.gschema.xml.in.h:8
+#: data/org.gnome.FileRoller.gschema.xml:74
 msgid "Display the type column in the main window."
 msgstr ""
 
-#: ../data/org.gnome.FileRoller.gschema.xml.in.h:9
+#: data/org.gnome.FileRoller.gschema.xml:78
 msgid "Display size"
 msgstr ""
 
-#: ../data/org.gnome.FileRoller.gschema.xml.in.h:10
+#: data/org.gnome.FileRoller.gschema.xml:79
 msgid "Display the size column in the main window."
 msgstr ""
 
-#: ../data/org.gnome.FileRoller.gschema.xml.in.h:11
+#: data/org.gnome.FileRoller.gschema.xml:83
 msgid "Display time"
 msgstr ""
 
-#: ../data/org.gnome.FileRoller.gschema.xml.in.h:12
+#: data/org.gnome.FileRoller.gschema.xml:84
 msgid "Display the time column in the main window."
 msgstr ""
 
-#: ../data/org.gnome.FileRoller.gschema.xml.in.h:13
+#: data/org.gnome.FileRoller.gschema.xml:88
 msgid "Display path"
 msgstr ""
 
-#: ../data/org.gnome.FileRoller.gschema.xml.in.h:14
+#: data/org.gnome.FileRoller.gschema.xml:89
 msgid "Display the path column in the main window."
 msgstr ""
 
-#: ../data/org.gnome.FileRoller.gschema.xml.in.h:15
+#: data/org.gnome.FileRoller.gschema.xml:93
 msgid "Name column width"
 msgstr ""
 
-#: ../data/org.gnome.FileRoller.gschema.xml.in.h:16
+#: data/org.gnome.FileRoller.gschema.xml:94
 msgid "The default width of the name column in the file list."
 msgstr ""
 
-#: ../data/org.gnome.FileRoller.gschema.xml.in.h:17
-msgid "Max history length"
-msgstr ""
-
-#: ../data/org.gnome.FileRoller.gschema.xml.in.h:18
-msgid "Max number of items in the 'Open Recents' submenu."
-msgstr ""
-
-#: ../data/org.gnome.FileRoller.gschema.xml.in.h:19
+#: data/org.gnome.FileRoller.gschema.xml:110
 #, fuzzy
-msgid "View statusbar"
+msgid "View the sidebar"
 msgstr "Amharc ar an mbarra stádais"
 
-#: ../data/org.gnome.FileRoller.gschema.xml.in.h:20
-msgid "Whether to display the statusbar."
-msgstr ""
-
-#: ../data/org.gnome.FileRoller.gschema.xml.in.h:21 ../src/ui.h:198
-msgid "View the folders pane"
-msgstr "Amharc ar an bpána fillteán"
-
-#: ../data/org.gnome.FileRoller.gschema.xml.in.h:22
+#: data/org.gnome.FileRoller.gschema.xml:111
 #, fuzzy
-msgid "Whether to display the folders pane."
+msgid "Whether to display the sidebar."
 msgstr "Amharc ar an bpána fillteán"
 
-#: ../data/org.gnome.FileRoller.gschema.xml.in.h:23
+#: data/org.gnome.FileRoller.gschema.xml:130
 msgid "Editors"
 msgstr "Eagarthóirí"
 
-#: ../data/org.gnome.FileRoller.gschema.xml.in.h:24
+#: data/org.gnome.FileRoller.gschema.xml:131
 msgid ""
-"List of applications entered in the 'Open File' dialog and not associated "
+"List of applications entered in the “Open File” dialog and not associated "
 "with the file type."
 msgstr ""
 
-#: ../data/org.gnome.FileRoller.gschema.xml.in.h:25
+#: data/org.gnome.FileRoller.gschema.xml:135
 #, fuzzy
 msgid "Compression level"
 msgstr "Cóimheas comhbhrúite:"
 
-#: ../data/org.gnome.FileRoller.gschema.xml.in.h:26
+#: data/org.gnome.FileRoller.gschema.xml:136
 msgid ""
 "Compression level used when adding files to an archive. Possible values: "
 "very-fast, fast, normal, maximum."
 msgstr ""
 
-#: ../data/org.gnome.FileRoller.gschema.xml.in.h:27
+#: data/org.gnome.FileRoller.gschema.xml:140
+#: data/org.gnome.FileRoller.gschema.xml:172
 msgid "Encrypt the archive header"
 msgstr ""
 
-#: ../data/org.gnome.FileRoller.gschema.xml.in.h:28
+#: data/org.gnome.FileRoller.gschema.xml:141
+#: data/org.gnome.FileRoller.gschema.xml:173
 msgid ""
 "Whether to encrypt the archive header. If the header is encrypted the "
 "password will be required to list the archive content as well."
 msgstr ""
 
-#: ../data/org.gnome.FileRoller.gschema.xml.in.h:29
+#: data/org.gnome.FileRoller.gschema.xml:155
 msgid "Do not overwrite newer files"
 msgstr "Ná forscríobh comhaid níos nuaí"
 
-#: ../data/org.gnome.FileRoller.gschema.xml.in.h:30
+#: data/org.gnome.FileRoller.gschema.xml:159
 #, fuzzy
 msgid "Recreate the folders stored in the archive"
 msgstr "Nuashonraigh na comhaid sa chartlann \"%s\"?"
 
-#: ../data/org.gnome.FileRoller.gschema.xml.in.h:31
+#: data/org.gnome.FileRoller.gschema.xml:177
 msgid "Default volume size"
 msgstr ""
 
-#: ../data/org.gnome.FileRoller.gschema.xml.in.h:32
+#: data/org.gnome.FileRoller.gschema.xml:178
 msgid "The default size for volumes."
 msgstr ""
 
-#: ../nautilus/nautilus-fileroller.c:327
+#: nautilus/nautilus-fileroller.c:261
 msgid "Extract Here"
 msgstr "Asbhain Anseo"
 
 #. Translators: the current position is the current folder
-#: ../nautilus/nautilus-fileroller.c:329
+#: nautilus/nautilus-fileroller.c:263
 msgid "Extract the selected archive to the current position"
 msgstr ""
 
-#: ../nautilus/nautilus-fileroller.c:346
-msgid "Extract To..."
-msgstr "Asbhain Go..."
+#: nautilus/nautilus-fileroller.c:280
+#, fuzzy
+msgid "Extract To…"
+msgstr "_Asbhain…"
 
-#: ../nautilus/nautilus-fileroller.c:347
+#: nautilus/nautilus-fileroller.c:281
 msgid "Extract the selected archive"
 msgstr ""
 
-#: ../nautilus/nautilus-fileroller.c:366
-msgid "Compress..."
-msgstr ""
-
-#: ../nautilus/nautilus-fileroller.c:367
-msgid "Create a compressed archive with the selected objects"
-msgstr "Cruthaigh cartlann chomhbhrúite leis na réada roghnaithe"
-
-#: ../src/actions.c:112 ../src/fr-window.c:5722 ../src/fr-window.c:6271
-msgid "Open"
-msgstr "Oscail"
-
-#: ../src/actions.c:125 ../src/fr-window.c:5279
-msgid "All archives"
-msgstr "Gach cartlann"
-
-#: ../src/actions.c:132
-msgid "All files"
-msgstr "Gach comhad"
-
-#: ../src/actions.c:487
-msgid "Copyright © 2001–2010 Free Software Foundation, Inc."
-msgstr "Cóipcheart © 2001–2010 Free Software Foundation, Inc."
-
-#: ../src/actions.c:488
-msgid "An archive manager for GNOME."
-msgstr "Bainisteoir cartlann do GNOME."
-
-#: ../src/actions.c:491
-msgid "translator-credits"
-msgstr ""
-"Paul Duffy <dubhtach@frink.nuigalway.ie>\n"
-"Alastair McKinstry <mckinstry@computer.org>\n"
-"Seán de Búrca <leftmostcat@gmail.com>"
-
-#: ../src/dlg-add.c:116
+#: src/dlg-add.c:96
 msgid "Could not add the files to the archive"
 msgstr "Níorbh fhéidir na comhaid a chur leis an gcartlann"
 
-#: ../src/dlg-add.c:117
+#: src/dlg-add.c:97
 #, c-format
-msgid "You don't have the right permissions to read files from folder \"%s\""
+msgid "You don’t have the right permissions to read files from folder “%s”"
 msgstr ""
 
-#: ../src/dlg-add.c:182 ../src/ui.h:42
+#: src/dlg-add.c:164
+#, fuzzy
+msgctxt "Window title"
 msgid "Add Files"
 msgstr "Cuir Comhaid Leis"
 
-#: ../src/dlg-add.c:193
+#: src/dlg-add.c:177
 msgid "_Options"
 msgstr "_Roghanna"
 
 #. load options
-#: ../src/dlg-add.c:202 ../src/ui/add-options.ui.h:1
+#: src/dlg-add.c:186
+#, fuzzy
+msgctxt "Action"
 msgid "Load Options"
 msgstr "Roghanna Luchtaithe"
 
 #. save options
-#: ../src/dlg-add.c:209 ../src/dlg-add.c:827
+#: src/dlg-add.c:193
+#, fuzzy
+msgctxt "Action"
 msgid "Save Options"
 msgstr "Roghanna Sábhála"
 
 #. clear options
-#: ../src/dlg-add.c:216
+#: src/dlg-add.c:200
 msgid "Reset Options"
 msgstr "Athshocraigh Roghanna"
 
-#: ../src/dlg-add.c:828
+#: src/dlg-add.c:746
+#, fuzzy
+msgctxt "Window title"
+msgid "Load Options"
+msgstr "Roghanna Luchtaithe"
+
+#: src/dlg-add.c:755
+msgid "_Apply"
+msgstr ""
+
+#: src/dlg-add.c:756 src/dlg-delete.c:136
+#, fuzzy
+msgid "_Delete"
+msgstr "Scrios"
+
+#: src/dlg-add.c:838
+#, fuzzy
+msgctxt "Window title"
+msgid "Save Options"
+msgstr "Roghanna Sábhála"
+
+#: src/dlg-add.c:839
 msgid "_Options Name:"
 msgstr "Ainm _Roghanna:"
 
+#: src/dlg-ask-password.c:125
+msgid "_OK"
+msgstr ""
+
 #. Translators: %s is a filename
-#: ../src/dlg-ask-password.c:131
-#, c-format
-msgid "Password required for \"%s\""
+#: src/dlg-ask-password.c:148
+#, fuzzy, c-format
+msgid "Password required for “%s”"
 msgstr "Focal faire de dhíth le haghaidh \"%s\""
 
-#: ../src/dlg-ask-password.c:140
+#: src/dlg-ask-password.c:157
 msgid "Wrong password."
 msgstr "Focal faire mícheart."
 
-#: ../src/dlg-batch-add.c:87 ../src/fr-application.c:329
-#: ../src/fr-application.c:683
+#: src/dlg-batch-add.c:88 src/fr-application.c:226 src/fr-application.c:262
+#: src/fr-application.c:582
 msgid "Compress"
 msgstr "Comhbhrúigh"
 
-#: ../src/dlg-extract.c:96 ../src/fr-window.c:6827
+#: src/dlg-extract.c:95 src/fr-window.c:6915
 #, c-format
 msgid ""
-"Destination folder \"%s\" does not exist.\n"
+"Destination folder “%s” does not exist.\n"
 "\n"
 "Do you want to create it?"
 msgstr ""
 
-#: ../src/dlg-extract.c:105 ../src/fr-window.c:6836
+#: src/dlg-extract.c:103 src/fr-window.c:6923
 msgid "Create _Folder"
 msgstr "Cruthaigh _Fillteán"
 
-#: ../src/dlg-extract.c:124 ../src/dlg-extract.c:142 ../src/dlg-extract.c:169
-#: ../src/fr-window.c:4241 ../src/fr-window.c:6731 ../src/fr-window.c:6736
-#: ../src/fr-window.c:6857 ../src/fr-window.c:6876 ../src/fr-window.c:6881
+#: src/dlg-extract.c:122 src/dlg-extract.c:139 src/dlg-extract.c:166
+#: src/fr-window.c:4420 src/fr-window.c:6839 src/fr-window.c:6844
+#: src/fr-window.c:6944 src/fr-window.c:6963 src/fr-window.c:6968
 msgid "Extraction not performed"
 msgstr ""
 
-#: ../src/dlg-extract.c:125 ../src/fr-window.c:6853
+#: src/dlg-extract.c:123 src/fr-window.c:6940
 #, c-format
 msgid "Could not create the destination folder: %s."
 msgstr ""
 
-#: ../src/dlg-extract.c:170 ../src/fr-window.c:4410 ../src/fr-window.c:4494
+#: src/dlg-extract.c:167 src/fr-window.c:4647 src/fr-window.c:4749
 #, c-format
 msgid ""
-"You don't have the right permissions to extract archives in the folder \"%s\""
+"You don’t have the right permissions to extract archives in the folder “%s”"
 msgstr ""
 
-#: ../src/dlg-extract.c:283 ../src/ui/extract-dialog-options.ui.h:1
-#: ../src/ui.h:109
+#: src/dlg-extract.c:279
+#, fuzzy
+msgctxt "Window title"
 msgid "Extract"
 msgstr "Asbhain"
 
-#: ../src/dlg-package-installer.c:112 ../src/dlg-package-installer.c:225
+#: src/dlg-package-installer.c:114 src/dlg-package-installer.c:227
 msgid "There was an internal error trying to search for applications:"
 msgstr ""
 
-#: ../src/dlg-package-installer.c:294 ../src/dlg-package-installer.c:303
-#: ../src/dlg-package-installer.c:331 ../src/fr-archive.c:744
-#: ../src/fr-window.c:3970 ../src/fr-window.c:7460 ../src/fr-window.c:7817
-#: ../src/fr-window.c:9349
+#: src/dlg-package-installer.c:296 src/dlg-package-installer.c:305
+#: src/dlg-package-installer.c:332 src/fr-archive.c:748 src/fr-window.c:4087
+#: src/fr-window.c:7646 src/fr-window.c:8003 src/fr-window.c:9518
 msgid "Archive type not supported."
 msgstr ""
 
-#: ../src/dlg-package-installer.c:313
+#: src/dlg-package-installer.c:315
 #, c-format
 msgid ""
 "There is no command installed for %s files.\n"
 "Do you want to search for a command to open this file?"
 msgstr ""
 
-#: ../src/dlg-package-installer.c:318
+#: src/dlg-package-installer.c:319
 #, fuzzy
 msgid "Could not open this file type"
 msgstr "Níorbh fhéidir \"%s\" a oscailt"
 
-#: ../src/dlg-package-installer.c:321
+#: src/dlg-package-installer.c:322
 msgid "_Search Command"
 msgstr ""
 
-#: ../src/dlg-password.c:91
+#: src/dlg-password.c:109
 #, fuzzy, c-format
-msgid "Enter a password for \"%s\""
+msgid "Enter a password for “%s”"
 msgstr "Iontráil an focal faire don chartlann '%s'."
 
-#: ../src/dlg-prop.c:96
+#: src/dlg-prop.c:107
 #, c-format
 msgid "%s Properties"
 msgstr "Airíonna %s"
 
-#: ../src/dlg-update.c:163
-#, c-format
-msgid "Update the file \"%s\" in the archive \"%s\"?"
+#: src/dlg-update.c:162
+#, fuzzy, c-format
+msgid "Update the file “%s” in the archive “%s”?"
 msgstr "Nuashonraigh an comhad \"%s\" sa chartlann \"%s\"?"
 
 #. secondary text
-#: ../src/dlg-update.c:174 ../src/dlg-update.c:199 ../src/ui/update.ui.h:2
+#: src/dlg-update.c:174 src/dlg-update.c:200
 #, c-format
 msgid ""
-"The file has been modified with an external application. If you don't update "
+"The file has been modified with an external application. If you don’t update "
 "the file in the archive, all of your changes will be lost."
 msgid_plural ""
-"%d files have been modified with an external application. If you don't "
+"%d files have been modified with an external application. If you don’t "
 "update the files in the archive, all of your changes will be lost."
 msgstr[0] ""
 msgstr[1] ""
@@ -434,305 +396,301 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: ../src/dlg-update.c:189
-#, c-format
-msgid "Update the files in the archive \"%s\"?"
+#: src/dlg-update.c:190
+#, fuzzy, c-format
+msgid "Update the files in the archive “%s”?"
 msgstr "Nuashonraigh na comhaid sa chartlann \"%s\"?"
 
-#: ../src/fr-application.c:65
+#: src/dlg-update.c:319 src/dlg-update.c:332
+msgid "_Update"
+msgstr "_Nuashonraigh"
+
+#: src/dlg-update.c:323
+#, fuzzy
+msgid "Update Files"
+msgstr "Cuir Comhaid Leis"
+
+#: src/fr-application-menu.c:130
+#, fuzzy
+msgid "Copyright © 2001–2014 Free Software Foundation, Inc."
+msgstr "Cóipcheart © 2001–2010 Free Software Foundation, Inc."
+
+#: src/fr-application-menu.c:131
+msgid "An archive manager for GNOME."
+msgstr "Bainisteoir cartlann do GNOME."
+
+#: src/fr-application-menu.c:134
+msgid "translator-credits"
+msgstr ""
+"Paul Duffy <dubhtach@frink.nuigalway.ie>\n"
+"Alastair McKinstry <mckinstry@computer.org>\n"
+"Seán de Búrca <leftmostcat@gmail.com>"
+
+#: src/fr-application.c:61
 msgid "Add files to the specified archive and quit the program"
 msgstr ""
 
-#: ../src/fr-application.c:66
+#: src/fr-application.c:62
 msgid "ARCHIVE"
 msgstr "CARTLANN"
 
-#: ../src/fr-application.c:69
+#: src/fr-application.c:65
 msgid "Add files asking the name of the archive and quit the program"
 msgstr ""
 
-#: ../src/fr-application.c:73
+#: src/fr-application.c:69
 msgid "Extract archives to the specified folder and quit the program"
 msgstr ""
 
-#: ../src/fr-application.c:74 ../src/fr-application.c:86
+#: src/fr-application.c:70 src/fr-application.c:82
 msgid "FOLDER"
 msgstr "FILLTEÁN"
 
-#: ../src/fr-application.c:77
+#: src/fr-application.c:73
 msgid "Extract archives asking the destination folder and quit the program"
 msgstr ""
 
-#: ../src/fr-application.c:81
+#: src/fr-application.c:77
 msgid ""
 "Extract the contents of the archives in the archive folder and quit the "
 "program"
 msgstr ""
 
-#: ../src/fr-application.c:85
-msgid "Default folder to use for the '--add' and '--extract' commands"
+#: src/fr-application.c:81
+msgid "Default folder to use for the “--add” and “--extract” commands"
 msgstr ""
 
-#: ../src/fr-application.c:89
+#: src/fr-application.c:85
 msgid "Create destination folder without asking confirmation"
 msgstr ""
 
-#: ../src/fr-application.c:93
+#: src/fr-application.c:89
 msgid "Use the notification system to notify the operation completion"
 msgstr ""
 
-#: ../src/fr-application.c:96
+#: src/fr-application.c:92
 msgid "Start as a service"
 msgstr ""
 
-#: ../src/fr-application.c:99
+#: src/fr-application.c:95
 msgid "Show version"
 msgstr ""
 
-#: ../src/fr-application.c:365 ../src/fr-application.c:401
-#: ../src/fr-application.c:427 ../src/fr-application.c:707
-#: ../src/fr-window.c:9412
+#: src/fr-application.c:298 src/fr-application.c:324 src/fr-application.c:605
+#, fuzzy
+msgctxt "Window title"
 msgid "Extract archive"
 msgstr "Asbhain cartlann"
 
-#: ../src/fr-application.c:565
-msgid "- Create and modify an archive"
+#: src/fr-application.c:485
+#, fuzzy
+msgid "— Create and modify an archive"
 msgstr "- Cruthaigh agus athraigh cartlann"
 
-#. manually set name and icon
-#: ../src/fr-application.c:833
-msgid "File Roller"
-msgstr "File Roller"
-
-#: ../src/fr-archive.c:1845
-msgid "You don't have the right permissions."
+#: src/fr-archive.c:1849
+msgid "You don’t have the right permissions."
 msgstr ""
 
-#: ../src/fr-archive.c:1845
+#: src/fr-archive.c:1849
 msgid "This archive type cannot be modified"
 msgstr ""
 
-#: ../src/fr-archive.c:1859
-msgid "You can't add an archive to itself."
+#: src/fr-archive.c:1863 src/fr-new-archive-dialog.c:480
+#, fuzzy
+msgid "You can’t add an archive to itself."
 msgstr "Ní féidir leat cartlann a chur leis féin."
 
 #. Translators: %s is a filename.
-#: ../src/fr-command-7z.c:297 ../src/fr-command-rar.c:329
-#: ../src/fr-command-tar.c:304
-#, c-format
-msgid "Adding \"%s\""
+#: src/fr-command-7z.c:297 src/fr-command-rar.c:483 src/fr-command-tar.c:307
+#, fuzzy, c-format
+msgid "Adding “%s”"
 msgstr "\"%s\" á chur leis"
 
 #. Translators: %s is a filename.
-#: ../src/fr-command-7z.c:429 ../src/fr-command-rar.c:461
-#: ../src/fr-command-tar.c:425
-#, c-format
-msgid "Extracting \"%s\""
+#: src/fr-command-7z.c:449 src/fr-command-rar.c:615 src/fr-command-tar.c:428
+#, fuzzy, c-format
+msgid "Extracting “%s”"
 msgstr "\"%s\" á asbhaint"
 
-#: ../src/fr-command.c:597
-#, fuzzy, c-format
-msgid "Archive not found"
-msgstr "Cartlann gan cruthú"
-
 #. Translators: %s is a filename.
-#: ../src/fr-command-rar.c:410 ../src/fr-command-tar.c:370
-#, c-format
-msgid "Removing \"%s\""
+#: src/fr-command-rar.c:564 src/fr-command-tar.c:373
+#, fuzzy, c-format
+msgid "Removing “%s”"
 msgstr "\"%s\" á bhaint"
 
-#: ../src/fr-command-rar.c:587
+#: src/fr-command-rar.c:746
 #, c-format
 msgid "Could not find the volume: %s"
 msgstr "Níorbh fhéidir an imleabhar a aimsiú: %s"
 
-#: ../src/fr-command-tar.c:380
+#: src/fr-command-tar.c:383
 msgid "Deleting files from archive"
 msgstr ""
 
-#: ../src/fr-command-tar.c:485
+#: src/fr-command-tar.c:488
 msgid "Recompressing archive"
 msgstr ""
 
-#: ../src/fr-command-tar.c:744
+#: src/fr-command-tar.c:767
 msgid "Decompressing archive"
 msgstr ""
 
-#: ../src/fr-file-selector-dialog.c:772 ../src/fr-file-selector-dialog.c:817
+#: src/fr-command.c:597
+#, fuzzy, c-format
+msgid "Archive not found"
+msgstr "Cartlann gan cruthú"
+
+#: src/fr-file-selector-dialog.c:773 src/fr-file-selector-dialog.c:818
 #, fuzzy
 msgid "Could not load the location"
 msgstr "Téigh go dtí an suíomh baile"
 
-#: ../src/fr-new-archive-dialog.c:344 ../src/fr-new-archive-dialog.c:363
-#: ../src/fr-new-archive-dialog.c:379 ../src/fr-new-archive-dialog.c:427
-#: ../src/fr-new-archive-dialog.c:445 ../src/fr-window.c:2915
+#: src/fr-new-archive-dialog.c:354 src/fr-new-archive-dialog.c:373
+#: src/fr-new-archive-dialog.c:389 src/fr-new-archive-dialog.c:438
+#: src/fr-new-archive-dialog.c:456 src/fr-new-archive-dialog.c:478
+#: src/fr-window.c:3032
 msgid "Could not create the archive"
 msgstr "Níorbh fhéidir an chartlann a chruthú"
 
-#: ../src/fr-new-archive-dialog.c:346 ../src/fr-new-archive-dialog.c:365
+#: src/fr-new-archive-dialog.c:356 src/fr-new-archive-dialog.c:375
 msgid "You have to specify an archive name."
 msgstr ""
 
-#: ../src/fr-new-archive-dialog.c:429
-msgid "You don't have permission to create an archive in this folder"
-msgstr ""
+#: src/fr-new-archive-dialog.c:440
+#, fuzzy
+msgid "You don’t have permission to create an archive in this folder"
+msgstr "Ar mhaith leat cartlann nua a chruthú leis na gcomhaid seo?"
 
 #. Translators: the name references to a filename.  This message can appear when renaming a file.
-#: ../src/fr-new-archive-dialog.c:447 ../src/fr-window.c:8130
+#: src/fr-new-archive-dialog.c:458 src/fr-window.c:8317
 msgid "New name is the same as old one, please type other name."
 msgstr ""
 
-#: ../src/fr-new-archive-dialog.c:466
+#: src/fr-new-archive-dialog.c:501
 #, c-format
-msgid "A file named \"%s\" already exists.  Do you want to replace it?"
+msgid "A file named “%s” already exists.  Do you want to replace it?"
 msgstr ""
 
-#: ../src/fr-new-archive-dialog.c:467
+#: src/fr-new-archive-dialog.c:502
 #, c-format
 msgid ""
-"The file already exists in \"%s\".  Replacing it will overwrite its contents."
+"The file already exists in “%s”.  Replacing it will overwrite its contents."
 msgstr ""
 
-#: ../src/fr-new-archive-dialog.c:474 ../src/fr-window.c:6660
+#: src/fr-new-archive-dialog.c:508 src/fr-window.c:6764
 msgid "_Replace"
 msgstr ""
 
-#: ../src/fr-new-archive-dialog.c:489
+#: src/fr-new-archive-dialog.c:523
 msgid "Could not delete the old archive."
 msgstr ""
 
-#: ../src/fr-stock.c:41
-msgid "C_reate"
-msgstr "C_ruthaigh"
+#: src/fr-window-actions-callbacks.c:289
+#, fuzzy
+msgctxt "Window title"
+msgid "Open"
+msgstr "Oscail"
 
-#: ../src/fr-stock.c:42 ../src/fr-stock.c:43
-msgid "_Add"
-msgstr "Cuir _Leis"
+#: src/fr-window-actions-callbacks.c:302
+msgid "All archives"
+msgstr "Gach cartlann"
 
-#: ../src/fr-stock.c:44
-msgid "_Extract"
-msgstr "_Asbhain"
+#: src/fr-window-actions-callbacks.c:309
+msgid "All files"
+msgstr "Gach comhad"
 
-#: ../src/fr-window.c:1173
+#: src/fr-window.c:1221
 msgid "Operation completed"
 msgstr ""
 
-#: ../src/fr-window.c:1290
-#, c-format
-msgid "%d object (%s)"
-msgid_plural "%d objects (%s)"
-msgstr[0] "%d réad (%s)"
-msgstr[1] "%d réad (%s)"
-msgstr[2] "%d réad (%s)"
-msgstr[3] "%d réad (%s)"
-msgstr[4] "%d réad (%s)"
-
-#: ../src/fr-window.c:1295
-#, c-format
-msgid "%d object selected (%s)"
-msgid_plural "%d objects selected (%s)"
-msgstr[0] "%d réad roghnaithe (%s)"
-msgstr[1] "%d réad roghnaithe (%s)"
-msgstr[2] "%d réad roghnaithe (%s)"
-msgstr[3] "%d réad roghnaithe (%s)"
-msgstr[4] "%d réad roghnaithe (%s)"
-
-#: ../src/fr-window.c:1680
+#: src/fr-window.c:1634
 msgid "Folder"
 msgstr "Fillteán"
 
-#: ../src/fr-window.c:2060
+#: src/fr-window.c:2024
 msgid "[read only]"
 msgstr "[inléite amhain]"
 
-#: ../src/fr-window.c:2179
-#, c-format
-msgid "Could not display the folder \"%s\""
-msgstr ""
+#: src/fr-window.c:2165
+#, fuzzy, c-format
+msgid "Could not display the folder “%s”"
+msgstr "Níorbh fhéidir an fillteán a athainmniú"
 
 #. Translators: %s is a filename
-#: ../src/fr-window.c:2270 ../src/fr-window.c:2308
-#, c-format
-msgid "Creating \"%s\""
+#: src/fr-window.c:2338 src/fr-window.c:2376
+#, fuzzy, c-format
+msgid "Creating “%s”"
 msgstr "\"%s\" á chruthú"
 
 #. Translators: %s is a filename
-#: ../src/fr-window.c:2274
-#, c-format
-msgid "Loading \"%s\""
+#: src/fr-window.c:2342
+#, fuzzy, c-format
+msgid "Loading “%s”"
 msgstr "\"%s\" á luchtú"
 
 #. Translators: %s is a filename
-#: ../src/fr-window.c:2278
-#, c-format
-msgid "Reading \"%s\""
+#: src/fr-window.c:2346
+#, fuzzy, c-format
+msgid "Reading “%s”"
 msgstr "\"%s\" á léamh"
 
 #. Translators: %s is a filename
-#: ../src/fr-window.c:2282
-#, c-format
-msgid "Deleting the files from \"%s\""
-msgstr ""
+#: src/fr-window.c:2350
+#, fuzzy, c-format
+msgid "Deleting the files from “%s”"
+msgstr "Comhad á bhaint amach:"
 
 #. Translators: %s is a filename
-#: ../src/fr-window.c:2286
+#: src/fr-window.c:2354
 #, fuzzy, c-format
-msgid "Testing \"%s\""
+msgid "Testing “%s”"
 msgstr "%s á Thosú"
 
-#: ../src/fr-window.c:2289
+#: src/fr-window.c:2357
 msgid "Getting the file list"
 msgstr ""
 
 #. Translators: %s is a filename
-#: ../src/fr-window.c:2293
-#, c-format
-msgid "Copying the files to add to \"%s\""
-msgstr ""
-
-#. Translators: %s is a filename
-#: ../src/fr-window.c:2297
+#: src/fr-window.c:2361
 #, fuzzy, c-format
-msgid "Adding the files to \"%s\""
+msgid "Copying the files to add to “%s”"
 msgstr "Comhad á chur leis:"
 
 #. Translators: %s is a filename
-#: ../src/fr-window.c:2301
+#: src/fr-window.c:2365
 #, fuzzy, c-format
-msgid "Extracting the files from \"%s\""
+msgid "Adding the files to “%s”"
+msgstr "Comhad á chur leis:"
+
+#. Translators: %s is a filename
+#: src/fr-window.c:2369
+#, fuzzy, c-format
+msgid "Extracting the files from “%s”"
 msgstr "Comhad á bhaint amach:"
 
-#: ../src/fr-window.c:2304
+#: src/fr-window.c:2372
 msgid "Copying the extracted files to the destination"
 msgstr ""
 
 #. Translators: %s is a filename
-#: ../src/fr-window.c:2313
-#, c-format
-msgid "Saving \"%s\""
+#: src/fr-window.c:2381
+#, fuzzy, c-format
+msgid "Saving “%s”"
 msgstr "\"%s\" á shábháil"
 
 #. Translators: %s is a filename
-#: ../src/fr-window.c:2320
+#: src/fr-window.c:2388
 #, fuzzy, c-format
-msgid "Renaming the files in \"%s\""
+msgid "Renaming the files in “%s”"
 msgstr "Nuashonraigh na comhaid sa chartlann \"%s\"?"
 
 #. Translators: %s is a filename
-#: ../src/fr-window.c:2324
+#: src/fr-window.c:2392
 #, fuzzy, c-format
-msgid "Updating the files in \"%s\""
+msgid "Updating the files in “%s”"
 msgstr "Nuashonraigh na comhaid sa chartlann \"%s\"?"
 
-#: ../src/fr-window.c:2499
-msgid "_Open the Archive"
-msgstr "_Oscail an Chartlann"
-
-#: ../src/fr-window.c:2500
-msgid "_Show the Files"
-msgstr "_Taispeáin na Comhaid"
-
-#: ../src/fr-window.c:2617
+#: src/fr-window.c:2681
 #, c-format
 msgid "%d file remaining"
 msgid_plural "%'d files remaining"
@@ -742,79 +700,87 @@ msgstr[2] ""
 msgstr[3] ""
 msgstr[4] ""
 
-#: ../src/fr-window.c:2621 ../src/fr-window.c:3196
+#: src/fr-window.c:2685 src/fr-window.c:3309
 msgid "Please wait…"
 msgstr ""
 
-#: ../src/fr-window.c:2677
+#: src/fr-window.c:2803
 msgid "Extraction completed successfully"
 msgstr ""
 
+#: src/fr-window.c:2806
+msgid "_Show the Files"
+msgstr "_Taispeáin na Comhaid"
+
 #. Translators: %s is a filename
-#: ../src/fr-window.c:2709 ../src/fr-window.c:6249
+#: src/fr-window.c:2823 src/fr-window.c:6266
 #, fuzzy, c-format
-msgid "\"%s\" created successfully"
+msgid "“%s” created successfully"
 msgstr "D'éirigh le cruthú na cartlainne"
 
-#: ../src/fr-window.c:2799 ../src/fr-window.c:2971
+#: src/fr-window.c:2830
+msgid "_Open the Archive"
+msgstr "_Oscail an Chartlann"
+
+#: src/fr-window.c:2918 src/fr-window.c:3088
 msgid "Command exited abnormally."
 msgstr ""
 
-#: ../src/fr-window.c:2920
+#: src/fr-window.c:3037
 msgid "An error occurred while extracting files."
 msgstr ""
 
-#: ../src/fr-window.c:2926
-#, c-format
-msgid "Could not open \"%s\""
+#: src/fr-window.c:3043
+#, fuzzy, c-format
+msgid "Could not open “%s”"
 msgstr "Níorbh fhéidir \"%s\" a oscailt"
 
-#: ../src/fr-window.c:2931
+#: src/fr-window.c:3048
 msgid "An error occurred while loading the archive."
 msgstr ""
 
-#: ../src/fr-window.c:2935
+#: src/fr-window.c:3052
 msgid "An error occurred while deleting files from the archive."
 msgstr ""
 
-#: ../src/fr-window.c:2941
+#: src/fr-window.c:3058
 msgid "An error occurred while adding files to the archive."
 msgstr ""
 
-#: ../src/fr-window.c:2945
+#: src/fr-window.c:3062
 msgid "An error occurred while testing archive."
 msgstr ""
 
-#: ../src/fr-window.c:2950
+#: src/fr-window.c:3067
 msgid "An error occurred while saving the archive."
 msgstr ""
 
-#: ../src/fr-window.c:2954
+#: src/fr-window.c:3071
 msgid "An error occurred while renaming the files."
 msgstr ""
 
-#: ../src/fr-window.c:2958
+#: src/fr-window.c:3075
 msgid "An error occurred while updating the files."
 msgstr ""
 
-#: ../src/fr-window.c:2962
+#: src/fr-window.c:3079
 msgid "An error occurred."
 msgstr ""
 
-#: ../src/fr-window.c:2968
+#: src/fr-window.c:3085
 msgid "Command not found."
 msgstr ""
 
-#: ../src/fr-window.c:3124
+#: src/fr-window.c:3241
 msgid "Test Result"
 msgstr ""
 
-#: ../src/fr-window.c:4088 ../src/fr-window.c:8810 ../src/fr-window.c:8844
-#: ../src/fr-window.c:9123
+#: src/fr-window.c:4212 src/fr-window.c:9001 src/fr-window.c:9035
+#: src/fr-window.c:9315
 msgid "Could not perform the operation"
 msgstr ""
 
-#: ../src/fr-window.c:4114
+#: src/fr-window.c:4237
 msgid ""
 "Do you want to add this file to the current archive or open it as a new "
 "archive?"
@@ -822,542 +788,642 @@ msgstr ""
 "Ar mhaith leat an comhad seo a chur leis an gcartlann reatha nó é a oscailt "
 "mar chartlann nua?"
 
-#: ../src/fr-window.c:4144
+#: src/fr-window.c:4266
 msgid "Do you want to create a new archive with these files?"
 msgstr "Ar mhaith leat cartlann nua a chruthú leis na gcomhaid seo?"
 
-#: ../src/fr-window.c:4147
+#: src/fr-window.c:4269
 msgid "Create _Archive"
 msgstr "Cruathaigh C_artlann"
 
-#: ../src/fr-window.c:4176 ../src/fr-window.c:7268
+#: src/fr-window.c:4298 src/fr-window.c:7454
 msgid "New Archive"
 msgstr "Cartlann Nua"
 
-#: ../src/fr-window.c:4750
+#: src/fr-window.c:5016
 msgid "Folders"
 msgstr "Fillteáin"
 
-#: ../src/fr-window.c:4788 ../src/ui/file-selector.ui.h:7
+#: src/fr-window.c:5054 src/ui/file-selector.ui:221
 msgctxt "File"
 msgid "Size"
 msgstr "Méid"
 
-#: ../src/fr-window.c:4789
+#: src/fr-window.c:5055
 msgctxt "File"
 msgid "Type"
 msgstr "Cineál"
 
-#: ../src/fr-window.c:4790 ../src/ui/file-selector.ui.h:8
+#: src/fr-window.c:5056 src/ui/file-selector.ui:237
 msgctxt "File"
 msgid "Modified"
 msgstr "Athraithe"
 
-#: ../src/fr-window.c:4791
+#: src/fr-window.c:5057
 msgctxt "File"
 msgid "Location"
 msgstr "Suíomh"
 
-#: ../src/fr-window.c:4800 ../src/ui/file-selector.ui.h:6
+#: src/fr-window.c:5066 src/ui/file-selector.ui:190
 msgctxt "File"
 msgid "Name"
 msgstr "Ainm"
 
-#. Translators: this is the label for the "open recent file" sub-menu.
-#: ../src/fr-window.c:5710
-msgid "Open _Recent"
-msgstr "Oscail Comhaid _le Déanaí"
+#: src/fr-window.c:5820 src/ui/extract-dialog-options.ui:20
+#, fuzzy
+msgctxt "Action"
+msgid "Extract"
+msgstr "Asbhain"
 
-#: ../src/fr-window.c:5711 ../src/fr-window.c:5723
-msgid "Open a recently used archive"
-msgstr "Oscail cartlann úsáidte le déanaí"
+#: src/fr-window.c:5824
+#, fuzzy
+msgctxt "Action"
+msgid "Add Files"
+msgstr "Cuir Comhaid Leis"
 
-#: ../src/fr-window.c:5739
-msgid "_Other Actions"
-msgstr "Gníomhartha _Eile"
+#: src/fr-window.c:5829 src/fr-window.c:5859
+msgid "Find files by name"
+msgstr "Aimsigh comhaid de réir ainm"
 
-#: ../src/fr-window.c:5740
-msgid "Other actions"
-msgstr "Gníomhartha eile"
+#: src/fr-window.c:5876
+msgid "Go to the previous visited location"
+msgstr "Téigh go dtí an suíomh feicthe roimhe seo"
+
+#: src/fr-window.c:5881
+msgid "Go to the next visited location"
+msgstr "Téigh go dtí an chéad suíomh feicthe eile"
+
+#: src/fr-window.c:5891
+msgid "Go to the home location"
+msgstr "Téigh go dtí an suíomh baile"
 
 #. Translators: after the colon there is a folder name.
-#: ../src/fr-window.c:5804 ../src/ui/file-selector.ui.h:4
-#: ../src/ui/new-archive-dialog.ui.h:2
+#: src/fr-window.c:5900 src/ui/file-selector.ui:98
+#: src/ui/new-archive-dialog.ui:93
 msgid "_Location:"
 msgstr "_Suíomh:"
 
-#: ../src/fr-window.c:6648
+#: src/fr-window.c:6280 src/ui/menus.ui:7 src/ui/menus.ui:47 src/ui/menus.ui:83
+#, fuzzy
+msgctxt "Action"
+msgid "Open"
+msgstr "Oscail"
+
+#: src/fr-window.c:6752
 #, fuzzy, c-format
-msgid "Replace file \"%s\"?"
+msgid "Replace file “%s”?"
 msgstr "Comhaid _roghnaithe"
 
-#: ../src/fr-window.c:6651
+#: src/fr-window.c:6755
 #, c-format
-msgid "Another file with the same name already exists in \"%s\"."
+msgid "Another file with the same name already exists in “%s”."
 msgstr ""
 
-#: ../src/fr-window.c:6658
+#: src/fr-window.c:6761
 msgid "Replace _All"
 msgstr ""
 
-#: ../src/fr-window.c:6659
+#: src/fr-window.c:6762
+msgid "Skip _All _Existing"
+msgstr ""
+
+#: src/fr-window.c:6763
 msgid "_Skip"
 msgstr "_Scipeáil"
 
-#: ../src/fr-window.c:7452 ../src/fr-window.c:7809
-#, c-format
-msgid "Could not save the archive \"%s\""
-msgstr ""
+#: src/fr-window.c:7638 src/fr-window.c:7995
+#, fuzzy, c-format
+msgid "Could not save the archive “%s”"
+msgstr "Níorbh fhéidir an chartlann a chruthú"
 
-#: ../src/fr-window.c:7579
+#: src/fr-window.c:7765
 msgid "Save"
 msgstr "Sábháil"
 
-#: ../src/fr-window.c:7903
+#: src/fr-window.c:8089
 msgid "Last Output"
 msgstr "Aschur is Déanaí"
 
 #. Translators: the name references to a filename.  This message can appear when renaming a file.
-#: ../src/fr-window.c:8125
+#: src/fr-window.c:8312
 msgid "New name is void, please type a name."
 msgstr ""
 
 #. Translators: the %s references to a filename.  This message can appear when renaming a file.
-#: ../src/fr-window.c:8135
+#: src/fr-window.c:8322
 #, c-format
 msgid ""
-"Name \"%s\" is not valid because it contains at least one of the following "
+"Name “%s” is not valid because it contains at least one of the following "
 "characters: %s, please type other name."
 msgstr ""
 
-#: ../src/fr-window.c:8171
+#: src/fr-window.c:8358
 #, c-format
 msgid ""
-"A folder named \"%s\" already exists.\n"
+"A folder named “%s” already exists.\n"
 "\n"
 "%s"
 msgstr ""
 
-#: ../src/fr-window.c:8171 ../src/fr-window.c:8173
+#: src/fr-window.c:8358 src/fr-window.c:8360
 msgid "Please use a different name."
 msgstr ""
 
-#: ../src/fr-window.c:8173
+#: src/fr-window.c:8360
 #, c-format
 msgid ""
-"A file named \"%s\" already exists.\n"
+"A file named “%s” already exists.\n"
 "\n"
 "%s"
 msgstr ""
 
-#: ../src/fr-window.c:8243
+#: src/fr-window.c:8430
 msgid "Rename"
 msgstr "Athainmnigh"
 
-#: ../src/fr-window.c:8244
+#: src/fr-window.c:8431
 msgid "_New folder name:"
 msgstr "Ainm _nua an fhillteáin:"
 
-#: ../src/fr-window.c:8244
+#: src/fr-window.c:8431
 msgid "_New file name:"
 msgstr "Ainm _nua an chomhaid:"
 
-#: ../src/fr-window.c:8248
+#: src/fr-window.c:8435
 msgid "_Rename"
 msgstr "_Athainmigh"
 
-#: ../src/fr-window.c:8265 ../src/fr-window.c:8284
+#: src/fr-window.c:8452 src/fr-window.c:8470
 msgid "Could not rename the folder"
 msgstr "Níorbh fhéidir an fillteán a athainmniú"
 
-#: ../src/fr-window.c:8265 ../src/fr-window.c:8284
+#: src/fr-window.c:8452 src/fr-window.c:8470
 msgid "Could not rename the file"
 msgstr "Níorbh fhéidir an comhad a athainmniú"
 
 #. Translators: %s are archive filenames
-#: ../src/fr-window.c:8717
+#: src/fr-window.c:8908
 #, c-format
-msgid "Moving the files from \"%s\" to \"%s\""
+msgid "Moving the files from “%s” to “%s”"
 msgstr ""
 
 #. Translators: %s are archive filenames
-#: ../src/fr-window.c:8720
+#: src/fr-window.c:8911
 #, c-format
-msgid "Copying the files from \"%s\" to \"%s\""
+msgid "Copying the files from “%s” to “%s”"
 msgstr ""
 
-#: ../src/fr-window.c:8771
+#: src/fr-window.c:8962
 msgid "Paste Selection"
 msgstr "Greamaigh Roghnúchán"
 
-#: ../src/fr-window.c:8772
+#: src/fr-window.c:8963
 msgid "_Destination folder:"
 msgstr "_Spriocfhillteán:"
 
-#: ../src/fr-window.c:9367
-msgid "Add files to an archive"
-msgstr "Cuir comhaid le cartlann"
+#: src/fr-window.c:8967 src/ui/app-menubar.ui:61
+msgid "_Paste"
+msgstr ""
 
 #. This is the time format used in the "Date Modified" column and
 #. * in the Properties dialog.  See the man page of strftime for an
 #. * explanation of the values.
-#: ../src/glib-utils.c:769
+#: src/glib-utils.c:787
 msgid "%d %B %Y, %H:%M"
 msgstr "%d %B %Y, %H:%M"
 
-#: ../src/gtk-utils.c:557
-msgid "Could not display help"
-msgstr ""
-
-#: ../src/gtk-utils.c:651
-msgid "Change password visibility"
-msgstr ""
-
-#: ../src/ui/add-dialog-options.ui.h:1
-msgid "Add"
-msgstr "Cuir Leis"
-
-#: ../src/ui/add-dialog-options.ui.h:2
-msgid "Include _files:"
-msgstr ""
-
-#: ../src/ui/add-dialog-options.ui.h:3
-msgid "E_xclude files:"
-msgstr ""
-
-#: ../src/ui/add-dialog-options.ui.h:4
-msgid "_Exclude folders:"
-msgstr ""
-
-#: ../src/ui/add-dialog-options.ui.h:5 ../src/ui/extract-dialog-options.ui.h:5
-msgid "example: *.o; *.bak"
-msgstr "sampla: *.o; *.bak"
-
-#: ../src/ui/add-dialog-options.ui.h:6 ../src/ui/extract-dialog-options.ui.h:6
-msgid "Actions"
-msgstr "Gníomhartha"
-
-#: ../src/ui/add-dialog-options.ui.h:7
-msgid "Add only if _newer"
-msgstr ""
-
-#: ../src/ui/add-dialog-options.ui.h:8
-msgid "_Follow symbolic links"
-msgstr ""
-
-#: ../src/ui/app-menu.ui.h:1
-msgid "_New Archive"
-msgstr "Cartlann _Nua"
-
-#: ../src/ui/app-menu.ui.h:3 ../src/ui.h:213
-msgid "View All _Files"
-msgstr "Amharc ar Gach _Comhad"
-
-#: ../src/ui/app-menu.ui.h:4 ../src/ui.h:216
-msgid "View as a F_older"
-msgstr "Amharc mar Fh_illteán"
-
-#: ../src/ui/app-menu.ui.h:5 ../src/ui.h:197
-msgid "_Folders"
-msgstr "_Fillteáin"
-
-#: ../src/ui/app-menu.ui.h:6
-msgid "_Help"
-msgstr "Cab_hair"
-
-#: ../src/ui/app-menu.ui.h:7
-msgid "_About Archive Manager"
-msgstr "_Maidir le Bainisteoir Cartlann"
-
-#: ../src/ui/app-menu.ui.h:8
-msgid "_Quit"
-msgstr "_Scoir"
-
-#: ../src/ui/ask-password.ui.h:1 ../src/ui/new-archive-dialog.ui.h:4
-msgid "_Password:"
-msgstr "_Focal faire:"
-
-#: ../src/ui/delete.ui.h:1
-msgid "Delete"
-msgstr "Scrios"
-
-#: ../src/ui/delete.ui.h:2 ../src/ui/extract-dialog-options.ui.h:4
-msgid "_Files:"
-msgstr "_Comhaid:"
-
-#: ../src/ui/delete.ui.h:3
-msgid "example: *.txt; *.doc"
-msgstr "sampla: *.txt; *.doc"
-
-#: ../src/ui/delete.ui.h:4 ../src/ui/extract-dialog-options.ui.h:2
-msgid "_All files"
-msgstr "_Gach comhad"
-
-#: ../src/ui/delete.ui.h:5 ../src/ui/extract-dialog-options.ui.h:3
-msgid "_Selected files"
-msgstr "Comhaid _roghnaithe"
-
-#: ../src/ui/error-dialog.ui.h:1
+#: src/gtk-utils.c:235
 msgid "C_ommand Line Output:"
 msgstr ""
 
-#: ../src/ui/extract-dialog-options.ui.h:7
-msgid "_Keep directory structure"
-msgstr "Coi_nnigh struchtúr na comhadlainne"
+#: src/gtk-utils.c:510
+msgid "Could not display help"
+msgstr ""
 
-#: ../src/ui/extract-dialog-options.ui.h:8
-msgid "Do not _overwrite newer files"
-msgstr "Ná _forscríobh comhaid níos nuaí"
+#: src/gtk-utils.c:605
+msgid "Change password visibility"
+msgstr ""
 
-#: ../src/ui/file-selector.ui.h:1
+#: src/gtk-utils.h:29
+msgid "_Add"
+msgstr "Cuir _Leis"
+
+#: src/gtk-utils.h:30
+msgid "_Cancel"
+msgstr ""
+
+#: src/gtk-utils.h:31 src/ui/app-menubar.ui:41
+msgid "_Close"
+msgstr ""
+
+#: src/gtk-utils.h:32
+msgid "C_reate"
+msgstr "C_ruthaigh"
+
+#: src/gtk-utils.h:33
+msgid "_Extract"
+msgstr "_Asbhain"
+
+#: src/gtk-utils.h:34
+#, fuzzy
+msgid "_Open"
+msgstr "Oscail"
+
+#: src/gtk-utils.h:35
+#, fuzzy
+msgid "_Save"
+msgstr "Sábháil"
+
+#: src/ui/add-dialog-options.ui:19
+msgid "Add"
+msgstr "Cuir Leis"
+
+#: src/ui/add-dialog-options.ui:42
+msgid "Include _files:"
+msgstr ""
+
+#: src/ui/add-dialog-options.ui:58
+msgid "E_xclude files:"
+msgstr ""
+
+#: src/ui/add-dialog-options.ui:74
+msgid "_Exclude folders:"
+msgstr ""
+
+#: src/ui/add-dialog-options.ui:89 src/ui/add-dialog-options.ui:104
+#: src/ui/add-dialog-options.ui:118 src/ui/extract-dialog-options.ui:104
+msgid "example: *.o; *.bak"
+msgstr "sampla: *.o; *.bak"
+
+#: src/ui/add-dialog-options.ui:153 src/ui/extract-dialog-options.ui:144
+msgid "Actions"
+msgstr "Gníomhartha"
+
+#: src/ui/add-dialog-options.ui:173
+msgid "Add only if _newer"
+msgstr ""
+
+#: src/ui/add-dialog-options.ui:190
+msgid "_Follow symbolic links"
+msgstr ""
+
+#: src/ui/app-menu.ui:6 src/ui/app-menubar.ui:8
+#, fuzzy
+msgid "_New Archive…"
+msgstr "Cartlann _Nua"
+
+#: src/ui/app-menu.ui:11 src/ui/app-menubar.ui:13
+#, fuzzy
+msgid "_Open…"
+msgstr "Oscail…"
+
+#: src/ui/app-menu.ui:17 src/ui/app-menubar.ui:116
+msgid "View All _Files"
+msgstr "Amharc ar Gach _Comhad"
+
+#: src/ui/app-menu.ui:22 src/ui/app-menubar.ui:122
+msgid "View as a F_older"
+msgstr "Amharc mar Fh_illteán"
+
+#: src/ui/app-menu.ui:30 src/ui/app-menubar.ui:110
+msgid "Sidebar"
+msgstr ""
+
+#: src/ui/app-menu.ui:36 src/ui/app-menubar.ui:130
+msgid "_Help"
+msgstr "Cab_hair"
+
+#: src/ui/app-menu.ui:41 src/ui/app-menubar.ui:138
+msgid "_About"
+msgstr ""
+
+#: src/ui/app-menu.ui:45
+msgid "_Quit"
+msgstr "_Scoir"
+
+#: src/ui/app-menubar.ui:4
+#, fuzzy
+msgid "_File"
+msgstr "_Comhaid:"
+
+#: src/ui/app-menubar.ui:18
+#, fuzzy
+msgid "_Extract Files…"
+msgstr "_Asbhain…"
+
+#: src/ui/app-menubar.ui:25
+#, fuzzy
+msgid "Save _As…"
+msgstr "Sábháil Mar…"
+
+#: src/ui/app-menubar.ui:30 src/ui/gears-menu.ui:15
+msgid "_Test Integrity"
+msgstr "_Tástáil Sláine"
+
+#: src/ui/app-menubar.ui:34 src/ui/gears-menu.ui:21
+#, fuzzy
+msgid "Properties"
+msgstr "Airíonna %s"
+
+#: src/ui/app-menubar.ui:47
+#, fuzzy
+msgid "_Edit"
+msgstr "Eagarthóirí"
+
+#: src/ui/app-menubar.ui:51
+msgid "Cu_t"
+msgstr ""
+
+#: src/ui/app-menubar.ui:56
+msgid "_Copy"
+msgstr ""
+
+#: src/ui/app-menubar.ui:68
+msgid "_Add Files…"
+msgstr "Cuir Comhaid _Leis…"
+
+#: src/ui/app-menubar.ui:72 src/ui/menus.ui:35 src/ui/menus.ui:71
+#: src/ui/menus.ui:107
+msgid "_Rename…"
+msgstr "_Athainmnigh…"
+
+#: src/ui/app-menubar.ui:77
+#, fuzzy
+msgid "_Delete Files…"
+msgstr "Comhaid _roghnaithe"
+
+#: src/ui/app-menubar.ui:84 src/ui/file-selector.ui:11
 msgid "_Select All"
 msgstr "_Roghnaigh Uile"
 
-#: ../src/ui/file-selector.ui.h:2 ../src/ui.h:97
+#: src/ui/app-menubar.ui:89
+#, fuzzy
+msgid "D_eselect All"
+msgstr "_Ná Roghnaigh"
+
+#: src/ui/app-menubar.ui:94
+#, fuzzy
+msgid "_Find"
+msgstr "Aimsigh…"
+
+#: src/ui/app-menubar.ui:101
+#, fuzzy
+msgid "Set Pass_word…"
+msgstr "_Focal Faire…"
+
+#: src/ui/app-menubar.ui:106
+msgid "_View"
+msgstr ""
+
+#: src/ui/app-menubar.ui:133
+msgid "Contents"
+msgstr "_Inneachar"
+
+#: src/ui/ask-password.ui:53 src/ui/new-archive-dialog.ui:160
+msgid "_Password:"
+msgstr "_Focal faire:"
+
+#: src/ui/delete.ui:13 src/ui/extract-dialog-options.ui:41
+msgid "_All files"
+msgstr "_Gach comhad"
+
+#: src/ui/delete.ui:31 src/ui/extract-dialog-options.ui:59
+msgid "_Selected files"
+msgstr "Comhaid _roghnaithe"
+
+#: src/ui/delete.ui:54 src/ui/extract-dialog-options.ui:83
+msgid "_Files:"
+msgstr "_Comhaid:"
+
+#: src/ui/delete.ui:74
+msgid "example: *.txt; *.doc"
+msgstr "sampla: *.txt; *.doc"
+
+#: src/ui/extract-dialog-options.ui:165
+msgid "_Keep directory structure"
+msgstr "Coi_nnigh struchtúr na comhadlainne"
+
+#: src/ui/extract-dialog-options.ui:182
+msgid "Do not _overwrite newer files"
+msgstr "Ná _forscríobh comhaid níos nuaí"
+
+#: src/ui/file-selector.ui:19
 msgid "Dese_lect All"
 msgstr "_Ná Roghnaigh"
 
-#: ../src/ui/file-selector.ui.h:3
+#: src/ui/file-selector.ui:33
 #, fuzzy
 msgid "Show Hidden Files"
 msgstr "_Taispeáin na Comhaid"
 
-#: ../src/ui/file-selector.ui.h:5 ../src/ui.h:179
+#: src/ui/file-selector.ui:127 src/ui/file-selector.ui:128
 msgid "Go up one level"
 msgstr "Téigh suas leibhéal amháin"
 
-#: ../src/ui.h:35
-msgid "Information about the program"
-msgstr "Eolas faoin ríomhchlár"
-
-#: ../src/ui.h:38
-msgid "_Add Files…"
-msgstr "Cuir Comhaid _Leis…"
-
-#: ../src/ui.h:39 ../src/ui.h:43
-msgid "Add files to the archive"
-msgstr "Cuir comhaid leis an gcartlann"
-
-#: ../src/ui.h:47
-msgid "Close the current archive"
-msgstr "Dún an chartlann reatha"
-
-#: ../src/ui.h:50
-msgid "Contents"
-msgstr "_Inneachar"
-
-#: ../src/ui.h:51
-msgid "Display the File Roller Manual"
-msgstr ""
-
-#: ../src/ui.h:56 ../src/ui.h:77
-msgid "Copy the selection"
-msgstr ""
-
-#: ../src/ui.h:60 ../src/ui.h:81
-msgid "Cut the selection"
-msgstr ""
-
-#: ../src/ui.h:64 ../src/ui.h:85
-msgid "Paste the clipboard"
-msgstr ""
-
-#: ../src/ui.h:67 ../src/ui.h:88
-msgid "_Rename…"
-msgstr "_Athainmnigh…"
-
-#: ../src/ui.h:68 ../src/ui.h:89
-msgid "Rename the selection"
-msgstr ""
-
-#: ../src/ui.h:72 ../src/ui.h:93
-msgid "Delete the selection from the archive"
-msgstr "Scrios an roghnú ón gcartlann"
-
-#: ../src/ui.h:98
-msgid "Deselect all files"
-msgstr "Ná roghnaigh aon chomhad"
-
-#: ../src/ui.h:101 ../src/ui.h:105
-msgid "_Extract…"
-msgstr "_Asbhain…"
-
-#: ../src/ui.h:102 ../src/ui.h:106 ../src/ui.h:110
-msgid "Extract files from the archive"
-msgstr "Bain comhaid amach as an gcartlann"
-
-#: ../src/ui.h:113
-msgid "New…"
-msgstr "Nua…"
-
-#: ../src/ui.h:114
-msgid "Create a new archive"
-msgstr "Cruthaigh cartlann nua"
-
-#: ../src/ui.h:117
-msgid "Open…"
-msgstr "Oscail…"
-
-#: ../src/ui.h:118 ../src/ui.h:122
-msgid "Open archive"
-msgstr "Oscail cartlann"
-
-#: ../src/ui.h:125
-msgid "_Open With…"
-msgstr "_Oscail Le…"
-
-#: ../src/ui.h:126
-msgid "Open selected files with an application"
-msgstr ""
-
-#: ../src/ui.h:129
-msgid "Pass_word…"
-msgstr "_Focal Faire…"
-
-#: ../src/ui.h:130
-msgid "Specify a password for this archive"
-msgstr ""
-
-#: ../src/ui.h:134
-msgid "Show archive properties"
-msgstr ""
-
-#: ../src/ui.h:138
-msgid "Reload current archive"
-msgstr ""
-
-#: ../src/ui.h:141
+#: src/ui/gears-menu.ui:7
 msgid "Save As…"
 msgstr "Sábháil Mar…"
 
-#: ../src/ui.h:142
-msgid "Save the current archive with a different name"
+#: src/ui/gears-menu.ui:11
+msgid "Pass_word…"
+msgstr "_Focal Faire…"
+
+#: src/ui/menus.ui:11
+msgid "_Open With…"
+msgstr "_Oscail Le…"
+
+#: src/ui/menus.ui:17 src/ui/menus.ui:53 src/ui/menus.ui:89
+msgid "_Extract…"
+msgstr "_Asbhain…"
+
+#: src/ui/menus.ui:23 src/ui/menus.ui:59 src/ui/menus.ui:95
+msgid "Cut"
 msgstr ""
 
-#: ../src/ui.h:146
-msgid "Select all files"
-msgstr "Roghnaigh gach comhad"
-
-#: ../src/ui.h:149
-msgid "_Test Integrity"
-msgstr "_Tástáil Sláine"
-
-#: ../src/ui.h:150
-msgid "Test whether the archive contains errors"
+#: src/ui/menus.ui:27 src/ui/menus.ui:63 src/ui/menus.ui:99
+msgid "Copy"
 msgstr ""
 
-#: ../src/ui.h:154 ../src/ui.h:158
-msgid "Open the selected file"
-msgstr "Oscail an comhad roghnaithe"
+#: src/ui/menus.ui:31 src/ui/menus.ui:67 src/ui/menus.ui:103
+msgid "Paste"
+msgstr ""
 
-#: ../src/ui.h:162 ../src/ui.h:166
-msgid "Open the selected folder"
-msgstr "Oscail an fillteán roghnaithe"
+#: src/ui/menus.ui:39 src/ui/menus.ui:75 src/ui/menus.ui:111
+msgid "Delete"
+msgstr "Scrios"
 
-#: ../src/ui.h:171
-msgid "Go to the previous visited location"
-msgstr "Téigh go dtí an suíomh feicthe roimhe seo"
-
-#: ../src/ui.h:175
-msgid "Go to the next visited location"
-msgstr "Téigh go dtí an chéad suíomh feicthe eile"
-
-#. Translators: the home location is the home folder.
-#: ../src/ui.h:184
-msgid "Go to the home location"
-msgstr "Téigh go dtí an suíomh baile"
-
-#: ../src/ui.h:192
-msgid "Stat_usbar"
-msgstr "Barra _Stádais"
-
-#: ../src/ui.h:193
-msgid "View the statusbar"
-msgstr "Amharc ar an mbarra stádais"
-
-#: ../src/ui.h:202
-msgid "Find…"
-msgstr "Aimsigh…"
-
-#: ../src/ui.h:203
-msgid "Find files by name"
-msgstr "Aimsigh comhaid de réir ainm"
-
-#: ../src/ui/new-archive-dialog.ui.h:1
+#: src/ui/new-archive-dialog.ui:27
 msgid "_Filename:"
 msgstr "_Ainm comhaid:"
 
-#: ../src/ui/new-archive-dialog.ui.h:3
+#: src/ui/new-archive-dialog.ui:110
 msgid "Location"
 msgstr "Suíomh"
 
-#: ../src/ui/new-archive-dialog.ui.h:5
+#: src/ui/new-archive-dialog.ui:193
 msgid "_Encrypt the file list too"
 msgstr "Cri_ptigh an liosta comhad chomh maith"
 
 #. this is part of a sentence, for example "split into volumes of 10.0 MB", where MB stands for megabyte.
-#: ../src/ui/new-archive-dialog.ui.h:7
+#: src/ui/new-archive-dialog.ui:215
 #, fuzzy
 msgid "Split into _volumes of"
 msgstr "Roinn in _imleabhair de"
 
+#: src/ui/new-archive-dialog.ui:236
+msgid "10,0"
+msgstr ""
+
 #. MB means megabytes
-#: ../src/ui/new-archive-dialog.ui.h:9
+#: src/ui/new-archive-dialog.ui:253
 msgid "MB"
 msgstr "MB"
 
-#: ../src/ui/new-archive-dialog.ui.h:10
+#: src/ui/new-archive-dialog.ui:276
 msgid "_Other Options"
 msgstr "Roghanna _Eile"
 
-#: ../src/ui/password.ui.h:1
-msgid "Password"
-msgstr "Focal Faire"
-
-#: ../src/ui/password.ui.h:2
+#: src/ui/password.ui:51
 #, fuzzy
 msgid "_Encrypt the file list"
 msgstr "Cri_ptigh an liosta comhad chomh maith"
 
-#: ../src/ui/properties.ui.h:1
+#: src/ui/properties.ui:15
 msgctxt "File"
 msgid "Name:"
 msgstr "Ainm:"
 
-#: ../src/ui/properties.ui.h:2
-msgid "Archive size:"
-msgstr "Méid chartlainne:"
-
 #. after the colon there is a folder name.
-#: ../src/ui/properties.ui.h:4
+#: src/ui/properties.ui:45
 msgid "Location:"
 msgstr "Suíomh:"
 
-#: ../src/ui/properties.ui.h:5
-msgid "Compression ratio:"
-msgstr "Cóimheas comhbhrúite:"
-
-#: ../src/ui/properties.ui.h:6
-msgid "Last modified:"
-msgstr "Dáta athraithe:"
-
-#: ../src/ui/properties.ui.h:7
-msgid "Content size:"
-msgstr "Méid ábhair:"
-
-#: ../src/ui/properties.ui.h:8
-msgid "Number of files:"
-msgstr "Líon na gcomhad:"
-
 #. after the colon there is a file type.
-#: ../src/ui/properties.ui.h:10
+#: src/ui/properties.ui:74
 msgid "Type:"
 msgstr "Cineál:"
 
-#: ../src/ui/update.ui.h:1
-msgid "_Update"
-msgstr "_Nuashonraigh"
+#: src/ui/properties.ui:103
+msgid "Last modified:"
+msgstr "Dáta athraithe:"
 
-#: ../src/ui/update.ui.h:3
+#: src/ui/properties.ui:131
+msgid "Archive size:"
+msgstr "Méid chartlainne:"
+
+#: src/ui/properties.ui:159
+msgid "Content size:"
+msgstr "Méid ábhair:"
+
+#: src/ui/properties.ui:186
+msgid "Compression ratio:"
+msgstr "Cóimheas comhbhrúite:"
+
+#: src/ui/properties.ui:213
+msgid "Number of files:"
+msgstr "Líon na gcomhad:"
+
+#: src/ui/update.ui:48
 msgid "S_elect the files you want to update:"
 msgstr ""
+
+#~ msgid "Starting %s"
+#~ msgstr "%s á thosú"
+
+#~ msgid "FILE"
+#~ msgstr "COMHAD"
+
+#~ msgid "ID"
+#~ msgstr "CA"
+
+#, fuzzy
+#~ msgid "View statusbar"
+#~ msgstr "Amharc ar an mbarra stádais"
+
+#~ msgid "View the folders pane"
+#~ msgstr "Amharc ar an bpána fillteán"
+
+#~ msgid "Extract To..."
+#~ msgstr "Asbhain Go..."
+
+#~ msgid "Create a compressed archive with the selected objects"
+#~ msgstr "Cruthaigh cartlann chomhbhrúite leis na réada roghnaithe"
+
+#~ msgid "%d object (%s)"
+#~ msgid_plural "%d objects (%s)"
+#~ msgstr[0] "%d réad (%s)"
+#~ msgstr[1] "%d réad (%s)"
+#~ msgstr[2] "%d réad (%s)"
+#~ msgstr[3] "%d réad (%s)"
+#~ msgstr[4] "%d réad (%s)"
+
+#~ msgid "%d object selected (%s)"
+#~ msgid_plural "%d objects selected (%s)"
+#~ msgstr[0] "%d réad roghnaithe (%s)"
+#~ msgstr[1] "%d réad roghnaithe (%s)"
+#~ msgstr[2] "%d réad roghnaithe (%s)"
+#~ msgstr[3] "%d réad roghnaithe (%s)"
+#~ msgstr[4] "%d réad roghnaithe (%s)"
+
+#~ msgid "Open _Recent"
+#~ msgstr "Oscail Comhaid _le Déanaí"
+
+#~ msgid "Open a recently used archive"
+#~ msgstr "Oscail cartlann úsáidte le déanaí"
+
+#~ msgid "_Other Actions"
+#~ msgstr "Gníomhartha _Eile"
+
+#~ msgid "Other actions"
+#~ msgstr "Gníomhartha eile"
+
+#~ msgid "Add files to an archive"
+#~ msgstr "Cuir comhaid le cartlann"
+
+#~ msgid "_Folders"
+#~ msgstr "_Fillteáin"
+
+#~ msgid "_About Archive Manager"
+#~ msgstr "_Maidir le Bainisteoir Cartlann"
+
+#~ msgid "Information about the program"
+#~ msgstr "Eolas faoin ríomhchlár"
+
+#~ msgid "Add files to the archive"
+#~ msgstr "Cuir comhaid leis an gcartlann"
+
+#~ msgid "Close the current archive"
+#~ msgstr "Dún an chartlann reatha"
+
+#~ msgid "Delete the selection from the archive"
+#~ msgstr "Scrios an roghnú ón gcartlann"
+
+#~ msgid "Deselect all files"
+#~ msgstr "Ná roghnaigh aon chomhad"
+
+#~ msgid "Extract files from the archive"
+#~ msgstr "Bain comhaid amach as an gcartlann"
+
+#~ msgid "New…"
+#~ msgstr "Nua…"
+
+#~ msgid "Create a new archive"
+#~ msgstr "Cruthaigh cartlann nua"
+
+#~ msgid "Open archive"
+#~ msgstr "Oscail cartlann"
+
+#~ msgid "Select all files"
+#~ msgstr "Roghnaigh gach comhad"
+
+#~ msgid "Open the selected file"
+#~ msgstr "Oscail an comhad roghnaithe"
+
+#~ msgid "Open the selected folder"
+#~ msgstr "Oscail an fillteán roghnaithe"
+
+#~ msgid "Stat_usbar"
+#~ msgstr "Barra _Stádais"
+
+#~ msgid "Password"
+#~ msgstr "Focal Faire"

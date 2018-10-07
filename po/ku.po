@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: file-roller.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-03-04 20:45+0100\n"
+"POT-Creation-Date: 2018-10-07 20:42+0200\n"
 "PO-Revision-Date: 2007-03-04 20:50+0100\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@gmail.com>\n"
 "Language-Team: Kurdish <gnu-ku-wergerandin@lists.sourceforge.net>\n"
@@ -19,329 +19,305 @@ msgstr ""
 "X-Generator: KBabel 1.10\n"
 "X-Rosetta-Export-Date: 2007-03-04 18:28+0000\n"
 
-#: ../data/glade/file-roller.glade.h:1
-msgid "<i><b>Note:</b> the password will be used to encrypt files you add to the current archive, and to decrypt files you extract from the current archive. When the archive is closed the password will be deleted.</i>"
-msgstr "<i><b>Not:</b> şîfre wê ji bo şîfrekirina pelên ku te xist arşîva heyî û ji bo vekirina şîfreya pelên ku di arşîvê de ne wê were bikaranîn. Dema arşîv girtî bin wê şîfre neyê hilanîn.</i>"
+#: data/org.gnome.FileRoller.appdata.xml.in:9
+msgid "File Roller"
+msgstr "File Roller"
 
-#: ../data/glade/file-roller.glade.h:2
-msgid "A_vailable application:"
-msgstr "Sepana _Karbar:"
-
-#: ../data/glade/file-roller.glade.h:3
-msgid "C_reate"
-msgstr "Biafirîne"
-
-#: ../data/glade/file-roller.glade.h:4
-msgid "Create Archive"
-msgstr "Arşîvê Çêke"
-
-#: ../data/glade/file-roller.glade.h:5
-msgid "Delete"
-msgstr "Jê bibe"
-
-#: ../data/glade/file-roller.glade.h:6
-msgid "Load Options"
-msgstr "Vebijêrkên Barkirinê"
-
-#: ../data/glade/file-roller.glade.h:7
-#: ../src/window.c:2977
-msgid "Location"
-msgstr "Cih"
-
-#. current location
-#: ../data/glade/file-roller.glade.h:8
-#: ../src/window.c:3853
-msgid "Location:"
-msgstr "Cih:"
-
-#: ../data/glade/file-roller.glade.h:9
-msgid "Open Files"
-msgstr "Pelan Veke"
-
-#: ../data/glade/file-roller.glade.h:10
-msgid "Password"
-msgstr "Şîfre"
-
-#: ../data/glade/file-roller.glade.h:11
-msgid "R_ecent applications:"
-msgstr "Sepanên d_awîn:"
-
-#: ../data/glade/file-roller.glade.h:12
-#: ../src/dlg-extract.c:399
-msgid "_All files"
-msgstr "_Hemû pel"
-
-#: ../data/glade/file-roller.glade.h:13
-msgid "_Application:"
-msgstr "_Sepan:"
-
-#: ../data/glade/file-roller.glade.h:14
-msgid "_Archive:"
-msgstr "_Arşîv:"
-
-#: ../data/glade/file-roller.glade.h:15
-#: ../src/dlg-extract.c:385
-msgid "_Files:"
-msgstr "_Pel:"
-
-#: ../data/glade/file-roller.glade.h:16
-#: ../data/glade/ask-password.glade.h:2
-#: ../src/dlg-extract.c:447
-msgid "_Password:"
-msgstr "Şî_fre:"
-
-#: ../data/glade/file-roller.glade.h:17
-#: ../src/dlg-extract.c:406
-msgid "_Selected files"
-msgstr "Pelên _hilbijartî"
-
-#: ../data/glade/file-roller.glade.h:18
-#: ../src/dlg-extract.c:396
-msgid "example: *.txt; *.doc"
-msgstr "mînak:*.txt, *.doc"
-
-#: ../data/glade/ask-password.glade.h:1
-msgid "<span weight=\"bold\" size=\"larger\">Password required</span>"
+#: data/org.gnome.FileRoller.appdata.xml.in:10
+msgid "Open, modify and create compressed archive files"
 msgstr ""
 
-#. Create the application.
-#: ../data/file-roller.desktop.in.in.h:1
-#: ../src/gtk-utils.c:391
-#: ../src/main.c:218
-#: ../src/window.c:887
-#: ../src/window.c:3551
+#: data/org.gnome.FileRoller.appdata.xml.in:12
+msgid ""
+"Archive Manager (also known as File Roller) is the default GNOME application "
+"for opening, creating, and modifying archive and compressed archive files."
+msgstr ""
+
+#: data/org.gnome.FileRoller.appdata.xml.in:16
+msgid ""
+"Archive Manager supports a wide range of different archive files, including:"
+msgstr ""
+
+#: data/org.gnome.FileRoller.appdata.xml.in:20
+msgid "gzip archives (.tar.gz, .tgz)"
+msgstr ""
+
+#: data/org.gnome.FileRoller.appdata.xml.in:21
+msgid "bzip archives (.tar.bz, .tbz)"
+msgstr ""
+
+#: data/org.gnome.FileRoller.appdata.xml.in:22
+#, fuzzy
+msgid "zip archives (.zip)"
+msgstr "Zip (.zip)"
+
+#: data/org.gnome.FileRoller.appdata.xml.in:23
+msgid "xz archives (.tar.xz)"
+msgstr ""
+
+#: data/org.gnome.FileRoller.desktop.in.in:3 src/fr-application.c:454
+#: src/fr-window.c:2017 src/fr-window.c:5546
 msgid "Archive Manager"
 msgstr "Rêveberê Arşîvê"
 
-#: ../data/file-roller.desktop.in.in.h:2
-#: ../src/main.c:210
+#: data/org.gnome.FileRoller.desktop.in.in:4
 msgid "Create and modify an archive"
 msgstr "Arşîvekê çêbike an jî biguherîne"
 
-#: ../nautilus/nautilus-fileroller.c:261
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.FileRoller.desktop.in.in:6
+msgid "zip;tar;extract;unpack;"
+msgstr ""
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: data/org.gnome.FileRoller.desktop.in.in:13
+#, fuzzy
+msgid "file-roller"
+msgstr "File Roller"
+
+#: data/org.gnome.FileRoller.gschema.xml:58
+msgid "How to sort files"
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:59
+msgid ""
+"What criteria must be used to arrange files. Possible values: name, size, "
+"type, time, path."
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:63
+msgid "Sort type"
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:64
+msgid ""
+"Whether to sort in ascending or descending direction. Possible values: "
+"ascending, descending."
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:68
+msgid "List Mode"
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:69
+msgid ""
+"Use “all-files” to view all the files in the archive in a single list, use "
+"“as-folder” to navigate the archive as a folder."
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:73
+msgid "Display type"
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:74
+msgid "Display the type column in the main window."
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:78
+msgid "Display size"
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:79
+msgid "Display the size column in the main window."
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:83
+msgid "Display time"
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:84
+msgid "Display the time column in the main window."
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:88
+msgid "Display path"
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:89
+msgid "Display the path column in the main window."
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:93
+msgid "Name column width"
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:94
+msgid "The default width of the name column in the file list."
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:110
+#, fuzzy
+msgid "View the sidebar"
+msgstr "Darikê rewşê nîşan bide"
+
+#: data/org.gnome.FileRoller.gschema.xml:111
+msgid "Whether to display the sidebar."
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:130
+#, fuzzy
+msgid "Editors"
+msgstr "_Biguherîne"
+
+#: data/org.gnome.FileRoller.gschema.xml:131
+msgid ""
+"List of applications entered in the “Open File” dialog and not associated "
+"with the file type."
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:135
+#, fuzzy
+msgid "Compression level"
+msgstr "Rêjeya tengkirinê:"
+
+#: data/org.gnome.FileRoller.gschema.xml:136
+msgid ""
+"Compression level used when adding files to an archive. Possible values: "
+"very-fast, fast, normal, maximum."
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:140
+#: data/org.gnome.FileRoller.gschema.xml:172
+msgid "Encrypt the archive header"
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:141
+#: data/org.gnome.FileRoller.gschema.xml:173
+msgid ""
+"Whether to encrypt the archive header. If the header is encrypted the "
+"password will be required to list the archive content as well."
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:155
+#, fuzzy
+msgid "Do not overwrite newer files"
+msgstr "Pelên kevn derne_xe"
+
+#: data/org.gnome.FileRoller.gschema.xml:159
+#, fuzzy
+msgid "Recreate the folders stored in the archive"
+msgstr "Peldankan têxe arşîvê"
+
+#: data/org.gnome.FileRoller.gschema.xml:177
+msgid "Default volume size"
+msgstr ""
+
+#: data/org.gnome.FileRoller.gschema.xml:178
+msgid "The default size for volumes."
+msgstr ""
+
+#: nautilus/nautilus-fileroller.c:261
 msgid "Extract Here"
 msgstr "Li vir derbixe"
 
-#: ../nautilus/nautilus-fileroller.c:262
-msgid "Extract the selected archive in the current position"
+#. Translators: the current position is the current folder
+#: nautilus/nautilus-fileroller.c:263
+#, fuzzy
+msgid "Extract the selected archive to the current position"
 msgstr "Arşîva ku hatiye hilbijartin li cihê heyî veke"
 
-#: ../nautilus/nautilus-fileroller.c:279
-msgid "Extract To..."
+#: nautilus/nautilus-fileroller.c:280
+#, fuzzy
+msgid "Extract To…"
 msgstr "Derbixe li..."
 
-#: ../nautilus/nautilus-fileroller.c:280
+#: nautilus/nautilus-fileroller.c:281
 msgid "Extract the selected archive"
 msgstr "Arşîva ku hatiye hilbijartin veke"
 
-#: ../nautilus/nautilus-fileroller.c:299
-msgid "Create Archive..."
-msgstr "Arşîvekê Pêk Bîne..."
-
-#: ../nautilus/nautilus-fileroller.c:300
-msgid "Create an archive with the selected objects"
-msgstr "Bi bireserên hatine hilbijartin re arşîvekê pêk bîne"
-
-#: ../src/actions.c:160
-#: ../src/actions.c:180
-#: ../src/actions.c:221
-#: ../src/dlg-batch-add.c:130
-#: ../src/dlg-batch-add.c:149
-#: ../src/dlg-batch-add.c:172
-#: ../src/dlg-batch-add.c:223
-#: ../src/dlg-batch-add.c:270
-#: ../src/window.c:4295
-msgid "Could not create the archive"
-msgstr "Arşîv pêk nehat"
-
-#: ../src/actions.c:161
-#: ../src/dlg-batch-add.c:131
-#: ../src/dlg-batch-add.c:271
-msgid "You have to specify an archive name."
-msgstr "Divê tu navê arşîvekê diyar bike."
-
-#: ../src/actions.c:181
-msgid "You don't have permission to create an archive in this folder"
-msgstr "Ji bo ku tu karibî di hundirê vê peldankê de arşîvekê pêk bîne têra xwe destûra te tuneye"
-
-#: ../src/actions.c:222
-#: ../src/fr-archive.c:772
-#: ../src/window.c:4296
-#: ../src/window.c:4450
-msgid "Archive type not supported."
-msgstr "Cureyê arşîvê nayê destekkirin."
-
-#: ../src/actions.c:235
-msgid "The archive already exists.  Do you want to overwrite it?"
-msgstr "Ev arşîv jixwe ji berê de heye. Bila li ser wê were nivîsîn?"
-
-#: ../src/actions.c:238
-msgid "Overwrite"
-msgstr "Li ser binivîse"
-
-#: ../src/actions.c:255
-msgid "Could not delete the old archive."
-msgstr "Arşîva kevn jê nehate birin."
-
-#: ../src/actions.c:347
-msgid "New"
-msgstr "Nû"
-
-#: ../src/actions.c:385
-#: ../src/actions.c:496
-#: ../src/actions.c:593
-#: ../src/window.c:3511
-msgid "All archives"
-msgstr "Hemû arşîv"
-
-#: ../src/actions.c:392
-#: ../src/actions.c:503
-#: ../src/actions.c:600
-msgid "All files"
-msgstr "Hemû pel"
-
-#: ../src/actions.c:402
-#: ../src/actions.c:608
-msgid "Archive type:"
-msgstr "Cureyê arşîvê:"
-
-#: ../src/actions.c:406
-#: ../src/actions.c:612
-msgid "Automatic"
-msgstr "Bixweber"
-
-#: ../src/actions.c:484
-#: ../src/window.c:3951
-msgid "Open"
-msgstr "Veke"
-
-#: ../src/actions.c:577
-msgid "Save"
-msgstr "Tomar bike"
-
-#: ../src/actions.c:846
-#: ../src/window.c:5438
-msgid "Last Output"
-msgstr "Derana Dawîn"
-
-#: ../src/actions.c:866
-#: ../src/gtk-utils.c:790
-msgid "Could not display help"
-msgstr "Alîkarî nehate nîşandan"
-
-#: ../src/actions.c:922
-msgid "An archive manager for GNOME."
-msgstr "Ji bo GNOME rêveberê arşîvan."
-
-#: ../src/actions.c:925
-msgid "translator-credits"
-msgstr "Spasiya wergêran"
-
-#: ../src/dlg-add-files.c:87
-#: ../src/dlg-add-files.c:149
-#: ../src/dlg-add-folder.c:123
-#: ../src/dlg-add-folder.c:252
-#, c-format
-msgid "You don't have the right permissions to read files from folder \"%s\""
-msgstr "Ji bo ku tu karibî pelên ku di peldanka \"%s\" de ye bixwîne têra xwe destûra te tuneye."
-
-#: ../src/dlg-add-files.c:93
-#: ../src/dlg-add-files.c:155
-#: ../src/dlg-add-folder.c:129
-#: ../src/dlg-add-folder.c:258
-#: ../src/window.c:2308
-#: ../src/window.c:2346
+#: src/dlg-add.c:96
 msgid "Could not add the files to the archive"
 msgstr "Pel li arşîvê nehatin zêdekirin"
 
-#: ../src/dlg-add-files.c:181
-#: ../src/ui.h:50
+#: src/dlg-add.c:97
+#, fuzzy, c-format
+msgid "You don’t have the right permissions to read files from folder “%s”"
+msgstr ""
+"Ji bo ku tu karibî pelên ku di peldanka \"%s\" de ye bixwîne têra xwe "
+"destûra te tuneye."
+
+#: src/dlg-add.c:164
+#, fuzzy
+msgctxt "Window title"
 msgid "Add Files"
 msgstr "Pelan Lê Zêde Bike"
 
-#: ../src/dlg-add-files.c:195
-#: ../src/dlg-add-folder.c:331
-msgid "_Add only if newer"
-msgstr "Tenê dema nû be _lê zêde bike"
-
-#: ../src/dlg-add-folder.c:317
-msgid "Add a Folder"
-msgstr "Peldankekê Lê Zêde Bike"
-
-#: ../src/dlg-add-folder.c:332
-msgid "_Include subfolders"
-msgstr ""
-
-#: ../src/dlg-add-folder.c:333
-msgid "Exclude folders that are symbolic lin_ks"
-msgstr ""
-
-#: ../src/dlg-add-folder.c:336
-#: ../src/dlg-add-folder.c:341
-msgid "example: *.o; *.bak"
-msgstr "mînak: *.o; *.bak"
-
-#: ../src/dlg-add-folder.c:337
-msgid "_Include files:"
-msgstr "Pelên ku wê lê werine zêdekirin:"
-
-#: ../src/dlg-add-folder.c:342
-msgid "E_xclude files:"
-msgstr ""
-
-#: ../src/dlg-add-folder.c:345
-msgid "_Load Options"
+#: src/dlg-add.c:177
+#, fuzzy
+msgid "_Options"
 msgstr "Vebijêrkên _Barkirinê"
 
-#: ../src/dlg-add-folder.c:346
-msgid "Sa_ve Options"
-msgstr "Vebijêrkan To_mar Bike"
+#. load options
+#: src/dlg-add.c:186
+#, fuzzy
+msgctxt "Action"
+msgid "Load Options"
+msgstr "Vebijêrkên Barkirinê"
 
-#: ../src/dlg-add-folder.c:794
+#. save options
+#: src/dlg-add.c:193
+#, fuzzy
+msgctxt "Action"
 msgid "Save Options"
 msgstr "Vebijêrkan Tomar Bike"
 
-#: ../src/dlg-add-folder.c:795
-msgid "Options Name:"
+#. clear options
+#: src/dlg-add.c:200
+#, fuzzy
+msgid "Reset Options"
+msgstr "Vebijêrkan Tomar Bike"
+
+#: src/dlg-add.c:746
+#, fuzzy
+msgctxt "Window title"
+msgid "Load Options"
+msgstr "Vebijêrkên Barkirinê"
+
+#: src/dlg-add.c:755
+msgid "_Apply"
+msgstr ""
+
+#: src/dlg-add.c:756 src/dlg-delete.c:136
+#, fuzzy
+msgid "_Delete"
+msgstr "Jê bibe"
+
+#: src/dlg-add.c:838
+#, fuzzy
+msgctxt "Window title"
+msgid "Save Options"
+msgstr "Vebijêrkan Tomar Bike"
+
+#: src/dlg-add.c:839
+#, fuzzy
+msgid "_Options Name:"
 msgstr "Navê Vebijêrkê:"
 
-#. Set widgets data.
-#: ../src/dlg-ask-password.c:107
-#, fuzzy, c-format
-msgid "Enter the password for the archive '%s'."
-msgstr "Ji bo vê arşîvê şîfreyekê diyar bike"
-
-#: ../src/dlg-batch-add.c:144
-#: ../src/window.c:5721
-#, c-format
-msgid ""
-"The name \"%s\" is not valid because it cannot contain the characters: %s\n"
-"\n"
-"%s"
+#: src/dlg-ask-password.c:125
+msgid "_OK"
 msgstr ""
-"Ji ber ku di navê \"%s\" de tîpên \"%s\" heye ne navekî derbasdar e.\n"
-"\n"
-"%s"
 
-#: ../src/dlg-batch-add.c:144
-#: ../src/window.c:5713
-#: ../src/window.c:5717
-#: ../src/window.c:5721
-#: ../src/window.c:5778
-#: ../src/window.c:5780
-msgid "Please use a different name."
-msgstr "Ji kerema xwe re navekî din binivîse."
-
-#: ../src/dlg-batch-add.c:173
-msgid "You don't have the right permissions to create an archive in the destination folder."
-msgstr "Ji bo ku tu karibî di hundirê peldanka hedef de arşîvekê çêbike têra xwe destûra te tuneye."
-
-#: ../src/dlg-batch-add.c:192
-#: ../src/dlg-extract.c:110
-#: ../src/window.c:4811
+#. Translators: %s is a filename
+#: src/dlg-ask-password.c:148
 #, c-format
+msgid "Password required for “%s”"
+msgstr ""
+
+#: src/dlg-ask-password.c:157
+#, fuzzy
+msgid "Wrong password."
+msgstr "Şîfre"
+
+#: src/dlg-batch-add.c:88 src/fr-application.c:226 src/fr-application.c:262
+#: src/fr-application.c:582
+#, fuzzy
+msgid "Compress"
+msgstr "Rêjeya tengkirinê:"
+
+#: src/dlg-extract.c:95 src/fr-window.c:6915
+#, fuzzy, c-format
 msgid ""
-"Destination folder \"%s\" does not exist.\n"
+"Destination folder “%s” does not exist.\n"
 "\n"
 "Do you want to create it?"
 msgstr ""
@@ -349,710 +325,630 @@ msgstr ""
 "\n"
 "Tu dixwazî wê çêbike?"
 
-#: ../src/dlg-batch-add.c:201
-#: ../src/dlg-extract.c:119
-#: ../src/window.c:4820
+#: src/dlg-extract.c:103 src/fr-window.c:6923
 msgid "Create _Folder"
 msgstr "_Peldankê Çêke"
 
-#: ../src/dlg-batch-add.c:219
-#: ../src/dlg-extract.c:138
-#: ../src/window.c:4839
+#: src/dlg-extract.c:122 src/dlg-extract.c:139 src/dlg-extract.c:166
+#: src/fr-window.c:4420 src/fr-window.c:6839 src/fr-window.c:6844
+#: src/fr-window.c:6944 src/fr-window.c:6963 src/fr-window.c:6968
+msgid "Extraction not performed"
+msgstr "Karê vekirinê nehate kirin"
+
+#: src/dlg-extract.c:123 src/fr-window.c:6940
 #, c-format
 msgid "Could not create the destination folder: %s."
 msgstr "Peldanka hedef ya te diyar kiribû pêk nehat: %s."
 
-#: ../src/dlg-batch-add.c:243
-msgid "Archive not created"
-msgstr "Arşîv nehate çêkirin"
+#: src/dlg-extract.c:167 src/fr-window.c:4647 src/fr-window.c:4749
+#, fuzzy, c-format
+msgid ""
+"You don’t have the right permissions to extract archives in the folder “%s”"
+msgstr ""
+"Ji bo ku tu karibî pelan li peldanka \"%s\" veke têra xwe destûra te tuneye."
 
-#: ../src/dlg-batch-add.c:296
-msgid "The archive is already present.  Do you want to overwrite it?"
-msgstr "Ev arşîv jixwe heye. Tu dixwazî li ser wê binivîse?"
-
-#: ../src/dlg-batch-add.c:299
-msgid "_Overwrite"
-msgstr "_Li ser binivîse"
-
-#: ../src/dlg-extract.c:142
-#: ../src/dlg-extract.c:162
-#: ../src/dlg-extract.c:190
-#: ../src/window.c:2671
-#: ../src/window.c:4843
-#: ../src/window.c:4863
-msgid "Extraction not performed"
-msgstr "Karê vekirinê nehate kirin"
-
-#: ../src/dlg-extract.c:185
-#: ../src/window.c:2780
-#, c-format
-msgid "You don't have the right permissions to extract archives in the folder \"%s\""
-msgstr "Ji bo ku tu karibî pelan li peldanka \"%s\" veke têra xwe destûra te tuneye."
-
-#: ../src/dlg-extract.c:368
-msgid "Files"
-msgstr "Pel"
-
-#: ../src/dlg-extract.c:417
-msgid "Actions"
-msgstr "Çalakî"
-
-#: ../src/dlg-extract.c:433
-msgid "Re-crea_te folders"
-msgstr "Peldankan ji nû ve b_iafirîne"
-
-#: ../src/dlg-extract.c:437
-msgid "Over_write existing files"
-msgstr "Li ser pelên mevcûd _binivîse"
-
-#: ../src/dlg-extract.c:441
-msgid "Do not e_xtract older files"
-msgstr "Pelên kevn derne_xe"
-
-#: ../src/dlg-extract.c:456
-msgid "_Open destination folder after extraction"
-msgstr "Piştî karê _vekirinê qediya peldanka hedef veke"
-
-#: ../src/dlg-extract.c:485
-#: ../src/ui.h:90
+#: src/dlg-extract.c:279
+#, fuzzy
+msgctxt "Window title"
 msgid "Extract"
 msgstr "Derbixe"
 
-#: ../src/dlg-prop.c:111
-msgid "Path:"
-msgstr "Rê:"
+#: src/dlg-package-installer.c:114 src/dlg-package-installer.c:227
+msgid "There was an internal error trying to search for applications:"
+msgstr ""
 
-#: ../src/dlg-prop.c:124
-msgid "Name:"
-msgstr "Nav:"
+#: src/dlg-package-installer.c:296 src/dlg-package-installer.c:305
+#: src/dlg-package-installer.c:332 src/fr-archive.c:748 src/fr-window.c:4087
+#: src/fr-window.c:7646 src/fr-window.c:8003 src/fr-window.c:9518
+msgid "Archive type not supported."
+msgstr "Cureyê arşîvê nayê destekkirin."
 
-#: ../src/dlg-prop.c:130
+#: src/dlg-package-installer.c:315
+#, c-format
+msgid ""
+"There is no command installed for %s files.\n"
+"Do you want to search for a command to open this file?"
+msgstr ""
+
+#: src/dlg-package-installer.c:319
+#, fuzzy
+msgid "Could not open this file type"
+msgstr "Pel ji nû ve nehate binavkirin"
+
+#: src/dlg-package-installer.c:322
+msgid "_Search Command"
+msgstr ""
+
+#: src/dlg-password.c:109
+#, fuzzy, c-format
+msgid "Enter a password for “%s”"
+msgstr "Ji bo vê arşîvê şîfreyekê diyar bike"
+
+#: src/dlg-prop.c:107
 #, c-format
 msgid "%s Properties"
 msgstr "Taybetiyên %s"
 
-#: ../src/dlg-prop.c:139
-msgid "Modified on:"
-msgstr "Guherandin:"
-
-#: ../src/dlg-prop.c:149
-msgid "Archive size:"
-msgstr "Mezinahiya arşîvê:"
-
-#: ../src/dlg-prop.c:160
-msgid "Content size:"
-msgstr "Mezinahiya naverokê:"
-
-#: ../src/dlg-prop.c:179
-msgid "Compression ratio:"
-msgstr "Rêjeya tengkirinê:"
-
-#: ../src/dlg-prop.c:194
-msgid "Number of files:"
-msgstr "Hejmara pelan:"
-
-#: ../src/file-data.c:29
-msgid "Unknown type"
-msgstr "Cureyê nenas"
-
-#: ../src/file-data.c:30
-msgid "Symbolic link"
-msgstr "Girêdana Sembolîk"
-
-#: ../src/fr-archive.c:745
-msgid "The file does not exist."
-msgstr "Ev pel tuneye."
-
-#: ../src/fr-command-tar.c:288
-msgid "Adding file: "
-msgstr "Pel lê têne zêdekirin: "
-
-#: ../src/fr-command-tar.c:337
-msgid "Removing file: "
-msgstr "Pel tê jêbirin: "
-
-#: ../src/fr-command-tar.c:346
-#: ../src/window.c:1262
-msgid "Deleting files from archive"
-msgstr "Ji arşîvê pel têne jêbirin"
-
-#: ../src/fr-command-tar.c:380
-msgid "Extracting file: "
-msgstr "Pel têne vekirin: "
-
-#: ../src/fr-command-tar.c:427
-msgid "Recompressing archive"
-msgstr "Arşîv dîsa tê tengkirin"
-
-#: ../src/fr-command-tar.c:561
-msgid "Decompressing archive"
-msgstr "Arşîv tê vekirin"
-
-#: ../src/fr-stock.c:42
-#: ../src/fr-stock.c:43
-msgid "_Add"
-msgstr "_Têxê"
-
-#: ../src/fr-stock.c:44
-msgid "_Extract"
-msgstr "_Arşîvê Veke"
-
-#: ../src/fr-stock.c:45
-msgid "_View File"
-msgstr "_Pelî Nîşan Bide"
-
-#: ../src/glib-utils.c:515
-msgid "%d %B %Y"
-msgstr "%d %B %Y"
-
-#. Button
-#: ../src/gtk-utils.c:422
-msgid "Command _Line Output"
-msgstr "Derana _Rêzika Fermanan"
-
-#: ../src/main.c:69
-msgid "Ace (.ace)"
-msgstr "Ace (.ace)"
-
-#: ../src/main.c:70
-msgid "Ar (.ar)"
-msgstr "Ar (.ar)"
-
-#: ../src/main.c:71
-msgid "Arj (.arj)"
-msgstr "Arj (.arj)"
-
-#: ../src/main.c:78
-msgid "Ear (.ear)"
-msgstr "Ear (.ear)"
-
-#: ../src/main.c:79
-msgid "Self-extracting zip (.exe)"
+#: src/dlg-update.c:162
+#, c-format
+msgid "Update the file “%s” in the archive “%s”?"
 msgstr ""
 
-#: ../src/main.c:81
-msgid "Jar (.jar)"
-msgstr "Jar (.jar)"
+#. secondary text
+#: src/dlg-update.c:174 src/dlg-update.c:200
+#, c-format
+msgid ""
+"The file has been modified with an external application. If you don’t update "
+"the file in the archive, all of your changes will be lost."
+msgid_plural ""
+"%d files have been modified with an external application. If you don’t "
+"update the files in the archive, all of your changes will be lost."
+msgstr[0] ""
+msgstr[1] ""
 
-#: ../src/main.c:82
-msgid "Lha (.lzh)"
-msgstr "Lha (.lzh)"
+#: src/dlg-update.c:190
+#, fuzzy, c-format
+msgid "Update the files in the archive “%s”?"
+msgstr "Pel li arşîvê nehatin zêdekirin"
 
-#: ../src/main.c:84
-msgid "Rar (.rar)"
-msgstr "Rar (.rar)"
+#: src/dlg-update.c:319 src/dlg-update.c:332
+msgid "_Update"
+msgstr ""
 
-#: ../src/main.c:86
-msgid "Tar uncompressed (.tar)"
-msgstr "Tara ku nehatiye tengkirin (.tar)"
+#: src/dlg-update.c:323
+#, fuzzy
+msgid "Update Files"
+msgstr "Pelan Veke"
 
-#: ../src/main.c:87
-msgid "Tar compressed with bzip (.tar.bz)"
-msgstr "Tara ku bi Bzip hatiye tengkirin (.tar.bz)"
+#: src/fr-application-menu.c:130
+msgid "Copyright © 2001–2014 Free Software Foundation, Inc."
+msgstr ""
 
-#: ../src/main.c:88
-msgid "Tar compressed with bzip2 (.tar.bz2)"
-msgstr "Tara ku bi Bzip2 hatiye tengkirin (.tar.bz.2)"
+#: src/fr-application-menu.c:131
+msgid "An archive manager for GNOME."
+msgstr "Ji bo GNOME rêveberê arşîvan."
 
-#: ../src/main.c:89
-msgid "Tar compressed with gzip (.tar.gz)"
-msgstr "Tara ku bi Gzipê hatiye tengkirin (.tar.gz)"
+#: src/fr-application-menu.c:134
+msgid "translator-credits"
+msgstr "Spasiya wergêran"
 
-#: ../src/main.c:90
-msgid "Tar compressed with lzop (.tar.lzo)"
-msgstr "Tar ya bi lzopê hatiye tengkirin (.tar.lzo)"
-
-#: ../src/main.c:91
-msgid "Tar compressed with compress (.tar.Z)"
-msgstr "Tar ya bi compressê hatiye tengkirin (.tar.Z)"
-
-#: ../src/main.c:93
-msgid "War (.war)"
-msgstr "War (.war)"
-
-#: ../src/main.c:94
-msgid "Zip (.zip)"
-msgstr "Zip (.zip)"
-
-#: ../src/main.c:95
-msgid "Zoo (.zoo)"
-msgstr "Zoo (.zoo)"
-
-#: ../src/main.c:96
-msgid "7-Zip (.7z)"
-msgstr "7-Zip (.7z)"
-
-#: ../src/main.c:145
+#: src/fr-application.c:61
 msgid "Add files to the specified archive and quit the program"
 msgstr "Pelan têxe arşîva ku hatiye diyarkirin û ji bernameyê derkeve."
 
-#: ../src/main.c:146
+#: src/fr-application.c:62
 msgid "ARCHIVE"
 msgstr "ARŞÎV"
 
-#: ../src/main.c:149
+#: src/fr-application.c:65
 msgid "Add files asking the name of the archive and quit the program"
-msgstr "Pelan li arşîva ku te li navê wê dipirsî zêde bike û ji bernameyê derkeve"
+msgstr ""
+"Pelan li arşîva ku te li navê wê dipirsî zêde bike û ji bernameyê derkeve"
 
-#: ../src/main.c:153
+#: src/fr-application.c:69
 msgid "Extract archives to the specified folder and quit the program"
 msgstr "Pelan li peldankan ku hatiye diyarkirin veke û ji bernameyê derkeve"
 
-#: ../src/main.c:154
-#: ../src/main.c:166
+#: src/fr-application.c:70 src/fr-application.c:82
 msgid "FOLDER"
 msgstr "PELDANK"
 
-#: ../src/main.c:157
+#: src/fr-application.c:73
 msgid "Extract archives asking the destination folder and quit the program"
-msgstr "Pelan li peldanka hedef ya te li navê wê dipirsî veke û ji bernameyê derkeve"
+msgstr ""
+"Pelan li peldanka hedef ya te li navê wê dipirsî veke û ji bernameyê derkeve"
 
-#: ../src/main.c:161
-msgid "Extract archives using the archive name as destination folder and quit the program"
-msgstr "Navê arşîvê wekî peldanka hedef bikar bîne û arşîvan veke û ji bernameyê derkeve"
+#: src/fr-application.c:77
+#, fuzzy
+msgid ""
+"Extract the contents of the archives in the archive folder and quit the "
+"program"
+msgstr "Pelan li peldankan ku hatiye diyarkirin veke û ji bernameyê derkeve"
 
-#: ../src/main.c:165
-msgid "Default folder to use for the '--add' and '--extract' commands"
+#: src/fr-application.c:81
+msgid "Default folder to use for the “--add” and “--extract” commands"
 msgstr ""
 
-#: ../src/main.c:169
+#: src/fr-application.c:85
 msgid "Create destination folder without asking confirmation"
 msgstr "Bêyî ku tu erêkirinê bipirse peldanka hedef çêbike"
 
-#: ../src/main.c:225
-msgid "File Roller"
-msgstr "File Roller"
+#: src/fr-application.c:89
+msgid "Use the notification system to notify the operation completion"
+msgstr ""
 
-#: ../src/ui.h:34
-msgid "_Archive"
-msgstr "_Arşîv"
+#: src/fr-application.c:92
+msgid "Start as a service"
+msgstr ""
 
-#: ../src/ui.h:35
-msgid "_Edit"
-msgstr "_Biguherîne"
+#: src/fr-application.c:95
+msgid "Show version"
+msgstr ""
 
-#: ../src/ui.h:36
-msgid "_View"
-msgstr "_Dîtin"
-
-#: ../src/ui.h:37
-msgid "_Help"
-msgstr "_Alîkarî"
-
-#: ../src/ui.h:38
-msgid "_Arrange Files"
-msgstr "Pelan _Sererast Bike"
-
-#: ../src/ui.h:39
-msgid "Open R_ecent"
-msgstr "Yên _Dawîn Veke"
-
-#: ../src/ui.h:43
-msgid "Information about the program"
-msgstr "Der barê bernameyê de agahî"
-
-#: ../src/ui.h:46
-msgid "_Add Files..."
-msgstr "_Pelan Lê Zêde Bike..."
-
-#: ../src/ui.h:47
-#: ../src/ui.h:51
-msgid "Add files to the archive"
-msgstr "Pelan têxe arşîvê"
-
-#: ../src/ui.h:54
-msgid "Add a _Folder..."
-msgstr "_Peldankekê Lê Zêde Bike..."
-
-#: ../src/ui.h:55
-#: ../src/ui.h:59
-msgid "Add a folder to the archive"
-msgstr "Peldankan têxe arşîvê"
-
-#: ../src/ui.h:58
-msgid "Add Folder"
-msgstr "Peldankekê Lê Zêde Bike"
-
-#: ../src/ui.h:63
-msgid "Close the current archive"
-msgstr "Arşîva heyî bigire"
-
-#: ../src/ui.h:66
-msgid "Contents"
-msgstr "Naverok"
-
-#: ../src/ui.h:67
-msgid "Display the File Roller Manual"
-msgstr "Rêberê File Roller Nîşan Bide"
-
-#: ../src/ui.h:71
-msgid "Copy the selection"
-msgstr "Ya hilbijartî ji ber bigire"
-
-#: ../src/ui.h:75
-msgid "Cut the selection"
-msgstr "Ya hilbijartî jê bike"
-
-#: ../src/ui.h:79
-msgid "Delete the selection from the archive"
-msgstr "Hilbijartinê ji arşîvê jê bibe"
-
-#: ../src/ui.h:82
-msgid "Dese_lect All"
-msgstr "_Hilbijartinê Rake"
-
-#: ../src/ui.h:83
-msgid "Deselect all files"
-msgstr "Tu pelî hilnebijêre"
-
-#: ../src/ui.h:86
-msgid "_Extract..."
-msgstr "_Arşîvê Veke..."
-
-#: ../src/ui.h:87
-#: ../src/ui.h:91
-msgid "Extract files from the archive"
-msgstr "Ji arşîvê pelan veke"
-
-#: ../src/ui.h:94
-msgid "_Last Output"
-msgstr "Derana _Dawîn"
-
-#: ../src/ui.h:95
-msgid "View the output produced by the last executed command"
-msgstr "Derana ku ji fermana herî dawîn hate bikaranîn nîşan bide"
-
-#: ../src/ui.h:99
-msgid "Create a new archive"
-msgstr "Arşîveke nû pêk bîne"
-
-#: ../src/ui.h:103
-#: ../src/ui.h:107
-#: ../src/window.c:3948
-#: ../src/window.c:3951
-msgid "Open archive"
+#: src/fr-application.c:298 src/fr-application.c:324 src/fr-application.c:605
+#, fuzzy
+msgctxt "Window title"
+msgid "Extract archive"
 msgstr "Arşîvê veke"
 
-#: ../src/ui.h:110
-msgid "Op_en With..."
-msgstr "_Veke Bi..."
+#: src/fr-application.c:485
+#, fuzzy
+msgid "— Create and modify an archive"
+msgstr "Arşîvekê çêbike an jî biguherîne"
 
-#: ../src/ui.h:111
-msgid "Open selected files with an application"
-msgstr "Pelên ku hatine hilbijartin bi sepanekê veke"
+#: src/fr-archive.c:1849
+#, fuzzy
+msgid "You don’t have the right permissions."
+msgstr "Têra xwe destûra te tuneye."
 
-#: ../src/ui.h:114
-msgid "Pass_word..."
-msgstr "Şî_fre..."
+#: src/fr-archive.c:1849
+#, fuzzy
+msgid "This archive type cannot be modified"
+msgstr "Cureyê arşîvê nayê destekkirin."
 
-#: ../src/ui.h:115
-msgid "Specify a password for this archive"
-msgstr "Ji bo vê arşîvê şîfreyekê diyar bike"
+#: src/fr-archive.c:1863 src/fr-new-archive-dialog.c:480
+#, fuzzy
+msgid "You can’t add an archive to itself."
+msgstr "Tu nikarî vê arşîvê li ser wê zêde bike."
 
-#: ../src/ui.h:119
-msgid "Paste the clipboard"
-msgstr "Ji panoyê pê ve bike"
-
-#: ../src/ui.h:123
-msgid "Show archive properties"
-msgstr "Taybetmendiyên arşîvê nîşan bide"
-
-#: ../src/ui.h:127
-msgid "Reload current archive"
-msgstr "Arşîva heyî dîsa bar bike"
-
-#: ../src/ui.h:130
-msgid "_Rename..."
-msgstr "_Nav biguherîne..."
-
-#: ../src/ui.h:131
-msgid "Rename the selection"
-msgstr "Hilbijartinê dîsa bi nav bike"
-
-#: ../src/ui.h:135
-msgid "Save the current archive with a different name"
-msgstr "Arşîva heyî bi navekî din tomar bike"
-
-#: ../src/ui.h:138
-msgid "Select _All"
-msgstr "Hemûyî _Hilbijêre"
-
-#: ../src/ui.h:139
-msgid "Select all files"
-msgstr "Hemû pelan hilbijêre"
-
-#: ../src/ui.h:143
-msgid "Stop current operation"
-msgstr "Karê heyî rawestîne"
-
-#: ../src/ui.h:146
-msgid "_Test Integrity"
+#. Translators: %s is a filename.
+#: src/fr-command-7z.c:297 src/fr-command-rar.c:483 src/fr-command-tar.c:307
+#, c-format
+msgid "Adding “%s”"
 msgstr ""
 
-#: ../src/ui.h:147
-msgid "Test whether the archive contains errors"
-msgstr "Kontrol bike bê ka di arşîvê de çewtî heye yan na"
+#. Translators: %s is a filename.
+#: src/fr-command-7z.c:449 src/fr-command-rar.c:615 src/fr-command-tar.c:428
+#, fuzzy, c-format
+msgid "Extracting “%s”"
+msgstr "Pel têne vekirin: "
 
-#: ../src/ui.h:151
-#: ../src/ui.h:155
-msgid "View the selected file"
-msgstr "Pelê hilbijartî nîşan bide"
-
-#: ../src/ui.h:159
-msgid "Open the selected folder"
-msgstr "Peldanka hilbijartî veke"
-
-#: ../src/ui.h:167
-msgid "_Toolbar"
-msgstr "_Darika amûran"
-
-#: ../src/ui.h:168
-msgid "View the main toolbar"
-msgstr "Darikê amûran ya mak nîşan bide"
-
-#: ../src/ui.h:172
-msgid "Stat_usbar"
-msgstr "_Darikê rewşê:"
-
-#: ../src/ui.h:173
-msgid "View the statusbar"
-msgstr "Darikê rewşê nîşan bide"
-
-#: ../src/ui.h:177
-msgid "_Reversed Order"
+#. Translators: %s is a filename.
+#: src/fr-command-rar.c:564 src/fr-command-tar.c:373
+#, c-format
+msgid "Removing “%s”"
 msgstr ""
 
-#: ../src/ui.h:178
-msgid "Reverse the list order"
-msgstr "Dorvegeriya lîsteyê berevajî bike"
+#: src/fr-command-rar.c:746
+#, fuzzy, c-format
+msgid "Could not find the volume: %s"
+msgstr "Peldanka \"%s\" nehate nîşandan"
 
-#: ../src/ui.h:187
-msgid "View All _Files"
-msgstr "Hemû _Pelan Nîşan Bide"
+#: src/fr-command-tar.c:383
+msgid "Deleting files from archive"
+msgstr "Ji arşîvê pel têne jêbirin"
 
-#: ../src/ui.h:190
-msgid "View as a F_older"
-msgstr "Wekî P_eldank Nîşan Bide"
+#: src/fr-command-tar.c:488
+msgid "Recompressing archive"
+msgstr "Arşîv dîsa tê tengkirin"
 
-#: ../src/ui.h:198
-msgid "by _Name"
-msgstr "bi _Navan"
+#: src/fr-command-tar.c:767
+msgid "Decompressing archive"
+msgstr "Arşîv tê vekirin"
 
-#: ../src/ui.h:199
-msgid "Sort file list by name"
-msgstr "Pelan gorî nav rêz bike"
+#: src/fr-command.c:597
+#, fuzzy, c-format
+msgid "Archive not found"
+msgstr "Arşîv nehate çêkirin"
 
-#: ../src/ui.h:201
-msgid "by _Size"
-msgstr "bi _Mezinahiyê"
+#: src/fr-file-selector-dialog.c:773 src/fr-file-selector-dialog.c:818
+#, fuzzy
+msgid "Could not load the location"
+msgstr "Kar nehate kirin"
 
-#: ../src/ui.h:202
-msgid "Sort file list by file size"
-msgstr "Pelan gorî mezinahiyê rêz bike"
+#: src/fr-new-archive-dialog.c:354 src/fr-new-archive-dialog.c:373
+#: src/fr-new-archive-dialog.c:389 src/fr-new-archive-dialog.c:438
+#: src/fr-new-archive-dialog.c:456 src/fr-new-archive-dialog.c:478
+#: src/fr-window.c:3032
+msgid "Could not create the archive"
+msgstr "Arşîv pêk nehat"
 
-#: ../src/ui.h:204
-msgid "by T_ype"
-msgstr "gorî C_ureyan"
+#: src/fr-new-archive-dialog.c:356 src/fr-new-archive-dialog.c:375
+msgid "You have to specify an archive name."
+msgstr "Divê tu navê arşîvekê diyar bike."
 
-#: ../src/ui.h:205
-msgid "Sort file list by type"
-msgstr "Pelan gorî cureyan rêz bike"
+#: src/fr-new-archive-dialog.c:440
+#, fuzzy
+msgid "You don’t have permission to create an archive in this folder"
+msgstr ""
+"Ji bo ku tu karibî di hundirê vê peldankê de arşîvekê pêk bîne têra xwe "
+"destûra te tuneye"
 
-#: ../src/ui.h:207
-msgid "by _Date modified"
-msgstr "Gorî _Dîroka guherandinê"
+#. Translators: the name references to a filename.  This message can appear when renaming a file.
+#: src/fr-new-archive-dialog.c:458 src/fr-window.c:8317
+msgid "New name is the same as old one, please type other name."
+msgstr ""
 
-#: ../src/ui.h:208
-msgid "Sort file list by modification time"
-msgstr "Pelan gorî dîroka guherandinê rêz bike"
+#: src/fr-new-archive-dialog.c:501
+#, fuzzy, c-format
+msgid "A file named “%s” already exists.  Do you want to replace it?"
+msgstr "Ev arşîv jixwe ji berê de heye. Bila li ser wê were nivîsîn?"
 
-#: ../src/ui.h:210
-msgid "by _Location"
-msgstr "Gorî _Cih"
+#: src/fr-new-archive-dialog.c:502
+#, fuzzy, c-format
+msgid ""
+"The file already exists in “%s”.  Replacing it will overwrite its contents."
+msgstr "Ev arşîv jixwe ji berê de heye. Bila li ser wê were nivîsîn?"
 
-#: ../src/ui.h:211
-msgid "Sort file list by location"
-msgstr "Pelan gorî cihan rêz bike"
+#: src/fr-new-archive-dialog.c:508 src/fr-window.c:6764
+msgid "_Replace"
+msgstr ""
 
-#: ../src/window.c:739
+#: src/fr-new-archive-dialog.c:523
+msgid "Could not delete the old archive."
+msgstr "Arşîva kevn jê nehate birin."
+
+#: src/fr-window-actions-callbacks.c:289
+#, fuzzy
+msgctxt "Window title"
+msgid "Open"
+msgstr "Veke"
+
+#: src/fr-window-actions-callbacks.c:302
+msgid "All archives"
+msgstr "Hemû arşîv"
+
+#: src/fr-window-actions-callbacks.c:309
+msgid "All files"
+msgstr "Hemû pel"
+
+#: src/fr-window.c:1221
+msgid "Operation completed"
+msgstr ""
+
+#: src/fr-window.c:1634
 msgid "Folder"
 msgstr "Peldank"
 
-#: ../src/window.c:895
+#: src/fr-window.c:2024
 msgid "[read only]"
 msgstr "[tenê tê xwendin]"
 
-#: ../src/window.c:989
+#: src/fr-window.c:2165
+#, fuzzy, c-format
+msgid "Could not display the folder “%s”"
+msgstr "Peldanka \"%s\" nehate nîşandan"
+
+#. Translators: %s is a filename
+#: src/fr-window.c:2338 src/fr-window.c:2376
 #, c-format
-msgid "%d file (%s)"
-msgid_plural "%d files (%s)"
-msgstr[0] "%d pel (%s)"
-msgstr[1] "%d pel (%s)"
+msgid "Creating “%s”"
+msgstr ""
 
-#: ../src/window.c:994
+#. Translators: %s is a filename
+#: src/fr-window.c:2342
 #, c-format
-msgid "%d file selected (%s)"
-msgid_plural "%d files selected (%s)"
-msgstr[0] "%d pel hate hilbijartin (%s)"
-msgstr[1] "%d pel hate hilbijartin (%s)"
+msgid "Loading “%s”"
+msgstr ""
 
-#: ../src/window.c:1259
-msgid "Reading archive"
-msgstr "Arşîv tê xwendin"
+#. Translators: %s is a filename
+#: src/fr-window.c:2346
+#, c-format
+msgid "Reading “%s”"
+msgstr ""
 
-#: ../src/window.c:1265
-msgid "Adding files to archive"
-msgstr "Pel dikevine arşîvê"
+#. Translators: %s is a filename
+#: src/fr-window.c:2350
+#, fuzzy, c-format
+msgid "Deleting the files from “%s”"
+msgstr "Ji arşîvê pel têne jêbirin"
 
-#: ../src/window.c:1268
-msgid "Extracting files from archive"
-msgstr "Ji arşîvê pel têne vekirin"
+#. Translators: %s is a filename
+#: src/fr-window.c:2354
+#, c-format
+msgid "Testing “%s”"
+msgstr ""
 
-#: ../src/window.c:1271
-msgid "Testing archive"
-msgstr "Arşîva ceribandinê"
-
-#: ../src/window.c:1274
+#: src/fr-window.c:2357
 msgid "Getting the file list"
 msgstr "Lîsteya pelan tê stendin"
 
-#: ../src/window.c:1277
-msgid "Saving archive"
-msgstr "Arşîva tomarkirinê"
-
-#: ../src/window.c:1457
-msgid "Archive:"
-msgstr "Arşîv:"
-
-#: ../src/window.c:1572
-msgid "wait please..."
-msgstr "ji kerema xwe re raweste..."
-
-#: ../src/window.c:1651
+#. Translators: %s is a filename
+#: src/fr-window.c:2361
 #, c-format
-msgid "Could not display the folder \"%s\""
-msgstr "Peldanka \"%s\" nehate nîşandan"
+msgid "Copying the files to add to “%s”"
+msgstr ""
 
-#: ../src/window.c:1723
-msgid "An error occurred while extracting files."
-msgstr "Dema pel dihatin vekirin çewtiyek çêbû."
+#. Translators: %s is a filename
+#: src/fr-window.c:2365
+#, fuzzy, c-format
+msgid "Adding the files to “%s”"
+msgstr "Pel dikevine arşîvê"
 
-#: ../src/window.c:1727
-msgid "An error occurred while loading the archive."
-msgstr "Dema arşîv dihate barkirin çewtiyek çêbû."
+#. Translators: %s is a filename
+#: src/fr-window.c:2369
+#, fuzzy, c-format
+msgid "Extracting the files from “%s”"
+msgstr "Ji arşîvê pel têne vekirin"
 
-#: ../src/window.c:1731
-msgid "An error occurred while deleting files from the archive."
-msgstr "Dema ji arşîvê pel dihatin jêbirin çewtiyek çêbû."
+#: src/fr-window.c:2372
+msgid "Copying the extracted files to the destination"
+msgstr ""
 
-#: ../src/window.c:1735
-msgid "An error occurred while adding files to the archive."
-msgstr "Dema pel li arşîvê dihatin zêdekirin çewtî çêbû."
+#. Translators: %s is a filename
+#: src/fr-window.c:2381
+#, c-format
+msgid "Saving “%s”"
+msgstr ""
 
-#: ../src/window.c:1739
-msgid "An error occurred while testing archive."
-msgstr "Dema arşîv dihate ceribandin çewtî çêbû."
+#. Translators: %s is a filename
+#: src/fr-window.c:2388
+#, fuzzy, c-format
+msgid "Renaming the files in “%s”"
+msgstr "Lîsteya pelan tê stendin"
 
-#: ../src/window.c:1752
-msgid "Command not found."
-msgstr "Ferman nehate dîtin."
+#. Translators: %s is a filename
+#: src/fr-window.c:2392
+#, fuzzy, c-format
+msgid "Updating the files in “%s”"
+msgstr "Lîsteya pelan tê stendin"
 
-#: ../src/window.c:1755
+#: src/fr-window.c:2681
+#, c-format
+msgid "%d file remaining"
+msgid_plural "%'d files remaining"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/fr-window.c:2685 src/fr-window.c:3309
+msgid "Please wait…"
+msgstr ""
+
+#: src/fr-window.c:2803
+msgid "Extraction completed successfully"
+msgstr ""
+
+#: src/fr-window.c:2806
+#, fuzzy
+msgid "_Show the Files"
+msgstr "Pelên _hilbijartî"
+
+#. Translators: %s is a filename
+#: src/fr-window.c:2823 src/fr-window.c:6266
+#, c-format
+msgid "“%s” created successfully"
+msgstr ""
+
+#: src/fr-window.c:2830
+#, fuzzy
+msgid "_Open the Archive"
+msgstr "Arşîvê veke"
+
+#: src/fr-window.c:2918 src/fr-window.c:3088
 msgid "Command exited abnormally."
 msgstr "Ferman bi awayekî çewt bi dawî bû."
 
-#: ../src/window.c:1895
+#: src/fr-window.c:3037
+msgid "An error occurred while extracting files."
+msgstr "Dema pel dihatin vekirin çewtiyek çêbû."
+
+#: src/fr-window.c:3043
+#, fuzzy, c-format
+msgid "Could not open “%s”"
+msgstr "\"%s\" venebû"
+
+#: src/fr-window.c:3048
+msgid "An error occurred while loading the archive."
+msgstr "Dema arşîv dihate barkirin çewtiyek çêbû."
+
+#: src/fr-window.c:3052
+msgid "An error occurred while deleting files from the archive."
+msgstr "Dema ji arşîvê pel dihatin jêbirin çewtiyek çêbû."
+
+#: src/fr-window.c:3058
+msgid "An error occurred while adding files to the archive."
+msgstr "Dema pel li arşîvê dihatin zêdekirin çewtî çêbû."
+
+#: src/fr-window.c:3062
+msgid "An error occurred while testing archive."
+msgstr "Dema arşîv dihate ceribandin çewtî çêbû."
+
+#: src/fr-window.c:3067
+#, fuzzy
+msgid "An error occurred while saving the archive."
+msgstr "Dema arşîv dihate barkirin çewtiyek çêbû."
+
+#: src/fr-window.c:3071
+#, fuzzy
+msgid "An error occurred while renaming the files."
+msgstr "Dema pel dihatin vekirin çewtiyek çêbû."
+
+#: src/fr-window.c:3075
+#, fuzzy
+msgid "An error occurred while updating the files."
+msgstr "Dema pel dihatin vekirin çewtiyek çêbû."
+
+#: src/fr-window.c:3079
+#, fuzzy
+msgid "An error occurred."
+msgstr "Dema arşîv dihate ceribandin çewtî çêbû."
+
+#: src/fr-window.c:3085
+msgid "Command not found."
+msgstr "Ferman nehate dîtin."
+
+#: src/fr-window.c:3241
 msgid "Test Result"
 msgstr "Encama Ceribandinê"
 
-#: ../src/window.c:2309
-msgid "You don't have the right permissions."
-msgstr "Têra xwe destûra te tuneye."
-
-#: ../src/window.c:2347
-msgid "You can't add an archive to itself."
-msgstr "Tu nikarî vê arşîvê li ser wê zêde bike."
-
-#: ../src/window.c:2532
-#: ../src/window.c:6130
+#: src/fr-window.c:4212 src/fr-window.c:9001 src/fr-window.c:9035
+#: src/fr-window.c:9315
 msgid "Could not perform the operation"
 msgstr "Kar nehate kirin"
 
-#: ../src/window.c:2566
-msgid "Do you want to add this file to the current archive or open it as a new archive?"
-msgstr "Tu dixwazî vî pelî têxe arşîva heyî yan jî dixwazî wekî arşîveke nû veke?"
+#: src/fr-window.c:4237
+msgid ""
+"Do you want to add this file to the current archive or open it as a new "
+"archive?"
+msgstr ""
+"Tu dixwazî vî pelî têxe arşîva heyî yan jî dixwazî wekî arşîveke nû veke?"
 
-#: ../src/window.c:2603
+#: src/fr-window.c:4266
 msgid "Do you want to create a new archive with these files?"
 msgstr "Tu dixwazî bi van pelan arşîveke nû çêbike?"
 
-#: ../src/window.c:2606
+#: src/fr-window.c:4269
 msgid "Create _Archive"
 msgstr "_Arşîvê Çêbike"
 
-#: ../src/window.c:2783
-#, fuzzy, c-format
-msgid "Cannot extract archives in a remote folder \"%s\""
-msgstr "Ji bo ku tu karibî pelan li peldanka \"%s\" veke têra xwe destûra te tuneye."
+#: src/fr-window.c:4298 src/fr-window.c:7454
+#, fuzzy
+msgid "New Archive"
+msgstr "_Arşîv"
 
-#: ../src/window.c:2974
+#: src/fr-window.c:5016
+#, fuzzy
+msgid "Folders"
+msgstr "Peldank"
+
+#: src/fr-window.c:5054 src/ui/file-selector.ui:221
+#, fuzzy
+msgctxt "File"
 msgid "Size"
 msgstr "Mezinahî"
 
-#: ../src/window.c:2975
+#: src/fr-window.c:5055
+#, fuzzy
+msgctxt "File"
 msgid "Type"
 msgstr "Cure"
 
-#: ../src/window.c:2976
-msgid "Date Modified"
-msgstr "Dîroka Guherandinê"
+#: src/fr-window.c:5056 src/ui/file-selector.ui:237
+#, fuzzy
+msgctxt "File"
+msgid "Modified"
+msgstr "Guherandin:"
 
-#: ../src/window.c:2985
+#: src/fr-window.c:5057
+#, fuzzy
+msgctxt "File"
+msgid "Location"
+msgstr "Cih"
+
+#: src/fr-window.c:5066 src/ui/file-selector.ui:190
+#, fuzzy
+msgctxt "File"
 msgid "Name"
 msgstr "Nav"
 
-#: ../src/window.c:3810
+#: src/fr-window.c:5820 src/ui/extract-dialog-options.ui:20
+#, fuzzy
+msgctxt "Action"
+msgid "Extract"
+msgstr "Derbixe"
+
+#: src/fr-window.c:5824
+#, fuzzy
+msgctxt "Action"
+msgid "Add Files"
+msgstr "Pelan Lê Zêde Bike"
+
+#: src/fr-window.c:5829 src/fr-window.c:5859
+#, fuzzy
+msgid "Find files by name"
+msgstr "Pelan gorî nav rêz bike"
+
+#: src/fr-window.c:5876
 msgid "Go to the previous visited location"
 msgstr "Biçe cihê ku berê hatiye ziyaretkirin"
 
-#: ../src/window.c:3818
+#: src/fr-window.c:5881
 msgid "Go to the next visited location"
 msgstr "Biçe cihê ku dû re hatiye ziyaretkirin"
 
-#: ../src/window.c:3826
-msgid "Go up one level"
-msgstr "Astekê biçe jor"
-
-#: ../src/window.c:3834
+#: src/fr-window.c:5891
 msgid "Go to the home location"
 msgstr "Biçe cihê mak"
 
-#: ../src/window.c:3949
-msgid "Open a recently used archive"
-msgstr "Arşîveke ku herî dawî hatiye bikaranîn veke"
+#. Translators: after the colon there is a folder name.
+#: src/fr-window.c:5900 src/ui/file-selector.ui:98
+#: src/ui/new-archive-dialog.ui:93
+#, fuzzy
+msgid "_Location:"
+msgstr "Cih:"
 
-#: ../src/window.c:4385
-#, c-format
-msgid "Could not open \"%s\""
-msgstr "\"%s\" venebû"
+#: src/fr-window.c:6280 src/ui/menus.ui:7 src/ui/menus.ui:47 src/ui/menus.ui:83
+#, fuzzy
+msgctxt "Action"
+msgid "Open"
+msgstr "Veke"
 
-#: ../src/window.c:4443
+#: src/fr-window.c:6752
 #, c-format
-msgid "Could not save the archive \"%s\""
+msgid "Replace file “%s”?"
+msgstr ""
+
+#: src/fr-window.c:6755
+#, c-format
+msgid "Another file with the same name already exists in “%s”."
+msgstr ""
+
+#: src/fr-window.c:6761
+#, fuzzy
+msgid "Replace _All"
+msgstr "Hemûyî _Hilbijêre"
+
+#: src/fr-window.c:6762
+msgid "Skip _All _Existing"
+msgstr ""
+
+#: src/fr-window.c:6763
+msgid "_Skip"
+msgstr ""
+
+#: src/fr-window.c:7638 src/fr-window.c:7995
+#, fuzzy, c-format
+msgid "Could not save the archive “%s”"
 msgstr "Arşîva \"%s\" nehate tomarkirin"
 
-#: ../src/window.c:5713
-msgid "The new name is void."
-msgstr "Navê nû vala ye."
+#: src/fr-window.c:7765
+msgid "Save"
+msgstr "Tomar bike"
 
-#: ../src/window.c:5717
-msgid "The new name is equal to the old one."
-msgstr "Navê nû yê kevn weke hev e."
+#: src/fr-window.c:8089
+msgid "Last Output"
+msgstr "Derana Dawîn"
 
-#: ../src/window.c:5778
-#, c-format
+#. Translators: the name references to a filename.  This message can appear when renaming a file.
+#: src/fr-window.c:8312
+msgid "New name is void, please type a name."
+msgstr ""
+
+#. Translators: the %s references to a filename.  This message can appear when renaming a file.
+#: src/fr-window.c:8322
+#, fuzzy, c-format
 msgid ""
-"A folder named \"%s\" already exists.\n"
+"Name “%s” is not valid because it contains at least one of the following "
+"characters: %s, please type other name."
+msgstr ""
+"Ji ber ku di navê \"%s\" de tîpên \"%s\" heye ne navekî derbasdar e.\n"
+"\n"
+"%s"
+
+#: src/fr-window.c:8358
+#, fuzzy, c-format
+msgid ""
+"A folder named “%s” already exists.\n"
 "\n"
 "%s"
 msgstr ""
@@ -1060,10 +956,14 @@ msgstr ""
 "\n"
 "%s"
 
-#: ../src/window.c:5780
-#, c-format
+#: src/fr-window.c:8358 src/fr-window.c:8360
+msgid "Please use a different name."
+msgstr "Ji kerema xwe re navekî din binivîse."
+
+#: src/fr-window.c:8360
+#, fuzzy, c-format
 msgid ""
-"A file named \"%s\" already exists.\n"
+"A file named “%s” already exists.\n"
 "\n"
 "%s"
 msgstr ""
@@ -1071,56 +971,739 @@ msgstr ""
 "\n"
 "%s"
 
-#: ../src/window.c:5818
+#: src/fr-window.c:8430
 msgid "Rename"
 msgstr "Nav biguherîne"
 
-#: ../src/window.c:5819
-msgid "New folder name"
+#: src/fr-window.c:8431
+#, fuzzy
+msgid "_New folder name:"
 msgstr "Navê nû yê peldankê"
 
-#: ../src/window.c:5819
-msgid "New file name"
+#: src/fr-window.c:8431
+#, fuzzy
+msgid "_New file name:"
 msgstr "Navê pelê nû"
 
-#: ../src/window.c:5823
+#: src/fr-window.c:8435
 msgid "_Rename"
 msgstr "_Nav biguherîne"
 
-#: ../src/window.c:5839
-#: ../src/window.c:5868
+#: src/fr-window.c:8452 src/fr-window.c:8470
 msgid "Could not rename the folder"
 msgstr "Peldank ji nû ve nehate binavkirin"
 
-#: ../src/window.c:5839
-#: ../src/window.c:5868
+#: src/fr-window.c:8452 src/fr-window.c:8470
 msgid "Could not rename the file"
 msgstr "Pel ji nû ve nehate binavkirin"
 
-#: ../src/window.c:6044
+#. Translators: %s are archive filenames
+#: src/fr-window.c:8908
+#, c-format
+msgid "Moving the files from “%s” to “%s”"
+msgstr ""
+
+#. Translators: %s are archive filenames
+#: src/fr-window.c:8911
+#, c-format
+msgid "Copying the files from “%s” to “%s”"
+msgstr ""
+
+#: src/fr-window.c:8962
 msgid "Paste Selection"
 msgstr "Hilbijartinê Pê Ve Bike"
 
-#: ../src/window.c:6045
-msgid "Destination folder"
+#: src/fr-window.c:8963
+#, fuzzy
+msgid "_Destination folder:"
 msgstr "Peldanka Hedef"
 
-#: ../src/window.c:6049
+#: src/fr-window.c:8967 src/ui/app-menubar.ui:61
 msgid "_Paste"
 msgstr "_Pê veke"
 
-#: ../src/window.c:6448
-msgid "Add files to an archive"
-msgstr "Pelan têxe arşîvê"
+#. This is the time format used in the "Date Modified" column and
+#. * in the Properties dialog.  See the man page of strftime for an
+#. * explanation of the values.
+#: src/glib-utils.c:787
+#, fuzzy
+msgid "%d %B %Y, %H:%M"
+msgstr "%d %B %Y"
 
-#: ../src/window.c:6494
-msgid "Extract archive"
-msgstr "Arşîvê veke"
+#: src/gtk-utils.c:235
+#, fuzzy
+msgid "C_ommand Line Output:"
+msgstr "Derana _Rêzika Fermanan"
 
-#~ msgid "Add"
-#~ msgstr "Zêde bike"
+#: src/gtk-utils.c:510
+msgid "Could not display help"
+msgstr "Alîkarî nehate nîşandan"
+
+#: src/gtk-utils.c:605
+msgid "Change password visibility"
+msgstr ""
+
+#: src/gtk-utils.h:29
+msgid "_Add"
+msgstr "_Têxê"
+
+#: src/gtk-utils.h:30
+msgid "_Cancel"
+msgstr ""
+
+#: src/gtk-utils.h:31 src/ui/app-menubar.ui:41
+msgid "_Close"
+msgstr ""
+
+#: src/gtk-utils.h:32
+msgid "C_reate"
+msgstr "Biafirîne"
+
+#: src/gtk-utils.h:33
+msgid "_Extract"
+msgstr "_Arşîvê Veke"
+
+#: src/gtk-utils.h:34
+#, fuzzy
+msgid "_Open"
+msgstr "Veke"
+
+#: src/gtk-utils.h:35
+#, fuzzy
+msgid "_Save"
+msgstr "Tomar bike"
+
+#: src/ui/add-dialog-options.ui:19
+msgid "Add"
+msgstr "Zêde bike"
+
+#: src/ui/add-dialog-options.ui:42
+#, fuzzy
+msgid "Include _files:"
+msgstr "Pelên ku wê lê werine zêdekirin:"
+
+#: src/ui/add-dialog-options.ui:58
+msgid "E_xclude files:"
+msgstr ""
+
+#: src/ui/add-dialog-options.ui:74
+#, fuzzy
+msgid "_Exclude folders:"
+msgstr "Pelên ku wê lê werine zêdekirin:"
+
+#: src/ui/add-dialog-options.ui:89 src/ui/add-dialog-options.ui:104
+#: src/ui/add-dialog-options.ui:118 src/ui/extract-dialog-options.ui:104
+msgid "example: *.o; *.bak"
+msgstr "mînak: *.o; *.bak"
+
+#: src/ui/add-dialog-options.ui:153 src/ui/extract-dialog-options.ui:144
+msgid "Actions"
+msgstr "Çalakî"
+
+#: src/ui/add-dialog-options.ui:173
+#, fuzzy
+msgid "Add only if _newer"
+msgstr "Tenê dema nû be _lê zêde bike"
+
+#: src/ui/add-dialog-options.ui:190
+#, fuzzy
+msgid "_Follow symbolic links"
+msgstr "Girêdana Sembolîk"
+
+#: src/ui/app-menu.ui:6 src/ui/app-menubar.ui:8
+#, fuzzy
+msgid "_New Archive…"
+msgstr "_Arşîv"
+
+#: src/ui/app-menu.ui:11 src/ui/app-menubar.ui:13
+#, fuzzy
+msgid "_Open…"
+msgstr "Veke"
+
+#: src/ui/app-menu.ui:17 src/ui/app-menubar.ui:116
+msgid "View All _Files"
+msgstr "Hemû _Pelan Nîşan Bide"
+
+#: src/ui/app-menu.ui:22 src/ui/app-menubar.ui:122
+msgid "View as a F_older"
+msgstr "Wekî P_eldank Nîşan Bide"
+
+#: src/ui/app-menu.ui:30 src/ui/app-menubar.ui:110
+msgid "Sidebar"
+msgstr ""
+
+#: src/ui/app-menu.ui:36 src/ui/app-menubar.ui:130
+msgid "_Help"
+msgstr "_Alîkarî"
+
+#: src/ui/app-menu.ui:41 src/ui/app-menubar.ui:138
+msgid "_About"
+msgstr ""
+
+#: src/ui/app-menu.ui:45
+msgid "_Quit"
+msgstr ""
+
+#: src/ui/app-menubar.ui:4
+#, fuzzy
+msgid "_File"
+msgstr "_Pel:"
+
+#: src/ui/app-menubar.ui:18
+#, fuzzy
+msgid "_Extract Files…"
+msgstr "Pel têne vekirin: "
+
+#: src/ui/app-menubar.ui:25
+msgid "Save _As…"
+msgstr ""
+
+#: src/ui/app-menubar.ui:30 src/ui/gears-menu.ui:15
+msgid "_Test Integrity"
+msgstr ""
+
+#: src/ui/app-menubar.ui:34 src/ui/gears-menu.ui:21
+#, fuzzy
+msgid "Properties"
+msgstr "Taybetiyên %s"
+
+#: src/ui/app-menubar.ui:47
+msgid "_Edit"
+msgstr "_Biguherîne"
+
+#: src/ui/app-menubar.ui:51
+msgid "Cu_t"
+msgstr ""
+
+#: src/ui/app-menubar.ui:56
+msgid "_Copy"
+msgstr ""
+
+#: src/ui/app-menubar.ui:68
+#, fuzzy
+msgid "_Add Files…"
+msgstr "Pelan Lê Zêde Bike"
+
+#: src/ui/app-menubar.ui:72 src/ui/menus.ui:35 src/ui/menus.ui:71
+#: src/ui/menus.ui:107
+#, fuzzy
+msgid "_Rename…"
+msgstr "_Nav biguherîne"
+
+#: src/ui/app-menubar.ui:77
+#, fuzzy
+msgid "_Delete Files…"
+msgstr "Pelên _hilbijartî"
+
+#: src/ui/app-menubar.ui:84 src/ui/file-selector.ui:11
+#, fuzzy
+msgid "_Select All"
+msgstr "Hemûyî _Hilbijêre"
+
+#: src/ui/app-menubar.ui:89
+#, fuzzy
+msgid "D_eselect All"
+msgstr "_Hilbijartinê Rake"
+
+#: src/ui/app-menubar.ui:94
+msgid "_Find"
+msgstr ""
+
+#: src/ui/app-menubar.ui:101
+#, fuzzy
+msgid "Set Pass_word…"
+msgstr "Şîfre"
+
+#: src/ui/app-menubar.ui:106
+msgid "_View"
+msgstr "_Dîtin"
+
+#: src/ui/app-menubar.ui:133
+msgid "Contents"
+msgstr "Naverok"
+
+#: src/ui/ask-password.ui:53 src/ui/new-archive-dialog.ui:160
+msgid "_Password:"
+msgstr "Şî_fre:"
+
+#: src/ui/delete.ui:13 src/ui/extract-dialog-options.ui:41
+msgid "_All files"
+msgstr "_Hemû pel"
+
+#: src/ui/delete.ui:31 src/ui/extract-dialog-options.ui:59
+msgid "_Selected files"
+msgstr "Pelên _hilbijartî"
+
+#: src/ui/delete.ui:54 src/ui/extract-dialog-options.ui:83
+msgid "_Files:"
+msgstr "_Pel:"
+
+#: src/ui/delete.ui:74
+msgid "example: *.txt; *.doc"
+msgstr "mînak:*.txt, *.doc"
+
+#: src/ui/extract-dialog-options.ui:165
+msgid "_Keep directory structure"
+msgstr ""
+
+#: src/ui/extract-dialog-options.ui:182
+#, fuzzy
+msgid "Do not _overwrite newer files"
+msgstr "Pelên kevn derne_xe"
+
+#: src/ui/file-selector.ui:19
+msgid "Dese_lect All"
+msgstr "_Hilbijartinê Rake"
+
+#: src/ui/file-selector.ui:33
+#, fuzzy
+msgid "Show Hidden Files"
+msgstr "Pelan Lê Zêde Bike"
+
+#: src/ui/file-selector.ui:127 src/ui/file-selector.ui:128
+msgid "Go up one level"
+msgstr "Astekê biçe jor"
+
+#: src/ui/gears-menu.ui:7
+msgid "Save As…"
+msgstr ""
+
+#: src/ui/gears-menu.ui:11
+#, fuzzy
+msgid "Pass_word…"
+msgstr "Şîfre"
+
+#: src/ui/menus.ui:11
+#, fuzzy
+msgid "_Open With…"
+msgstr "_Veke Bi..."
+
+#: src/ui/menus.ui:17 src/ui/menus.ui:53 src/ui/menus.ui:89
+#, fuzzy
+msgid "_Extract…"
+msgstr "_Arşîvê Veke"
+
+#: src/ui/menus.ui:23 src/ui/menus.ui:59 src/ui/menus.ui:95
+msgid "Cut"
+msgstr ""
+
+#: src/ui/menus.ui:27 src/ui/menus.ui:63 src/ui/menus.ui:99
+msgid "Copy"
+msgstr ""
+
+#: src/ui/menus.ui:31 src/ui/menus.ui:67 src/ui/menus.ui:103
+#, fuzzy
+msgid "Paste"
+msgstr "_Pê veke"
+
+#: src/ui/menus.ui:39 src/ui/menus.ui:75 src/ui/menus.ui:111
+msgid "Delete"
+msgstr "Jê bibe"
+
+#: src/ui/new-archive-dialog.ui:27
+#, fuzzy
+msgid "_Filename:"
+msgstr "_Pel:"
+
+#: src/ui/new-archive-dialog.ui:110
+msgid "Location"
+msgstr "Cih"
+
+#: src/ui/new-archive-dialog.ui:193
+#, fuzzy
+msgid "_Encrypt the file list too"
+msgstr "Lîsteya pelan tê stendin"
+
+#. this is part of a sentence, for example "split into volumes of 10.0 MB", where MB stands for megabyte.
+#: src/ui/new-archive-dialog.ui:215
+msgid "Split into _volumes of"
+msgstr ""
+
+#: src/ui/new-archive-dialog.ui:236
+msgid "10,0"
+msgstr ""
+
+#. MB means megabytes
+#: src/ui/new-archive-dialog.ui:253
+msgid "MB"
+msgstr ""
+
+#: src/ui/new-archive-dialog.ui:276
+#, fuzzy
+msgid "_Other Options"
+msgstr "Vebijêrkan To_mar Bike"
+
+#: src/ui/password.ui:51
+#, fuzzy
+msgid "_Encrypt the file list"
+msgstr "Lîsteya pelan tê stendin"
+
+#: src/ui/properties.ui:15
+#, fuzzy
+msgctxt "File"
+msgid "Name:"
+msgstr "Nav:"
+
+#. after the colon there is a folder name.
+#: src/ui/properties.ui:45
+msgid "Location:"
+msgstr "Cih:"
+
+#. after the colon there is a file type.
+#: src/ui/properties.ui:74
+#, fuzzy
+msgid "Type:"
+msgstr "Cure"
+
+#: src/ui/properties.ui:103
+#, fuzzy
+msgid "Last modified:"
+msgstr "Dîroka Guherandinê"
+
+#: src/ui/properties.ui:131
+msgid "Archive size:"
+msgstr "Mezinahiya arşîvê:"
+
+#: src/ui/properties.ui:159
+msgid "Content size:"
+msgstr "Mezinahiya naverokê:"
+
+#: src/ui/properties.ui:186
+msgid "Compression ratio:"
+msgstr "Rêjeya tengkirinê:"
+
+#: src/ui/properties.ui:213
+msgid "Number of files:"
+msgstr "Hejmara pelan:"
+
+#: src/ui/update.ui:48
+msgid "S_elect the files you want to update:"
+msgstr ""
+
+#~ msgid ""
+#~ "<i><b>Note:</b> the password will be used to encrypt files you add to the "
+#~ "current archive, and to decrypt files you extract from the current "
+#~ "archive. When the archive is closed the password will be deleted.</i>"
+#~ msgstr ""
+#~ "<i><b>Not:</b> şîfre wê ji bo şîfrekirina pelên ku te xist arşîva heyî û "
+#~ "ji bo vekirina şîfreya pelên ku di arşîvê de ne wê were bikaranîn. Dema "
+#~ "arşîv girtî bin wê şîfre neyê hilanîn.</i>"
+
+#~ msgid "A_vailable application:"
+#~ msgstr "Sepana _Karbar:"
+
+#~ msgid "Create Archive"
+#~ msgstr "Arşîvê Çêke"
+
+#~ msgid "R_ecent applications:"
+#~ msgstr "Sepanên d_awîn:"
+
+#~ msgid "_Application:"
+#~ msgstr "_Sepan:"
+
+#~ msgid "_Archive:"
+#~ msgstr "_Arşîv:"
+
+#~ msgid "Create Archive..."
+#~ msgstr "Arşîvekê Pêk Bîne..."
+
+#~ msgid "Create an archive with the selected objects"
+#~ msgstr "Bi bireserên hatine hilbijartin re arşîvekê pêk bîne"
+
+#~ msgid "Overwrite"
+#~ msgstr "Li ser binivîse"
+
+#~ msgid "New"
+#~ msgstr "Nû"
+
+#~ msgid "Archive type:"
+#~ msgstr "Cureyê arşîvê:"
+
+#~ msgid "Automatic"
+#~ msgstr "Bixweber"
+
+#~ msgid "Add a Folder"
+#~ msgstr "Peldankekê Lê Zêde Bike"
+
+#~ msgid ""
+#~ "You don't have the right permissions to create an archive in the "
+#~ "destination folder."
+#~ msgstr ""
+#~ "Ji bo ku tu karibî di hundirê peldanka hedef de arşîvekê çêbike têra xwe "
+#~ "destûra te tuneye."
+
+#~ msgid "The archive is already present.  Do you want to overwrite it?"
+#~ msgstr "Ev arşîv jixwe heye. Tu dixwazî li ser wê binivîse?"
+
+#~ msgid "_Overwrite"
+#~ msgstr "_Li ser binivîse"
+
+#~ msgid "Files"
+#~ msgstr "Pel"
+
+#~ msgid "Re-crea_te folders"
+#~ msgstr "Peldankan ji nû ve b_iafirîne"
+
+#~ msgid "Over_write existing files"
+#~ msgstr "Li ser pelên mevcûd _binivîse"
+
+#~ msgid "_Open destination folder after extraction"
+#~ msgstr "Piştî karê _vekirinê qediya peldanka hedef veke"
+
+#~ msgid "Path:"
+#~ msgstr "Rê:"
+
+#~ msgid "Unknown type"
+#~ msgstr "Cureyê nenas"
+
+#~ msgid "The file does not exist."
+#~ msgstr "Ev pel tuneye."
+
+#~ msgid "Adding file: "
+#~ msgstr "Pel lê têne zêdekirin: "
+
+#~ msgid "Removing file: "
+#~ msgstr "Pel tê jêbirin: "
+
+#~ msgid "_View File"
+#~ msgstr "_Pelî Nîşan Bide"
+
+#~ msgid "Ace (.ace)"
+#~ msgstr "Ace (.ace)"
+
+#~ msgid "Ar (.ar)"
+#~ msgstr "Ar (.ar)"
+
+#~ msgid "Arj (.arj)"
+#~ msgstr "Arj (.arj)"
+
+#~ msgid "Ear (.ear)"
+#~ msgstr "Ear (.ear)"
+
+#~ msgid "Jar (.jar)"
+#~ msgstr "Jar (.jar)"
+
+#~ msgid "Lha (.lzh)"
+#~ msgstr "Lha (.lzh)"
+
+#~ msgid "Rar (.rar)"
+#~ msgstr "Rar (.rar)"
+
+#~ msgid "Tar uncompressed (.tar)"
+#~ msgstr "Tara ku nehatiye tengkirin (.tar)"
+
+#~ msgid "Tar compressed with bzip (.tar.bz)"
+#~ msgstr "Tara ku bi Bzip hatiye tengkirin (.tar.bz)"
+
+#~ msgid "Tar compressed with bzip2 (.tar.bz2)"
+#~ msgstr "Tara ku bi Bzip2 hatiye tengkirin (.tar.bz.2)"
+
+#~ msgid "Tar compressed with gzip (.tar.gz)"
+#~ msgstr "Tara ku bi Gzipê hatiye tengkirin (.tar.gz)"
+
+#~ msgid "Tar compressed with lzop (.tar.lzo)"
+#~ msgstr "Tar ya bi lzopê hatiye tengkirin (.tar.lzo)"
+
+#~ msgid "Tar compressed with compress (.tar.Z)"
+#~ msgstr "Tar ya bi compressê hatiye tengkirin (.tar.Z)"
+
+#~ msgid "War (.war)"
+#~ msgstr "War (.war)"
+
+#~ msgid "Zoo (.zoo)"
+#~ msgstr "Zoo (.zoo)"
+
+#~ msgid "7-Zip (.7z)"
+#~ msgstr "7-Zip (.7z)"
+
+#~ msgid ""
+#~ "Extract archives using the archive name as destination folder and quit "
+#~ "the program"
+#~ msgstr ""
+#~ "Navê arşîvê wekî peldanka hedef bikar bîne û arşîvan veke û ji bernameyê "
+#~ "derkeve"
+
+#~ msgid "_Arrange Files"
+#~ msgstr "Pelan _Sererast Bike"
+
+#~ msgid "Open R_ecent"
+#~ msgstr "Yên _Dawîn Veke"
+
+#~ msgid "Information about the program"
+#~ msgstr "Der barê bernameyê de agahî"
+
+#~ msgid "_Add Files..."
+#~ msgstr "_Pelan Lê Zêde Bike..."
+
+#~ msgid "Add files to the archive"
+#~ msgstr "Pelan têxe arşîvê"
+
+#~ msgid "Add a _Folder..."
+#~ msgstr "_Peldankekê Lê Zêde Bike..."
+
+#~ msgid "Add Folder"
+#~ msgstr "Peldankekê Lê Zêde Bike"
+
+#~ msgid "Close the current archive"
+#~ msgstr "Arşîva heyî bigire"
+
+#~ msgid "Display the File Roller Manual"
+#~ msgstr "Rêberê File Roller Nîşan Bide"
+
+#~ msgid "Copy the selection"
+#~ msgstr "Ya hilbijartî ji ber bigire"
+
+#~ msgid "Cut the selection"
+#~ msgstr "Ya hilbijartî jê bike"
+
+#~ msgid "Delete the selection from the archive"
+#~ msgstr "Hilbijartinê ji arşîvê jê bibe"
+
+#~ msgid "Deselect all files"
+#~ msgstr "Tu pelî hilnebijêre"
+
+#~ msgid "_Extract..."
+#~ msgstr "_Arşîvê Veke..."
+
+#~ msgid "Extract files from the archive"
+#~ msgstr "Ji arşîvê pelan veke"
+
+#~ msgid "_Last Output"
+#~ msgstr "Derana _Dawîn"
+
+#~ msgid "View the output produced by the last executed command"
+#~ msgstr "Derana ku ji fermana herî dawîn hate bikaranîn nîşan bide"
+
+#~ msgid "Create a new archive"
+#~ msgstr "Arşîveke nû pêk bîne"
+
+#~ msgid "Open selected files with an application"
+#~ msgstr "Pelên ku hatine hilbijartin bi sepanekê veke"
+
+#~ msgid "Pass_word..."
+#~ msgstr "Şî_fre..."
+
+#~ msgid "Specify a password for this archive"
+#~ msgstr "Ji bo vê arşîvê şîfreyekê diyar bike"
+
+#~ msgid "Paste the clipboard"
+#~ msgstr "Ji panoyê pê ve bike"
+
+#~ msgid "Show archive properties"
+#~ msgstr "Taybetmendiyên arşîvê nîşan bide"
+
+#~ msgid "Reload current archive"
+#~ msgstr "Arşîva heyî dîsa bar bike"
+
+#~ msgid "_Rename..."
+#~ msgstr "_Nav biguherîne..."
+
+#~ msgid "Rename the selection"
+#~ msgstr "Hilbijartinê dîsa bi nav bike"
+
+#~ msgid "Save the current archive with a different name"
+#~ msgstr "Arşîva heyî bi navekî din tomar bike"
+
+#~ msgid "Select all files"
+#~ msgstr "Hemû pelan hilbijêre"
+
+#~ msgid "Stop current operation"
+#~ msgstr "Karê heyî rawestîne"
+
+#~ msgid "Test whether the archive contains errors"
+#~ msgstr "Kontrol bike bê ka di arşîvê de çewtî heye yan na"
+
+#~ msgid "View the selected file"
+#~ msgstr "Pelê hilbijartî nîşan bide"
+
+#~ msgid "Open the selected folder"
+#~ msgstr "Peldanka hilbijartî veke"
+
+#~ msgid "_Toolbar"
+#~ msgstr "_Darika amûran"
+
+#~ msgid "View the main toolbar"
+#~ msgstr "Darikê amûran ya mak nîşan bide"
+
+#~ msgid "Stat_usbar"
+#~ msgstr "_Darikê rewşê:"
+
+#~ msgid "Reverse the list order"
+#~ msgstr "Dorvegeriya lîsteyê berevajî bike"
+
+#~ msgid "by _Name"
+#~ msgstr "bi _Navan"
+
+#~ msgid "by _Size"
+#~ msgstr "bi _Mezinahiyê"
+
+#~ msgid "Sort file list by file size"
+#~ msgstr "Pelan gorî mezinahiyê rêz bike"
+
+#~ msgid "by T_ype"
+#~ msgstr "gorî C_ureyan"
+
+#~ msgid "Sort file list by type"
+#~ msgstr "Pelan gorî cureyan rêz bike"
+
+#~ msgid "by _Date modified"
+#~ msgstr "Gorî _Dîroka guherandinê"
+
+#~ msgid "Sort file list by modification time"
+#~ msgstr "Pelan gorî dîroka guherandinê rêz bike"
+
+#~ msgid "by _Location"
+#~ msgstr "Gorî _Cih"
+
+#~ msgid "Sort file list by location"
+#~ msgstr "Pelan gorî cihan rêz bike"
+
+#~ msgid "%d file (%s)"
+#~ msgid_plural "%d files (%s)"
+#~ msgstr[0] "%d pel (%s)"
+#~ msgstr[1] "%d pel (%s)"
+
+#~ msgid "%d file selected (%s)"
+#~ msgid_plural "%d files selected (%s)"
+#~ msgstr[0] "%d pel hate hilbijartin (%s)"
+#~ msgstr[1] "%d pel hate hilbijartin (%s)"
+
+#~ msgid "Reading archive"
+#~ msgstr "Arşîv tê xwendin"
+
+#~ msgid "Testing archive"
+#~ msgstr "Arşîva ceribandinê"
+
+#~ msgid "Saving archive"
+#~ msgstr "Arşîva tomarkirinê"
+
+#~ msgid "Archive:"
+#~ msgstr "Arşîv:"
+
+#~ msgid "wait please..."
+#~ msgstr "ji kerema xwe re raweste..."
+
+#, fuzzy
+#~ msgid "Cannot extract archives in a remote folder \"%s\""
+#~ msgstr ""
+#~ "Ji bo ku tu karibî pelan li peldanka \"%s\" veke têra xwe destûra te "
+#~ "tuneye."
+
+#~ msgid "Open a recently used archive"
+#~ msgstr "Arşîveke ku herî dawî hatiye bikaranîn veke"
+
+#~ msgid "The new name is void."
+#~ msgstr "Navê nû vala ye."
+
+#~ msgid "The new name is equal to the old one."
+#~ msgstr "Navê nû yê kevn weke hev e."
+
+#~ msgid "Add files to an archive"
+#~ msgstr "Pelan têxe arşîvê"
+
 #~ msgid "Quit the application"
 #~ msgstr "Ji sepanê derkeve"
+
 #~ msgid ""
 #~ "This archive is password protected.\n"
 #~ "Please specify a password with the command: Edit->Password"
@@ -1128,14 +1711,16 @@ msgstr "Arşîvê veke"
 #~ "Ev arşîv bi şîfreyekê tê parastin.\n"
 #~ "Ji kerema xwe re bi fermana 'Sererast Bike -> Şîfre' re şîfreyekê diyar "
 #~ "bike"
+
 #~ msgid ""
 #~ "The specified password is not valid, please specify a new password with "
 #~ "the command: Edit->Password"
 #~ msgstr ""
 #~ "Şîfreya ku hate diyarkirin ne rast e, ji kerema xwe re bi fermana "
 #~ "'Sererast Bike -> Şîfre' şîfreyeke nû diyar bike"
+
 #~ msgid "    "
 #~ msgstr "    "
+
 #~ msgid "Open '%s'"
 #~ msgstr "'%s' veke"
-
